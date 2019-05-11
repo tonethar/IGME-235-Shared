@@ -6,14 +6,14 @@
 <hr>
 
 ## Chapter 1 - Getting started in web design
-- Depending on their purpose and scope, web sites can have literally thousands of contributors creating and updating their content. Alternatively, a web site can be designed, deployed and delivered by a single individual (someone like you!).  This chapter discusses the large number of disciplines that contribute to the creation of a web site.
+Depending on their purpose and scope, web sites can have literally thousands of contributors creating and updating their content. Alternatively, a web site can be designed, deployed and delivered by a single individual (someone like you!).  This chapter discusses the large number of disciplines that contribute to the creation of a web site.
 
 1. Content Wrangling
 
 - What does an *Information Architect* do?
 - What does a *Content Strategist* do?
 
-1. Site Design
+2. Site Design
 - What does an *User Experience Designer (UX)* do?
 - What does a *Interaction Designer* do?
 - What does an *User Interface Designer (UI)* do?
@@ -21,7 +21,11 @@
 - What is a *site diagram*?
 - A ______________ traces the path through a site or application from the point of view of a typical user (also called a *persona*)
 
+3. Visual Design
 
+4. Code
+
+5. Other roles
 
 
 <hr>
