@@ -129,13 +129,15 @@ Now we will create a password protected directory using authentication.
  
 7. If you were to load this page under normal circumstances via HTTP:, you should get something similar to this: 
  
-+++ 403_error image
+    ![403 Error Image](_images/403_error.png)
  
-Since we used the `SSLRequireSSL` directive Apache won’t even serve the login option to a non-https connection. However, Banjo automatically enforces secure connections via HTTPS, so you’re not likely to see this! 
+    Since we used the `SSLRequireSSL` directive Apache won’t even serve the login option to a non-https connection. However, Banjo automatically enforces secure connections via HTTPS, so you’re not likely to see this! 
  
-I'd the recent past, you'd get something like the window below depending on which browser you used. The image below is from Firefox. In Firefox, it displays the `AuthName` directive from **.htaccess** at the end of the login prompt (highlighted below for reference). 
-
-However, today, with RIT's 2-factor authentication, the user is sent to an entirely different web page for authentication.  The experience your user gets will be dependant upon the webserver your pages are hosted on.
+    I'd the recent past, you'd get something like the window below depending on which browser you used. The image below is from Firefox. In Firefox, it displays the `AuthName` directive from **.htaccess** at the end of the login prompt (highlighted below for reference).
+    
+    ![Authorization Prompt](_images/auth_prompt.png)
+    
+    However, today, with RIT's 2-factor authentication, the user is sent to an entirely different web page for authentication.  The experience your user gets will be dependant upon the webserver your pages are hosted on.
 
 8. Go ahead and login with your RIT account.  (Actually you probably already were -- Maybe try to hit your page with an Incognito/Private browser window and see what happens).
  
