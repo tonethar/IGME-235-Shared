@@ -12,13 +12,13 @@ The overall goal of this exercise is to get some exposure to what’s happening 
 
 1. Download [the starter files](htaccess-starter-files.zip) for this exercise. (When you click through to a binary file--like this zip file--on GitHub, you'll typically want to click the **Download** button in the top right to get a copy.  Clicking the "View raw" link in the middle of the page can have unexpected results).
 
-2. Set up your 230 Directory (if you haven't done so already) 
+2. Set up your 235 Directory (if you haven't done so already) 
 
-    1. On your PC, create a directory called 230. This is where all the work you do from now on will be stored. 
+    1. On your PC, create a directory called 235. This is where all the work you do from now on will be stored. 
     1. Make sure to save this to a flash drive, your myCourses locker, GitHub, a remote disk, or some other means of backup. Be sure to keep 2 backups, on a removable device (for instance) and some other means in case something happens to that one.  
     3. Connect to Banjo using filezilla or another FTP client
         - Legacy Notes: [How to post to RIT's *banjo* web server](https://github.com/tonethar/IGME-235-Shared/blob/master/notes/posting-to-banjo.md)
-    4. Drag your 230 folder into your www folder on Banjo. Make sure it has the right permissions (right-click > File Attributes… > Numeric Value: 755) 
+    4. Drag your 235 folder into your www folder on Banjo. Make sure it has the right permissions (right-click > File Attributes… > Numeric Value: 755) 
  
 ## Set up Basic Authentication using htaccess 
 
@@ -30,11 +30,12 @@ Now let’s go back to the starter files you downloaded for this exercise.
  
 1. Connect to Banjo using FileZilla or another FTP client 
  
-1. In your **230** folder, create a new folder called **error**.  
+1. In your **235** folder, create a new folder called **error**.  
  
 1. Add the starter files from the **error_start** folder to the new **error** folder you created. Your **error** folder should only contain 3 files. 
  
 1. Make sure you can reach the **error.html** page and the **noterror.html** pages from a browser. Correct any permissions issues if you need to. (Numeric Value: 644)
+    - You don't want to miss out on the hypnotoad gif!  Edit the **error.html** file and change the abc1234 userid 
  
 1. Now create a new file called .htaccess . The dot at the beginning of the file name is critical. The dot at the beginning tells unix machines that this is a hidden file.
     - That said, to work with a file that has a dot at the beginning on your local computer may be problematic.  You can get around these particular issues by leaving the dot off while the file is local and then renaming it through the FTP interface after you upload it.
@@ -44,7 +45,6 @@ Apache servers look for hidden server configuration files called .htaccess.
 The .htaccess file allows you to set custom configurations for a folder or subfolders.  
  
 Apache looks for one .htaccess file per folder. That sets the configuration for that folder and any sub-folder. Having .htaccess files in sub-folders overrides .htaccess files in above folders.  
-IGME-230 Web Site Design and Implementation 
  
 12. Now we will add the Apache commands to set up the custom 404 page when 404 errors occur.  
  
