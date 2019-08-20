@@ -10,7 +10,7 @@ The overall goal of this exercise is to get some exposure to what’s happening 
 
 ## Download Starter Files:
 
-1. Download [the starter files](htaccess-starter-files.zip) for this exercise.
+1. Download [the starter files](htaccess-starter-files.zip) for this exercise. (When you click through to a binary file, like this zip file, on GitHub, you'll typically want to click the **Download** button in the top right to get a copy.  Clicking the "View raw" link in the middle of the page can have unexpected results).
 
 2. Set up your 230 Directory (if you haven't done so already) 
 
