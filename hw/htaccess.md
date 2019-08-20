@@ -144,11 +144,11 @@ Now we will create a password protected directory using authentication.
 9. Once you are logged in however, you should be able to get to the page. 
   
 ## Submission 
+You will do the following in the Assignments section of your myCourses shell.
 
-You will submit a zip of your two .htaccess files. I suggest putting them in different sub-folders in the zip because they have the same name. Please make this a ZIP file, not some other format. (note at this point, you could just grab a copy of your whole 235 folder from banjo and zip it up -- your .htaccess files should download as well and be in their proper places)
+1. Submit a zip of your two .htaccess files. We suggest putting them in different sub-folders in the zip because they have the same name. Please make this a ZIP file, not some other format. (Note: at this point, you could just grab a copy of your whole 235 folder from banjo and zip it up -- your .htaccess files should download as well and be in their proper places.)
 
-In addition, include links to the following (on Banjo): 
- 
+2. In addition, include links to the following (on Banjo): 
 - Link to a non-existent page so that your 404 page automatically loads.
 - Link to the error directory, so that the noterror page automatically loads.
 - An https link to your auth page, so that login comes up.
