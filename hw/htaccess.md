@@ -34,73 +34,62 @@ Now let’s go back to the starter files you downloaded for this exercise.
  
 1. Add the starter files from the **error_start** folder to the new **error** folder you created. Your **error** folder should only contain 3 files. 
  
-1. Make sure you can reach the **error.html** page and the **noterror.html** pages from a browser. Correct any permissions issues if you need to. (Numeric Value: 644)
-    - You don't want to miss out on the hypnotoad gif!  Edit the **error.html** file and change the abc1234 userid 
+1. Make sure you can reach the **error.html** page and the **noterror.html** pages from a browser. Correct any permissions issues if you need to. (Numeric Value: 644 -- same for the **hypnotoad.gif**)
  
-1. Now create a new file called .htaccess . The dot at the beginning of the file name is critical. The dot at the beginning tells unix machines that this is a hidden file.
+1. Now create a new file called **.htaccess** . The dot at the beginning of the file name is critical. The dot at the beginning tells unix machines that this is a hidden file.
     - That said, to work with a file that has a dot at the beginning on your local computer may be problematic.  You can get around these particular issues by leaving the dot off while the file is local and then renaming it through the FTP interface after you upload it.
  
-Apache servers look for hidden server configuration files called .htaccess. 
+    Apache servers look for hidden server configuration files called **.htaccess**. 
  
-The .htaccess file allows you to set custom configurations for a folder or subfolders.  
+    The **.htaccess** file allows you to set custom configurations for a folder or subfolders.  
  
-Apache looks for one .htaccess file per folder. That sets the configuration for that folder and any sub-folder. Having .htaccess files in sub-folders overrides .htaccess files in above folders.  
+    Apache looks for one **.htaccess** file per folder. That sets the configuration for that folder and any sub-folder. Having **.htaccess** files in sub-folders can override **.htaccess** files in above folders.  
  
-12. Now we will add the Apache commands to set up the custom 404 page when 404 errors occur.  
+1. Now we will add the Apache commands to set up the custom 404 page when 404 errors occur.  
  
-We will use the ErrorDocument directive. Apache’s ErrorDocument directive tells Apache how to handle specific errors. It takes an HTTP status code and a response to send. 
+    We will use the `ErrorDocument` directive. Apache’s `ErrorDocument` directive tells Apache how to handle specific errors. It takes an HTTP status code and a response to send. 
  
-The status code we will be handling is 404 – the file not found status code.  
+    The status code we will be handling is 404 – the file not found status code.  
  
-You can find more status codes here: http://en.wikipedia.org/wiki/List_of_HTTP_status_codes  
+    You can find more status codes here: http://en.wikipedia.org/wiki/List_of_HTTP_status_codes  
  
-     For a response, we will give Apache the path of an HTML file to send. The file path       for this directive is similar to your people.rit.edu path in a browser. You start with       /abc1234 (where abc1234 is your RIT ID), which is automatically linked to your www       folder. After that, it’s just the path to your file inside of the www folder.  
+     For a response, we will give Apache the path of an HTML file to send. The file path for this directive is similar to your people.rit.edu path in a browser. You start with **/abc1234** (where abc1234 is your RIT ID), which is automatically linked to your **www** folder. After that, it’s just the path to your file inside of the **www** folder.
  
-     Inside of your .htaccess file, add the following line. Replace abc1234 with your ID.  
+     Inside of your **.htaccess** file, add the following line. Replace `abc1234` with your ID.  
  
-ErrorDocument 404 /abc1234/230/error/error.html 
+`ErrorDocument 404 /abc1234/235/error/error.html`
  
+1. Transfer this file to the **error** folder you made on Banjo.  (Rename it to **.htaccess** if necessary)
  
-13. Transfer this file to the error folder you made on Banjo.  
+1. Test your new 404 error page. Go to the **noterror.html** page on Banjo. Make sure you can get to that page.  
  
+1. Once you get to that page, try a non-existent page in the **error** folder. Change the browser URL from **noterror.html** to maybe **notreal.html**. 
  
-14.  Test your new 404 error page ☺. Go to the noterror.html page on Banjo. Make sure you can get to that page.  
+    You should automatically be sent to the 404 page you added any time you type in an address that does not exist in the **error** folder.  
+    This only affects the **error** folder and any folders inside of it because that is where the htaccess file is. If you test any non-existent pages above the error folder, you should still get the normal RIT 404 page. 
+    - Test this to make sure... We don't want this error page coming up when we go straight to your **235** folder!
  
+**Note:** If this does not work, check the name & capitalization of the **.htaccess** file. Then inside of the **.htaccess** file, check the path to your **error.html** file. It must be exact or else Apache will give you a default error page. 
+
+## Set up Default Page using htaccess 
  
-Once you get to that page, try a non-existent page in the error folder. Change the browser URL from noterror.html to maybe notreal.html. 
+1. Open the previous **.htaccess** file you made from the previous exercise.  
+
+1. Now we will add the `DirectoryIndex` directive to our htaccess file.  
  
-You should automatically be sent to the 404 page you added any time you type in an address that does not exist in the error folder.  
+    The `DirectoryIndex` directive tells Apache what page to use as the index page for this folder. By default Apache just looks for pages named **index.html**. The index page is the page that loads any time a browser goes to that folder without specifying a specific page. 
  
-This only affects the error folder and any folders inside of it because that is where the htaccess file is. If you test any non-existent pages above the error folder, you should still get the normal RIT 404 page. 
+    The `DirectoryIndex` directive takes a file name to load from the same folder. 
  
+    Add this line to your **.htaccess** file: 
  
-     Note: If this does not work, check the name & capitalization of the .htaccess       file. Then inside of the .htaccess file, check the path to your error.html file. It       must be exact or else Apache will give you a default error page. 
+`DirectoryIndex noterror.html ` 
  
- 
-Set up Default Page using htaccess 
-IGME-230 Web Site Design and Implementation 
- 
- 
-1. Open the previous .htaccess file you made from the previous exercise.  
- 
- 
-2. Now we will add the DirectoryIndex directive to our htaccess file.  
- 
-The DirectoryIndex directive tells Apache what page to use as the index page for this folder. By default Apache just looks for pages named index.html. The index page is the page that loads any time a browser goes to that folder without specifying a specific page. 
- 
-The DirectoryIndex directive takes a file name to load from the same folder. 
- 
-Add this line to your .htaccess file: 
- 
-DirectoryIndex noterror.html  
+1. Transfer the updated file to Banjo (in the same location as before). Note that up to this point we are working entirely in the error directory; this .htaccess file should not exist outside that folder. 
  
  
  
-3. Transfer the updated file to Banjo (in the same location as before). Note that up to this point we are working entirely in the error directory; this .htaccess file should not exist outside that folder. 
- 
- 
- 
-4. Now test the new index in a browser. Go to your error directory in a browser, but do not specify the page. It should automatically show you the noterror.html page, but you will not see the file name in the browser.  
+1. Now test the new index in a browser. Go to your error directory in a browser, but do not specify the page. It should automatically show you the noterror.html page, but you will not see the file name in the browser.  
  
 This is a nice simple way of setting a default page that you can quickly change without altering any of your HTML files.  
  
