@@ -137,7 +137,7 @@ Now we will create a password protected directory using authentication.
     
     ![Authorization Prompt](_images/auth_prompt.png)
     
-    However, today, with RIT's 2-factor authentication, the user is sent to an entirely different web page for authentication.  The experience your user gets will be dependant upon the webserver your pages are hosted on.
+    However, today, with RIT's 2-factor authentication, the user is sent to an entirely different web page for authentication.  The experience your user gets will be dependent upon the webserver your pages are hosted on.
 
 8. Go ahead and login with your RIT account.  (Actually you probably already were -- Maybe try to hit your page with an Incognito/Private browser window and see what happens).
  
