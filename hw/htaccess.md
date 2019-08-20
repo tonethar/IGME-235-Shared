@@ -10,7 +10,7 @@ The overall goal of this exercise is to get some exposure to what’s happening 
 
 ## Download Starter Files:
 
-1. Download [the starter files](htaccess-starter-files.zip) for this exercise. (When you click through to a binary file--like this zip file--on GitHub, you'll typically want to click the **Download** button in the top right to get a copy.  Clicking the "View raw" link in the middle of the page can have unexpected results).
+1. Download [the starter files](htaccess-starter-files.zip) for this exercise. (Caution! Don't just right-click this link and save as.  It won't work.  First click through to see the file in the repository. Then click the **Download** button in the top right to get a copy.  Clicking the "View raw" link in the middle of the page can have unexpected results).
 
 2. Set up your 235 Directory (if you haven't done so already) 
 
