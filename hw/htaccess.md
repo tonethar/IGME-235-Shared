@@ -111,10 +111,10 @@ Now we will create a password protected directory using authentication.
  
     Here are the directives we will be using.  
  
-    `AuthType` – This tells Apache which type of authentication to use 
-    `AuthName` – This is the name of the service displayed to users so they know what to login with. The browser message will say something like “ login with your _____ account ”
-    `SSLRequireSSL` – This tells Apache to require SSL (HTTPS://) in order to access the page. If the page is accessed with HTTP instead of HTTPS, the server will return an error. 
-    `ShibRequireSession` – This is a variable specific to our server environment, which we'll use to force the auth to use RIT's “ shibboleth ” server 
+    `AuthType` – This tells Apache which type of authentication to use  
+    `AuthName` – This is the name of the service displayed to users so they know what to login with. The browser message will say something like “ login with your _____ account ”  
+    `SSLRequireSSL` – This tells Apache to require SSL (HTTPS://) in order to access the page. If the page is accessed with HTTP instead of HTTPS, the server will return an error.  
+    `ShibRequireSession` – This is a variable specific to our server environment, which we'll use to force the auth to use RIT's “ shibboleth ” server  
     `Require` – This tells Apache which type of users to allow. This can be configured to only allow access to certain groups or users. 
  
     Inside of your new .htaccess file, add the following.  
@@ -133,7 +133,7 @@ Now we will create a password protected directory using authentication.
  
 Since we used the `SSLRequireSSL` directive Apache won’t even serve the login option to a non-https connection. However, Banjo automatically enforces secure connections via HTTPS, so you’re not likely to see this! 
  
-I'd the recent past, you'd get something like the window below depending on which browser you used. The image below is from Firefox. In Firefox, it displays the `AuthNam`e directive from **.htaccess** at the end of the login prompt (highlighted below for reference). 
+I'd the recent past, you'd get something like the window below depending on which browser you used. The image below is from Firefox. In Firefox, it displays the `AuthName` directive from **.htaccess** at the end of the login prompt (highlighted below for reference). 
 
 However, today, with RIT's 2-factor authentication, the user is sent to an entirely different web page for authentication.  The experience your user gets will be dependant upon the webserver your pages are hosted on.
 
