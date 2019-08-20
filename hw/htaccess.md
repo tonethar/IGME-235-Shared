@@ -57,7 +57,7 @@ Now let’s go back to the starter files you downloaded for this exercise.
  
      Inside of your **.htaccess** file, add the following line. Replace `abc1234` with your ID.  
  
-`ErrorDocument 404 /abc1234/235/error/error.html`
+    `ErrorDocument 404 /abc1234/235/error/error.html`
  
 1. Transfer this file to the **error** folder you made on Banjo.  (Rename it to **.htaccess** if necessary)
  
@@ -83,120 +83,70 @@ Now let’s go back to the starter files you downloaded for this exercise.
  
     Add this line to your **.htaccess** file: 
  
-`DirectoryIndex noterror.html ` 
+    `DirectoryIndex noterror.html ` 
  
-1. Transfer the updated file to Banjo (in the same location as before). Note that up to this point we are working entirely in the error directory; this .htaccess file should not exist outside that folder. 
- 
- 
- 
+1. Transfer the updated file to Banjo (in the same location as before -- overwrite, or delete/upload/rename as necessary). Note that up to this point we are working entirely in the error directory; this **.htaccess** file should not exist outside that folder. 
+
 1. Now test the new index in a browser. Go to your error directory in a browser, but do not specify the page. It should automatically show you the noterror.html page, but you will not see the file name in the browser.  
  
 This is a nice simple way of setting a default page that you can quickly change without altering any of your HTML files.  
  
-If you are having problems, make sure you check the spelling and capitalization  
+**Note:** If you are having problems, make sure you check the spelling and capitalization  
  
+## Set up Basic Authentication using htaccess 
  
+Now we will create a password protected directory using authentication. 
  
+1. In your 235 folder on Banjo, create a new folder called **auth**. 
  
-  
-IGME-230 Web Site Design and Implementation 
+2. Once created, transfer the **myPage.html** start file (from auth_start) to that folder on Banjo.  
  
-Set up Basic Authentication using htaccess 
+3. Make sure you can get to the **myPage.html** page on Banjo from a browser. Correct any error or permissions issues.  
  
-1. Now we will create a password protected directory using authentication. 
- 
-In your 230 folder on Banjo, create a new folder called auth. 
- 
- 
-2. Once created, transfer the myPage.html start file to that folder on Banjo.  
- 
- 
-3. Make sure you can get to the myPage.html page on Banjo from a browser. Correct any error or permissions issues.  
- 
- 
-4. Since this auth directory is a new folder, we will use a whole ne .htaccess file. Go ahead and create another .htaccess file.  
- 
+4. Since this **auth** directory is a new folder, we will use a whole new **.htaccess** file in it. Go ahead and create another .htaccess file.  
  
 5. Inside of the new .htaccess file you just created, we will add some directives for handling authentication. 
  
-We will set up the authentication so that any RIT user can access the content. 
+    We will set up the authentication so that any RIT user can access the content. 
  
-Here are the directives we will be using.  
+    Here are the directives we will be using.  
  
-AuthType – This tells Apache which type of authentication to use AuthName – This is the name of the service displayed to users so they know what to                       login with. The browser message will say something like “ login with                        your _____ account ”
- SSLRequireSSL – This tells Apache to require SSL (HTTPS://) in order to access                      the page. If the page is accessed with HTTP instead of HTTPS, the                      server will return an error. ShibRequireSession – This is a variable specific to our server environment, which      we ’ ll use to force the auth to use RIT ’ s “ shibboleth ” server Require –    This tells Apache which type of users to allow. This can be configured to                     only allow access to certain groups or users. 
+    `AuthType` – This tells Apache which type of authentication to use 
+    `AuthName` – This is the name of the service displayed to users so they know what to login with. The browser message will say something like “ login with your _____ account ”
+    `SSLRequireSSL` – This tells Apache to require SSL (HTTPS://) in order to access the page. If the page is accessed with HTTP instead of HTTPS, the server will return an error. 
+    `ShibRequireSession` – This is a variable specific to our server environment, which we'll use to force the auth to use RIT's “ shibboleth ” server 
+    `Require` – This tells Apache which type of users to allow. This can be configured to only allow access to certain groups or users. 
  
+    Inside of your new .htaccess file, add the following.  
  
+    `AuthType shibboleth AuthName "RIT" ShibRequireSession On SSLRequireSSL require valid-user`
  
+    The code above tells Apache to use authentication via RIT’s own service named Shibboleth. It tells the browsers that the service is called RIT. Finally, this requires “valid-user” which means anyone who was successfully able to login to the service. 
  
+    If you want to find out more, check out Apache’s documentation here - http://httpd.apache.org/docs/2.2/mod/core.html  
  
- 
- 
-IGME-230 Web Site Design and Implementation 
- 
- 
-Inside of your new .htaccess file, add the following.  
- 
-AuthType shibboleth AuthName "RIT" ShibRequireSession On SSLRequireSSL require valid-user 
- 
-The code above tells Apache to use authentication via RIT’s own service named Shibboleth. It tells the browsers that the service is called RIT. Finally, this requires “valid-user” which means anyone who was successfully able to login to the service. 
- 
-If you want to find out more, check out Apache’s documentation here - http://httpd.apache.org/docs/2.2/mod/core.html  
- 
- 
-6. Upload your new .htaccess. file to your auth folder on Banjo.  
- 
+6. Upload your new **.htaccess**. file to your **auth** folder on Banjo.  
  
 7. If you were to load this page under normal circumstances via HTTP:, you should get something similar to this: 
  
++++ 403_error image
  
+Since we used the `SSLRequireSSL` directive Apache won’t even serve the login option to a non-https connection. However, Banjo automatically enforces secure connections via HTTPS, so you’re not likely to see this! 
  
+I'd the recent past, you'd get something like the window below depending on which browser you used. The image below is from Firefox. In Firefox, it displays the `AuthNam`e directive from **.htaccess** at the end of the login prompt (highlighted below for reference). 
+
+However, today, with RIT's 2-factor authentication, the user is sent to an entirely different web page for authentication.  The experience your user gets will be dependant upon the webserver your pages are hosted on.
+
+8. Go ahead and login with your RIT account.  (Actually you probably already were -- Maybe try to hit your page with an Incognito/Private browser window and see what happens).
  
- Since we used the SSLRequireSSL directive Apache won’t even serve the login option to a non-https connection. However, Banjo automatically enforces secure connections via HTTPS, so you’re not likely to see this!  
- 
- 
- 
- 
- 
- 
-IGME-230 Web Site Design and Implementation 
- 
- 
-You should get something like the window below depending on which browser you use. The image below is from Firefox. In Firefox, it displays the AuthName directive from .htaccess at the end of the login prompt (highlighted below for reference). 
- 
- 
- 
- 
- 
- 
-8. Go ahead and login with your RIT account. 
- 
- 
- 
-9. Once you are logged in, you should be able to get to the page. 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-Submission 
-IGME-230 Web Site Design and Implementation 
- 
- 
- 
-You will submit a zip of your two .htaccess files. I suggest putting them in different sub-folders in the zip because they have the same name. Please make this a ZIP file, not some other format. In addition, include links to the following (on Banjo): 
- 
-• Link to a non-existent page so that your 404 page automatically loads • Link to the error directory, so that the noterror page automatically loads • An https link to your auth page, so that login comes up 
+9. Once you are logged in however, you should be able to get to the page. 
   
+## Submission 
+
+You will submit a zip of your two .htaccess files. I suggest putting them in different sub-folders in the zip because they have the same name. Please make this a ZIP file, not some other format. (note at this point, you could just grab a copy of your whole 235 folder from banjo and zip it up -- your .htaccess files should download as well and be in their proper places)
+
+In addition, include links to the following (on Banjo): 
+ 
+- Link to a non-existent page so that your 404 page automatically loads.
+- Link to the error directory, so that the noterror page automatically loads.
+- An https link to your auth page, so that login comes up.
