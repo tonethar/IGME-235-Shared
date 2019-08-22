@@ -7,22 +7,22 @@ Most of these new issues are because Banjo has enabled the [Google PageSpeed Mod
 
 + https://moz.com/blog/use-googles-pagespeed-module-to-dramatically-increase-the-speed-of-your-website
 
-Unfortunately, there are undesirable byproducts for creaters of web pages that are under active development: it makes HTML/CSS/JavaScript debugging more difficult, and HTML validation impossible. So, we basically need to "turn it off" for all of our 230 web development this semester.
+Unfortunately, there are undesirable byproducts for creators of web pages that are under active development: it makes HTML/CSS/JavaScript debugging more difficult, and HTML validation impossible. So, we basically need to "turn it off" for all of our 235 web development this semester.
 
 ### An example of PageSpeed module causing trouble!
 **A) Here's some CSS and JavaScript we've created for a simple game. Note how the &lt;style&gt; and &lt;script&gt; tags are nicely indented and easy to read.**
 
-![Code listing](images/banjo-code-listing.jpg)
+![Code listing](_images/banjo-code-listing.jpg)
 
 
 **B) When we upload it to Banjo, and view it in the Inspector, you can see how the white space has been stripped out of the contents of the &lt;style&gt; and &lt;script&gt; tags, and the code is harder to read and debug.**
 
-![Compressed code listing](images/banjo-code-listing-server-compressed.jpg)
+![Compressed code listing](_images/banjo-code-listing-server-compressed.jpg)
 
 
 **C) If we look in the Inspector again, under the Network tab, we can actually see that the Banjo server is utilizing an HTTP header (`X-Mod-Pagespeed`) to let the web browser know "Hey, I'm using the PageSpeed module!"**
 
-![HTTP Headers](images/banjo-modpagespeed-headers.jpg)
+![HTTP Headers](_images/banjo-modpagespeed-headers.jpg)
 
 
 ***In this instance, the browser doesn't seem to be doing anything about it that we know of. But because HTTP headers are human readable, it's easy for us as web developers to see why our CSS and JS is getting compressed. Move on to the next part to turn off the PageSpeed module!***
