@@ -1,4 +1,4 @@
-## FTP Upload Demo
+# FTP Upload Demo
 FTP demo and review (we will do this together in class):
    - Create a local 235 directory, and put a *hello.html* file in it
    - **Reminder:** always keep backups, bring a flash drive to class; the `235` folder on people.rit.edu is where course work will usually be posted
