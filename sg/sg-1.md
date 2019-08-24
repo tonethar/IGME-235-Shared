@@ -40,14 +40,22 @@ Depending on their purpose and scope, web sites can have literally thousands of 
 *You can read (skim) the rest of the chapter*
 
 7. Match the web technology with its appropriate task:
+
   a. HTML
+  
   b. CSS
+  
   c. JavaScript
+  
   d. Ruby
   
+  
 _____ Checks a form field for a valid entry
+
 _____ Creates a custom server-side web application 
+
 _____ Identifies text as a second-level heading 
+
 _____ Makes all second-level headings blue
 
 
