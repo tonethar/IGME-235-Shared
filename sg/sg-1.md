@@ -41,22 +41,22 @@ Depending on their purpose and scope, web sites can have literally thousands of 
 
 7. Match the web technology with its appropriate task:
 
-  a. HTML
+    a. HTML
   
-  b. CSS
+    b. CSS
   
-  c. JavaScript
+    c. JavaScript
   
-  d. Ruby
+    d. Ruby
   
   
-_____ Checks a form field for a valid entry
+    _____ Checks a form field for a valid entry
 
-_____ Creates a custom server-side web application 
+    _____ Creates a custom server-side web application 
 
-_____ Identifies text as a second-level heading 
+    _____ Identifies text as a second-level heading 
 
-_____ Makes all second-level headings blue
+    _____ Makes all second-level headings blue
 
 
 8. What does an FTP tool do and how do you get one?
