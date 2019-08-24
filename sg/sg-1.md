@@ -116,7 +116,7 @@ Finally, skim the reast of the chapter, and be sure that you can answer the "Tes
 
 <hr>
 
-## Chapter 3 - Marking Up text
+## Chapter 3 - Some Big Concepts You Need to Know
 This chapter primarly addresses the various web design concepts that address making web sites more accessible and usable.
 
 1. Fill in the blanks for the following paragraph:
