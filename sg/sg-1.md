@@ -112,7 +112,7 @@ This chapter take a high-level look at how the different parts of the web work t
 
 1. List the 5 steps of the simplified HTTP protocol shown on page 33
 
-Finally, skim the reast of the chapter, and be sure that you can answer the "Test Yourself" questions on page 34. **You DO NOT need to write the answers to these questions below.**
+Finally, skim the rest of the chapter, and be sure that you can answer the "Test Yourself" questions on page 34. **You DO NOT need to write the answers to these questions below.**
 
 <hr>
 
@@ -138,6 +138,6 @@ The heart of the matter is that as web designers, we never know exactly how the 
 
 8. List 4 (of the 7) techniques listed on page 44 for speeding up web pages:
 
-Finally, skim the reast of the chapter, and be sure that you can answer the "Test Yourself" questions on page 34. **You DO NOT need to write the answers to these questions below.**
+Finally, skim the rest of the chapter, and be sure that you can answer the "Test Yourself" questions on page 34. **You DO NOT need to write the answers to these questions below.**
 
 
