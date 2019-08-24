@@ -22,11 +22,36 @@ Depending on their purpose and scope, web sites can have literally thousands of 
 - A ______________ traces the path through a site or application from the point of view of a typical user (also called a *persona*)
 
 3. Visual Design
+- Give examples of assets that a graphic designer creates for a web site
 
 4. Code
+- What does "frontend development" refer to?
+- List 3 tasks that "frontend" developers do:
+- What is "backend development"?
+- List some tools or technologies that backend developers use:
+- What is a "full-stack developer"?
+
 
 5. Other roles
+- List 3 other website roles:
 
+6. What does the W3C - World Wide Web Consortium do? (see sidebar on page 11)
+
+*You can read (skim) the rest of the chapter*
+
+7. Match the web technology with its appropriate task:
+  a. HTML
+  b. CSS
+  c. JavaScript
+  d. Ruby
+  
+_____ Checks a form field for a valid entry
+_____ Creates a custom server-side web application 
+_____ Identifies text as a second-level heading 
+_____ Makes all second-level headings blue
+
+
+8. What does an FTP tool do and how do you get one?
 
 <hr>
 
