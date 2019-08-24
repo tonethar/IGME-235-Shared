@@ -117,7 +117,7 @@ This chapter take a high-level look at how the different parts of the web work t
 <hr>
 
 ## Chapter 3 - Marking Up text
-This chapter primarly addresses the various web standards, as well as the concept of responsive design.
+This chapter primarly addresses the various web design concepts that address making web sites more accessible and usable.
 
 1. Fill in the blanks for the following paragraph:
 
@@ -126,5 +126,12 @@ The heart of the matter is that as web designers, we never know exactly how the 
 2. See the right-most image on page 36 for inspiration, and go ahead and list 5 distinct kinds of devices that use the web
 :
 
-3. 
+3. Describe the design strategy of *Progressive Enhancement*:
 
+4. *Responsive Design* is ____________
+
+5. One web for All - List the 4 categories of impairments that the Web Accessibility Initiative (WAI) was designed to address:
+
+6. Be sure to read the **US Government Accessibility Requirements: Section 508** box on page 43
+
+7. 
