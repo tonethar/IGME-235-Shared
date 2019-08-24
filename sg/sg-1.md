@@ -14,9 +14,9 @@ Depending on their purpose and scope, web sites can have literally thousands of 
 - What does a *Content Strategist* do?
 
 2. Site Design
-- What does an *User Experience Designer (UX)* do?
-- What does a *Interaction Designer* do?
-- What does an *User Interface Designer (UI)* do?
+- What does a *User Experience Designer (UX)* do?
+- What does an *Interaction Designer* do?
+- What does a *User Interface Designer (UI)* do?
 - A *wireframe diagram* shows the structure of a web page using only outlines for each content type and widget. Why are colors, fonts, and other visual elements deliberately omitted?
 - What is a *site diagram*?
 - A ______________ traces the path through a site or application from the point of view of a typical user (also called a *persona*)
