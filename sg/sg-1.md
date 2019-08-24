@@ -112,7 +112,7 @@ This chapter take a high-level look at how the different parts of the web work t
 
 1. List the 5 steps of the simplified HTTP protocol shown on page 33
 
-1. Finally, be sure that you can answer the "Test Yourself" questions on page 34. **You DO NOT need to write the answers to these questions below.**
+Finally, be sure that you can answer the "Test Yourself" questions on page 34. **You DO NOT need to write the answers to these questions below.**
 
 <hr>
 
@@ -134,4 +134,11 @@ The heart of the matter is that as web designers, we never know exactly how the 
 
 6. Be sure to read the **US Government Accessibility Requirements: Section 508** box on page 43
 
-7. 
+7. The need for speed. Amazon.com showed that reducing page load times by just 100ms resulted in a ____________
+
+8. List 4 (of the 7) techniques listed on page 44 for speeding up web pages:
+
+
+Finally, be sure that you can answer the "Test Yourself" questions on page 34. **You DO NOT need to write the answers to these questions below.**
+
+
