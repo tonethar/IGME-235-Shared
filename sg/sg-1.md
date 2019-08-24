@@ -64,12 +64,11 @@ Depending on their purpose and scope, web sites can have literally thousands of 
 <hr>
 
 ## Chapter 2 - How the web works
-
-- *This chapter blah blah*
+This chapter take a high-level look at how the different parts of the web work together
 
 1. What is the *Internet*?
 
-1. Give 3 examples of how information is passed between computers on the Internet
+1. Give 3 examples of how information is passed between computers on the Internet (for example, the email protocols is one method)
 
 1. What is the *Web*?
 
