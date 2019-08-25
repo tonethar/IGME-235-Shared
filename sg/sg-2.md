@@ -69,7 +69,7 @@ Here are the 5 basic steps of creating a web page:
 9. To reduce the chances of your page displaying in unexpected ways, you should validate all of your HTML documents. To validate a document is to check your markup to make sure that you have abided by all the rules of whatever version of HTML you are using. Documents that are error-free are said to be valid. 
 
 - Go ahead and validate your **index.html** page at: https://html5.validator.nu/
-- Because your **index.html** document is not online, you have to use either the "File Upload" or "Text" options
+- Note: Because your **index.html** document is not online, you have to use either the "File Upload" or "Text" options of the validator.
 
     9A. Go ahead and list out the 7 things that validators check for (on the top of page 69)
     
