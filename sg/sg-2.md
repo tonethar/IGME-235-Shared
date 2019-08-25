@@ -78,7 +78,7 @@ Here are the 5 basic steps of creating a web page:
 10. Look over the "Test Yourself" questions - the answers are in Appendix A of your book if you need to look. You DO NOT need to write the answers below.
 
 
-11. Finally, add some new content to the  *Black Goose Bistro* page
+11. Finally, add some new content to the  *Black Goose Bistro* page:
 - add a new level-2 heading (i.e. an &lt;h2>) for either "Vegetarian Options" OR "Garbage Plates"
 - add some supporting text (a sentence or 2) - in a paragraph - that relates to the heading you chose above
 - re-validate the index.html to be sure you didn't make any mistakes
