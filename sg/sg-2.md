@@ -46,7 +46,7 @@ Here are the 5 basic steps of creating a web page:
 
     6E. How many characters are in the ASCI Latin-1 character set?
 
-    6F. How many characters are in Uincode character set?
+    6F. How many characters are in Unicode character set?
 
     6G. The purpose of HTML is to add structure and ____________ to the content. It is not intended to describe how the content should *look*.
 
