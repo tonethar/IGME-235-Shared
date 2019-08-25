@@ -22,11 +22,29 @@ Here are the 5 basic steps of creating a web page:
 
 <hr>
 
-1. Follow the instructions on pages 49-54 and create a new empty plain-text document with your preferred text editor. Name the file **index.html**
+1. Follow the instructions on pages 49-54 of LWD and create a new empty plain-text document with your preferred text editor. Name the file **index.html**
 
 2. The text content for the page is information about the *Black Goose Bistro*, which can be found in the **LWD Chapter 4** materials in the myCourses content area. There is also an image there that you will need later on.
 
 3. Go ahead and load the page into a browser. As you can see, all of the text is squished together.
+
+4. Note Figure 4-8 on page 56 - this shows the document structure of a minimal web page.
+
+5. Go ahead and mark up the document as shown on pages 58-61 and reload the page in a browser - that looks better doesn't it?
+
+6. Time for some questions that you need to answer:
+
+6A. Label the *opening tag*, *closing tag*, *content* and *element* of the text below:
+
+`<h1>Black Goose Bistro</h1>`
+
+6B. The *document type declaration* lets the browser know ___________
+
+6C. &lt;meta> elements provide ___________ - which is information about ___________
+
+6D. The &lt;body> element contains ___________
+
+
 
 
 
