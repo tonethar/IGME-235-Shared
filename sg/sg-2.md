@@ -30,7 +30,7 @@ Here are the 5 basic steps of creating a web page:
 
 4. Note Figure 4-8 on page 56 - this shows the document structure of a minimal web page.
 
-5. Go ahead and mark up the document as shown on pages 58-61 and reload the page in a browser - that looks better doesn't it? Note that it doesn't look great though, because the browser is using a default style 
+5. Go ahead and mark up the document as shown on pages 58-61 and reload the page in a browser - that looks better doesn't it? Note that it doesn't look great though, because the browser is using a default stylesheet.
 
 6. Time for some questions about the first part of this chapter that you need to answer:
 
