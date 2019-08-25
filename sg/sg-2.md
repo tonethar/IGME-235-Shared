@@ -30,9 +30,9 @@ Here are the 5 basic steps of creating a web page:
 
 4. Note Figure 4-8 on page 56 - this shows the document structure of a minimal web page.
 
-5. Go ahead and mark up the document as shown on pages 58-61 and reload the page in a browser - that looks better doesn't it?
+5. Go ahead and mark up the document as shown on pages 58-61 and reload the page in a browser - that looks better doesn't it? Note that it doesn't look great though, because the browser is using a default style 
 
-6. Time for some questions that you need to answer:
+6. Time for some questions about the first part of this chapter that you need to answer:
 
 6A. Label the *opening tag*, *closing tag*, *content* and *element* of the text below:
 
@@ -52,7 +52,27 @@ Here are the 5 basic steps of creating a web page:
 
 6H. HTML markup that provides the most meaningful description of the content is called ____________ markup.
 
-6I. 
+6I. The structure of a document (the positioning and relationships among the elements) is also called the DOM, which stands for ____________
+
+6J. *Block* elements begin on a new ____________
+
+6K. Give 2 examples of *block* elements:
+
+6L. *Inline elements* do not ____________ they just go with the flow
+
+6M. Give 2 examples of *inline* elements:
+
+7. Now go ahead and add the image to the page (recall that the image file is in mycourses) following the instructions on pages 61-65. Notice that the &lt;img> element is called an *empty* element because it does not contain any text content. Instead we must use *attributes* of &lt;img> like `src` and `alt` to tell the browser what image to display. *Attributes* are instructions that clarify or modify an element.
+
+8. Now go ahead and style the page as shown on page 66
+
+9. 
+
+
+
+
+
+
 
 
 
