@@ -6,7 +6,7 @@
 <hr>
 
 ## Chapter 4 - Creating a Simple Page
-*This fairly short chapter covers how to construct a simple web page and add styles to it. Most of this should be review of concepts that we have already govered in class.*
+*This fairly short chapter covers how to construct a simple web page and add styles to it. Most of this should be review of concepts that we have already covered in class.*
 
 Here are the 5 basic steps of creating a web page:
 
