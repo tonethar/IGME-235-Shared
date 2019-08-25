@@ -1,6 +1,6 @@
 # Study Guide 2
 
-- Instructions: Read Chapters 4 - 6 of *Learning Web Design* (5th Edition) and answer the questions below
+- Instructions: Read Chapters 4 of *Learning Web Design* (5th Edition) and answer the questions below
 - Due: XX/XX start of class
 
 <hr>
