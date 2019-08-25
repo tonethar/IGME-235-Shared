@@ -44,6 +44,16 @@ Here are the 5 basic steps of creating a web page:
 
 6D. The &lt;body> element contains ___________
 
+6E. How many characters are in the ASCI Latin-1 character set?
+
+6F. How many characters are in Uincode character set?
+
+6G. The purpose of HTML is to add structure and ____________ to the content. It is not intended to describe how the content should *look*.
+
+6H. HTML markup that provides the most meaningful description of the content is called ____________ markup.
+
+6I. 
+
 
 
 
