@@ -6,7 +6,7 @@
 <hr>
 
 ## Chapter 4 - Creating a Simple Page
-*This chapter covers how to construct a simple web page and add styles to it.*
+*This fairly short chapter covers how to construct a simple web page and add styles to it. Most of this should be review of concepts that we have already govered in class.*
 
 Here are the 5 basic steps of creating a web page:
 
@@ -22,11 +22,13 @@ Here are the 5 basic steps of creating a web page:
 
 <hr>
 
-1. Follow the instructions and create a new empty plain-text document with your preferred text editor. Name the file **index.html**
+1. Follow the instructions on pages 49-54 and create a new empty plain-text document with your preferred text editor. Name the file **index.html**
 
-2. The text content for the page is information about the *Black Goose Bistro*, which can be found in the **LWD Chapter 4** materials in the myCourses Content area
+2. The text content for the page is information about the *Black Goose Bistro*, which can be found in the **LWD Chapter 4** materials in the myCourses content area. There is also an image there that you will need later on.
 
-3. 
+3. Go ahead and load the page into a browser. As you can see, all of the text is squished together.
+
+
 
 
 ## Chapter 5 - Marking up text
