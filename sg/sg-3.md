@@ -30,7 +30,7 @@
 
 10. If we wanted to add a caption to image, which two elements could we use?
 
-11. Go ahead and grab **tapenade.txt** (seen on page 81) from the **LWD Chapter 4** files in mycourses, and paste the content into a new file named **tapenade.html** (see below for the starter HTML). Go ahead and mark it up with paragraphs, headings, lists, and an element that is appropriate for a long quotation.
+11. Go ahead and grab **tapenade.txt** (seen on page 81) from the **LWD Chapter 4** files in mycourses, and paste the content into a new file named **tapenade.html** (see below for the starter HTML). Go ahead and mark it up with paragraphs, headings, lists, and an element that is appropriate for a long quotation. Then ZIP it, and post it the appropriate place in mycourses.
 
 
 **tapenade.html**
@@ -112,9 +112,17 @@ Put your content here
 
 22. Can an element have both an `id` and a `class`?
 
-23. 
+23. Can an element have multiple id's or multiple classes? Google it to find out.
 
-    
+24. Read the rest of the chapter. Be sure to check out Tables 5-2, 5-3, and 5-4. These show a lot of special characters - aka *entities* that you will very likely need to use at some point.
+
+25. Note Exercise 5-3 - *The Black Goose Bistro News page* on Page 109 - we will be doing do a similar exercise in class so we won't require you to complete and hand in this one.
+
+    *No answer required*
+
+26. Go ahead and review the *Test Yourself* questions on page 111, and the Element Review on page 112. You don't need to write anything down here.
+
+    *No answer required*
     
     
     
