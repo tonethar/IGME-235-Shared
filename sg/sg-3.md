@@ -30,7 +30,48 @@
 
 10. If we wanted to add a caption to image, which two elements could we use?
 
-11. Go ahead and grab **tapenade.txt** from the **LWD Chapter 4** files in mycourses, and paste the content into a new file named **tapenade.html** (see below for the starter HTML). Go ahead and mark it up with paragraphs, headings, lists, and an element that is appropriate for a long quotation.
+11. Go ahead and grab **tapenade.txt** (seen on page 81) from the **LWD Chapter 4** files in mycourses, and paste the content into a new file named **tapenade.html** (see below for the starter HTML). Go ahead and mark it up with paragraphs, headings, lists, and an element that is appropriate for a long quotation.
+
+12. Up until now, the elements we have learned have been marking up small pieces of content. Now the chapter moves on to discuss how to markup large sections of a web page. You will answer some questions about them below:
+
+    12A. The content of the `&lt;main>` element should be ______________
+    
+    12B. How many `&lt;main>` sections are allowed per document?
+    
+    12C. What sort of information does the `&lt;header>` element typically contain?
+    
+    12D. What sort of information does the `&lt;footer>` element typically contain?
+    
+    12E. A `&lt;section>` element contains ______________ (See the margin on page 85 of LWD for a hint)
+    
+    12F. An `&lt;article>` element contains ______________ (See the margin on page 85 of LWD for a hint)
+    
+    12G. Give 3 examples of content that could be contained in an `&lt;article>` element:
+    
+    12H. An `&lt;aside>` (sidebar) element identifies content that is ______________
+    
+    12I. A `&lt;nav>` element gives developers a semantic way to identify  ______________
+    
+    12J. An `&lt;address> element is intended specifically for ______________
+    
+13. Now the chapter returns to "inline" elements from page 88-97. You really need to read these over as there are a lot of usefull elements here, but we're only going to ask you about 5 of them below:
+
+    13A. Which element is use for *line breaks*?
+    
+    13B. Which element is use for *citations*?
+    
+    13C. Which element is use for *short quotations*?
+    
+    13D. Which element is use for *text that is incorrect*?
+    
+    13E. Which element is use for *abbreviations and acronyms*?
+    
+14. An important concept relating to the proper use of elments 
+    
+    
+    
+    
+    
 
 
 **tapenade.html**
