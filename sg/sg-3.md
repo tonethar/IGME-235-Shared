@@ -8,7 +8,7 @@
 ## Chapter 5 - Marking Up Text
 *This chapter introduces MANY elements for marking up text content. The elements we choose to markup our content with must be chosen **semantically** - which is in a way that most accurately describes the content’s meaning. If you don't like how the content looks when marked up with a particular element, then you can change that appearance in a stylesheet (which we'll be covering soon!)*
 
-1. Paragraphs (`&lt;p>&lt;/p>`) are almost always displayed on a new line with a little bit of space above and below (this is called `display:block` in CSS), and paragraphs are allowed to contain text, images, and other *inline* elements (such as `&lt;em>`). Below, give examples of elements that paragraphs are NOT allowed to contain (this will be enforced by an HTML validator - i.e. a page with these elements will fail the validator):
+1. Paragraphs (`<p></p>`) are almost always displayed on a new line with a little bit of space above and below (this is called `display:block` in CSS), and paragraphs are allowed to contain text, images, and other *inline* elements (such as `<em>`). Below, give examples of elements that paragraphs are NOT allowed to contain (this will be enforced by an HTML validator - i.e. a page with these elements will fail the validator):
 
 2. How many levels of heading elements are there? 
 
@@ -50,25 +50,25 @@ Put your content here
 
 12. Up until now, the elements we have learned have been marking up small pieces of content. Now the chapter moves on to discuss how to markup large sections of a web page. You will answer some questions about them below:
 
-    12A. The content of the `&lt;main>` element should be ______________
+    12A. The content of the `<main>` element should be ______________
     
-    12B. How many `&lt;main>` sections are allowed per document?
+    12B. How many `<main>` sections are allowed per document?
     
-    12C. What sort of information does the `&lt;header>` element typically contain?
+    12C. What sort of information does the `<header>` element typically contain?
     
-    12D. What sort of information does the `&lt;footer>` element typically contain?
+    12D. What sort of information does the `<footer>` element typically contain?
     
-    12E. A `&lt;section>` element contains ______________ (See the margin on page 85 of LWD for a hint)
+    12E. A `<section>` element contains ______________ (See the margin on page 85 of LWD for a hint)
     
-    12F. An `&lt;article>` element contains ______________ (See the margin on page 85 of LWD for a hint)
+    12F. An `<article>` element contains ______________ (See the margin on page 85 of LWD for a hint)
     
     12G. Give 3 examples of content that could be contained in an `&lt;article>` element:
     
-    12H. An `&lt;aside>` (sidebar) element identifies content that is ______________
+    12H. An `<aside>` (sidebar) element identifies content that is ______________
     
-    12I. A `&lt;nav>` element gives developers a semantic way to identify  ______________
+    12I. A `<nav>` element gives developers a semantic way to identify  ______________
     
-    12J. An `&lt;address> element is intended specifically for ______________
+    12J. An `<address> element is intended specifically for ______________
     
 13. Now the chapter returns to "inline" elements from page 88-97. You really need to read these over as there are a lot of useful elements you can usehere, but we're only going to ask you about 5 of them below:
 
