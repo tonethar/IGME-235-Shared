@@ -32,6 +32,22 @@
 
 11. Go ahead and grab **tapenade.txt** (seen on page 81) from the **LWD Chapter 4** files in mycourses, and paste the content into a new file named **tapenade.html** (see below for the starter HTML). Go ahead and mark it up with paragraphs, headings, lists, and an element that is appropriate for a long quotation.
 
+
+**tapenade.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Put your title here</title>
+</head>
+<body>
+Put your content here
+</body>
+</html>
+```
+
 12. Up until now, the elements we have learned have been marking up small pieces of content. Now the chapter moves on to discuss how to markup large sections of a web page. You will answer some questions about them below:
 
     12A. The content of the `&lt;main>` element should be ______________
@@ -68,13 +84,13 @@
     
 14. An important concept relating to the proper use of elements is *nesting* - which is basically that when you are closing elements, you need to *close* the most recent element that was opened. See the example on page 92. Re-write the HTML below to fix the nesting problem:
 
-```html
-<strong><em>Turn your HW in on time!</strong></em>
-```
+    ```html
+    <strong><em>Turn your HW in on time!</strong></em>
+    ```
    
 15. We will be nice and not ask you to hand in exercise 5-2 on page 98, but it would be great it you looked at it for a minute and thought about the elements you would use. 
 
-*No answer required*
+    *No answer required*
 
 16. 
 
@@ -85,20 +101,6 @@
     
 
 
-**tapenade.html**
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>Put your title here</title>
-</head>
-<body>
-Put your content here
-</body>
-</html>
-```
 
 
 
