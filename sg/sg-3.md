@@ -54,7 +54,7 @@
     
     12J. An `&lt;address> element is intended specifically for ______________
     
-13. Now the chapter returns to "inline" elements from page 88-97. You really need to read these over as there are a lot of usefull elements here, but we're only going to ask you about 5 of them below:
+13. Now the chapter returns to "inline" elements from page 88-97. You really need to read these over as there are a lot of useful elements you can usehere, but we're only going to ask you about 5 of them below:
 
     13A. Which element is use for *line breaks*?
     
@@ -66,8 +66,19 @@
     
     13E. Which element is use for *abbreviations and acronyms*?
     
-14. An important concept relating to the proper use of elments 
-    
+14. An important concept relating to the proper use of elements is *nesting* - which is basically that when you are closing elements, you need to *close* the most recent element that was opened. See the example on page 92. Re-write the HTML below to fix the nesting problem:
+
+```html
+<strong><em>Turn your HW in on time!</strong></em>
+```
+   
+15. We will be nice and not ask you to hand in exercise 5-2 on page 98, but it would be great it you looked at it for a minute and thought about the elements you would use. 
+
+*No answer required*
+
+16. 
+
+
     
     
     
