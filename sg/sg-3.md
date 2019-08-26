@@ -132,13 +132,36 @@ Put your content here
 
 
 ## Chapter 6 - Adding Links
-*This chapter is shorter than the previous one, and there is a lot of great information on creating hypertext links that open other web pages, email clients, and even will dial phone number for you. Read on!*
+*This chapter is shorter than the previous one, and there is a lot of great information on creating hypertext links that open other web pages, email clients, and even will dial a phone number for the user. Read on!*
 
 1. When do you use an *Absolute URL*?
 
 2. When do you use a *Relative URL*?
 
-3. Write the HTML for an anchor tag that will open up the www.rit.edu web page when it is clicked.  
+3. Write the HTML for an anchor tag that will open up the RIT home page when it is clicked. The clickable text is "RIT".
 
-**Create a folder named SG-3, put links.html and tapenade.html in it, make sure that your hypertext links still work, and then ZIP the folder, and post it the appropriate place in myCourses**.
+4. What do you have to do to link to a "lower" directory - for example to the couscous.html file referenced on page 119?
+
+5. What characters do you have to use to link to a "higher" directory?
+
+6. Stop reading on page 122. Let's write some HTML! Create a folder named **SG-3**.
+    - move **tapenade.html** into the **SG-3** folder
+    - create a new web page named **links.html** (use the starter HTML above)
+    - give **links.html** a title - "Ima Student's Links Page" - (find the `<title`> tag in the `<head>` section) - where Ima Student is your actual name.
+    - add a `<main>` element to the `<body>` element of **links.html**
+    - add a level-1 heading to **links.html** that also says "Ima Student's Links Page" 
+    - add an *unordered list* (use the `<ul>` element) of links to **links.html**. There will be *absolute* URL hypertext links to three imdb.com movie pages - choose movies that you enjoy or ones that you would like to see.
+    - these 3 links need to open in a new browser window. Look ahead to page 127 to see how to do this.
+    - add a footer to the bottom of **links.html**. In this footer add a hypertext link to **tapenade.html**  - this will be a *relative* URL.
+    - Now open up **tapenade.html** and add a footer element to the bottom of it. In this footer add a link to **links.html** - this will also be a *relative* URL.
+    - Test your "footer" links that link these 2 pages. You should be able to toggle back and forth between **links.html** and **tapenade.html** by clicking.
+    - test your IMDB links - these should function when clicked on - and open the approriate IMDB page in a new window.
+    
+ 7. Read the sections about linking to fragments (which is really handy!), mail links, and telephone links.
+ 
+ 8. Try answering the questions in *Test Yourself* on your own, but we aren't going to collect the answers.
+ 
+   *No answer required*
+
+**SUBMISSION: ZIP the SG-3 folder, and post it in the appropriate place in myCourses**.
 
