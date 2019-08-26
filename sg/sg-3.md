@@ -94,8 +94,8 @@ Put your content here
 
 16. What if none of the elements we’ve talked about so far accurately describes your content? HTML provides two *generic* elements that can be customized to describe your content perfectly:
 
-    - The `<div>` element indicates a division of block content that is not otherwise defined by block elements such as `<nav>`, `<main>`, `<footer>` and so on
-    - The `<span>` element indicates an inline word or phrase of text that needs markup, but there is no element matching its meaning
+    - the `<div>` element indicates a division of block content that is not otherwise defined by block elements such as `<nav>`, `<main>`, `<footer>` and so on
+    - the `<span>` element indicates an inline word or phrase of text that needs markup, but there is no element matching its meaning
     - the `id` and `class` attributes are used to give `<div>` and `<span>` their meaning
     
      *No answer required*
