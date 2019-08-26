@@ -62,13 +62,13 @@ Put your content here
     
     12F. An `<article>` element contains ______________ (See the margin on page 85 of LWD for a hint)
     
-    12G. Give 3 examples of content that could be contained in an `&lt;article>` element:
+    12G. Give 3 examples of content that could be contained in an `article>` element:
     
     12H. An `<aside>` (sidebar) element identifies content that is ______________
     
     12I. A `<nav>` element gives developers a semantic way to identify  ______________
     
-    12J. An `<address> element is intended specifically for ______________
+    12J. An `<address>` element is intended specifically for ______________
     
 13. Now the chapter returns to "inline" elements from page 88-97. You really need to read these over as there are a lot of useful elements you can use here, but we're only going to ask you about 5 of them below:
 
