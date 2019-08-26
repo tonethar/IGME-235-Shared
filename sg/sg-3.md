@@ -16,7 +16,7 @@
 
 4. Which element used to be called a "horizontal rule", but it now called a "paragraph-level thematic break"?
 
-5. Below, write the HTML necessary for an *unordered list* of the colors red, green, and blue:
+5. Below, write the HTML necessary for an *unordered list* of the text "red", "green", and "blue":
 
 6. Now do the same thing, except with an *ordered list*. You also need to add an *attribute* such that the list begins at 10 instead of at 1:
 
