@@ -30,7 +30,7 @@
 
 10. If we wanted to add a caption to image, which two elements could we use?
 
-11. Go ahead and grab **tapenade.txt** (seen on page 81) from the **LWD Chapter 4** files in mycourses, and paste the content into a new file named **tapenade.html** (see below for the starter HTML). Go ahead and mark it up with paragraphs, headings, lists, and an element that is appropriate for a long quotation. **Then ZIP it, and post it the appropriate place in myCourses**.
+11. Go ahead and grab **tapenade.txt** (seen on page 81) from the **LWD Chapter 4** files in mycourses, and paste the content into a new file named **tapenade.html** (see below for the starter HTML). Go ahead and mark it up with paragraphs, headings, lists, and an element that is appropriate for a long quotation. 
 
 
 **tapenade.html**
@@ -132,7 +132,13 @@ Put your content here
 
 
 ## Chapter 6 - Adding Links
-*This chapter *
+*This chapter is shorter than the previous one, and there is a lot of great information on creating hypertext links that open other web pages, email clients, and even will dial phone number for you. Read on!*
 
-... 
+1. When do you use an *Absolute URL*?
+
+2. When do you use a *Relative URL*?
+
+3. Write the HTML for an anchor tag that will open up the www.rit.edu web page when it is clicked.  
+
+**Create a folder named SG-3, put links.html and tapenade.html in it, make sure that your hypertext links still work, and then ZIP the folder, and post it the appropriate place in myCourses**.
 
