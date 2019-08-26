@@ -30,7 +30,7 @@
 
 10. If we wanted to add a caption to image, which two elements could we use?
 
-11. Go ahead and grab **tapenade.txt** (seen on page 81) from the **LWD Chapter 4** files in mycourses, and paste the content into a new file named **tapenade.html** (see below for the starter HTML). Go ahead and mark it up with paragraphs, headings, lists, and an element that is appropriate for a long quotation. Then ZIP it, and post it the appropriate place in mycourses.
+11. Go ahead and grab **tapenade.txt** (seen on page 81) from the **LWD Chapter 4** files in mycourses, and paste the content into a new file named **tapenade.html** (see below for the starter HTML). Go ahead and mark it up with paragraphs, headings, lists, and an element that is appropriate for a long quotation. **Then ZIP it, and post it the appropriate place in myCourses**.
 
 
 **tapenade.html**
