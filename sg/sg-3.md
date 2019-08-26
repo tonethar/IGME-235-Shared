@@ -70,7 +70,7 @@ Put your content here
     
     12J. An `<address> element is intended specifically for ______________
     
-13. Now the chapter returns to "inline" elements from page 88-97. You really need to read these over as there are a lot of useful elements you can usehere, but we're only going to ask you about 5 of them below:
+13. Now the chapter returns to "inline" elements from page 88-97. You really need to read these over as there are a lot of useful elements you can use here, but we're only going to ask you about 5 of them below:
 
     13A. Which element is use for *line breaks*?
     
@@ -82,7 +82,7 @@ Put your content here
     
     13E. Which element is use for *abbreviations and acronyms*?
     
-14. An important concept relating to the proper use of elements is *nesting* - which is basically that when you are closing elements, you need to *close* the most recent element that was opened. See the example on page 92. Re-write the HTML below to fix the nesting problem:
+14. An important concept relating to the proper use of elements is *nesting* - which is basically that when you are closing elements, you need to *close* the most *recent* element that was opened. See the example on page 92. Re-write the HTML below to fix the nesting problem:
 
     ```html
     <strong><em>Turn your HW in on time!</strong></em>
@@ -92,8 +92,27 @@ Put your content here
 
     *No answer required*
 
-16. 
+16. What if none of the elements we’ve talked about so far accurately describes your content? HTML provides two *generic* elements that can be customized to describe your content perfectly:
 
+    - The `<div>` element indicates a division of block content that is not otherwise defined by block elements such as `<nav>`, `<main>`, `<footer>` and so on
+    - The `<span>` element indicates an inline word or phrase of text that needs markup, but there is no element matching its meaning
+    - the `id` and `class` attributes are used to give `<div>` and `<span>` their meaning
+    
+     *No answer required*
+  
+17. What is the name of the `class` used in conjunction with a `<div>` on page 99 to describe a block of text and an image as a product listing? (we need to do this because there is no `<product>` element in the HTML5 specification)
+
+18. Similarly, there is no  `<telephone>` element in HTML5. What is the name of the `class` used in conjuction with `<span>` on page 99 to describe telephone numbers? 
+
+19. What is the difference between a `class` attribute and an `id` attribute?
+
+20. How many elements on a page can have the same value for their `id` attribute?
+
+21. How many elements on a page can have the same value for their `class` attribute?
+
+22. Can an element have both an `id` and a `class`?
+
+23. 
 
     
     
