@@ -119,7 +119,13 @@ Now we will create a password protected directory using authentication.
  
     Inside of your new .htaccess file, add the following.  
  
-    `AuthType shibboleth AuthName "RIT" ShibRequireSession On SSLRequireSSL require valid-user`
+    ```
+    AuthType shibboleth 
+    AuthName "RIT" 
+    ShibRequireSession On 
+    SSLRequireSSL 
+    require valid-user
+    ```
  
     The code above tells Apache to use authentication via RIT’s own service named Shibboleth. It tells the browsers that the service is called RIT. Finally, this requires “valid-user” which means anyone who was successfully able to login to the service. 
  
