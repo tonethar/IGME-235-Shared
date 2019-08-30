@@ -140,8 +140,8 @@ IX. [Reference](#partIX)
 
 ## VII. Post hello.html to the web
 
-- This is easy! Head back to Filezilla. With the **`230`** folder selected, just drag the **hello.html** file to the window, and the **hello.html** file will upload automatically.
-- As with the **`230`** folder, you will also need to give the web server *permission* to the files that you upload. As before, right-click and choose "File Attributes..." for **hello.html** - for files (as opposed to folders) the permissions will usually look like this:
+- This is easy! Head back to Filezilla. With the **`230`** folder selected, just drag the **hello.html** file to the right-most pane in Filezilla, and the **hello.html** file will upload automatically.
+- As with the **`230`** folder, you will also need to give the web server *permission* to access the files that you upload. As before, right-click and choose "File Attributes..." for **hello.html** - for files (as opposed to folders) the permissions will usually look like this:
 
 ![screenshot](_images/FTP-5.jpg)
 
