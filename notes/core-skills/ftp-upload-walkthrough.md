@@ -43,7 +43,7 @@
 - Now that we've created and previewed our simple web page, let's put it out on the web for the whole world to see! To do that we are going to have to upload the file to a *web server*
 - `banjo.rit.edu` is the address of the web server that hosts files for people.rit.edu, which is where your personal RIT account is located 
 - **FTP** stands for **File Transfer Protocol** - which is a way of transferring files between computers that are connected on the Internet
-- *Filezilla* is an *FTP client* application that makes it easy to uploadd and download files on a web server
+- *Filezilla* is an *FTP client* application that makes it easy to upload and download files on a web server
 
 <hr>
 
@@ -51,10 +51,10 @@
 
 1. Fire up *Filezilla* (which is on the lab PCs) or a similar FTP client
 2. FTP clients need 4 pieces of information before they can connect to a server
-- the **address** of the server to connect to (for today this is ***banjo.rit.edu***)
+- the **address** of the server to connect to (for today this is ***`banjo.rit.edu`***)
 - the **user id** of the account where you want to post files (your RIT ***`abc1234`*** id)
 - the **password** of the account (your ***password***)
-- the **port** you wish to connect to (this is ***22*** which is SFTP - "Secure FTP")
+- the **port** you wish to connect to (this is ***`22`*** which is SFTP - "Secure FTP")
 - now "make it so" by clicking the **Quickconnect** button!!
 
 
@@ -100,7 +100,7 @@
 ## VII. Post hello.html to the web
 
 - This is easy! Head back to Filezilla. With the **`230`** folder selected, just drag the **hello.html** file to the window, and the **hello.html** file will upload automatically.
-- As with the **`230`** folder, you will also to give the web server *permission* to open the file you just uploaded. As before, right-click and choose "File Attributes..." for **hello.html** - for files (as opposed to folders) the permissions will usually look like this:
+- As with the **`230`** folder, you will also need to give the web server *permission* to the files that you upload. As before, right-click and choose "File Attributes..." for **hello.html** - for files (as opposed to folders) the permissions will usually look like this:
 
 ![screenshot](_images/FTP-5.jpg)
 
