@@ -42,7 +42,7 @@
 
 - Now that we've created and previewed our simple web page, let's put it out on the web for the whole world to see! To do that we are going to have to upload the file to a *web server*
 - `banjo.rit.edu` is the address of the web server that hosts files for people.rit.edu, which is where your personal RIT account is located 
-- **FTP** stands for **File Transfer Protocol** - which is a way of transferring files between computers
+- **FTP** stands for **File Transfer Protocol** - which is a way of transferring files between computers that are connected on the Internet
 - *Filezilla* is an *FTP client* application that makes it easy to uploadd and download files on a web server
 
 <hr>
