@@ -1,6 +1,6 @@
 # Core Skills: FTP File Upload Walkthough
 
- I. Create a Simple Web Page
+ I. [Create a Simple Web Page](./#partI)
  
  II. FTP Overview
  
@@ -8,6 +8,8 @@
 
 
 *Note: If you are in a section of IGME-110, IGME-235 or IGME-330, you can substitute all references to the number `230` below with the appropriate number for your course :-)*
+
+<a id="partI"/>
 
 ## I. Create a Simple Web Page
 
