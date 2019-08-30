@@ -1,13 +1,12 @@
-# FTP Upload Walkthough
+# FTP File Upload Walkthough
 
-## I. A Simple Web Page
+## I. Create a Simple Web Page
 
 1) Fire up a text editor such as NotePad++, Visual Studio Code, or Brackets and create and save the following file. NOTE: *Be sure to use **type** "plain text" or "HTML", do NOT create web pages of type "rich text"*
 
-- Note: We will give a quick explanation of what's going on here in class, but LWD chapters 3 & 4 will also walk you through the creation of a simple web page and give additional information
-
 **hello.html**
-```
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +40,7 @@
 
 ## II. FTP Overview
 
-- Now that we've created and previewed our simple page, let's put it out on the web for the whole world to see! To do that we are going to have to upload the file to a *web server*
+- Now that we've created and previewed our simple web page, let's put it out on the web for the whole world to see! To do that we are going to have to upload the file to a *web server*
 - `banjo.rit.edu` is the address of the web server that hosts files for people.rit.edu, which is where your personal RIT account is located 
 - **FTP** stands for **File Transfer Protocol** - which is a way of transferring files between computers
 - *Filezilla* is an *FTP client* application that makes it easy to uploadd and download files on a web server
