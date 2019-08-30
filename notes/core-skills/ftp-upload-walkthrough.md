@@ -47,7 +47,7 @@
 
 <hr>
 
-### III. Connect to the banjo.rit.edu server
+## III. Connect to the banjo.rit.edu server
 
 1. Fire up *Filezilla* (which is on the lab PCs) or a similar FTP client
 2. FTP clients need 4 pieces of information before they can connect to a server
@@ -62,7 +62,7 @@
 
 <hr>
 
-### IV. Create a 230 folder
+## IV. Create a 230 folder
 
 - Now that you are connected, you can see your computer's files on the left side of the screen, and the banjo.rit.edu files on the right
 - Go ahead and click on the folders on the right side of the Filezilla window so that the **`www`** folder is selected
@@ -79,7 +79,7 @@
 
 <hr>
 
-### V. Set the Unix file permissions for your 230 folder
+## V. Set the Unix file permissions for your 230 folder
 
 - Now we need to give the web server permission to open this folder and access a listing of the files in it - this is called setting the Unix *file permissions* of the folder. This is something that the FTP client will be able to do for us.
 - Go ahead and select the **`230`** folder, right-click,  and choose "File Attributes..."
@@ -89,7 +89,7 @@
 
 <hr>
 
-### VI. Verify that your 230 folder is visible on the web
+## VI. Verify that your 230 folder is visible on the web
 
 - Point a web browser at `http://people.rit.edu/~abc1234/230` (where `abc1234` is your id) - you should see an empty folder like this below. If it doesn't look right, go ahead and ask for help from a neighbor, or the TA or Prof:
 
@@ -97,14 +97,14 @@
  
 <hr>
 
-### VII. Post hello.html to the web
+## VII. Post hello.html to the web
 
 - This is easy! Head back to Filezilla. With the **`230`** folder selected, just drag the **hello.html** file to the window, and the **hello.html** file will upload automatically.
 - As with the **`230`** folder, you will also to give the web server *permission* to open the file you just uploaded. As before, right-click and choose "File Attributes..." for **hello.html** - for files (as opposed to folders) the permissions will usually look like this:
 
 ![screenshot](_images/FTP-5.jpg)
 
-### VIII. Verify that your hello.html file is visible on the web
+## VIII. Verify that your hello.html file is visible on the web
 
 - Point a web browser at `http://people.rit.edu/~abc1234/230/hello.html` (where `abc1234` is your id) - you should see the web page!
 
