@@ -109,6 +109,8 @@
 
 ![screenshot](_images/FTP-5.jpg)
 
+<hr>
+
 ## VIII. Verify that your hello.html file is visible on the web
 
 - Point a web browser at `http://people.rit.edu/~abc1234/230/hello.html` (where `abc1234` is your id) - you should see the web page!
