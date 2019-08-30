@@ -73,7 +73,9 @@
 
 ![screenshot](_images/FTP-2.jpg)
 
-- Now we need a new *directory* (aka *folder*) to put all of our course materials in. We will give this directory the highly descriptive name of **`230`** - to accomplish this,  perform the following steps:
+- **Important:** Files that are going to be visible on the web *must* be placed either directly in the **`www`** folder or one of its sub-folders
+- We will now create a new *directory* (aka *folder*) inside of **`www`** to put all of our course materials in. We will give this directory the highly descriptive name of **`230`**
+- To accomplish this, perform the following steps:
   - With the **`www`** folder selected, go ahead and right-click and choose "Create Directory" from the pop-up menu
   - Name the new directory **`230`**
   - This is what you should see:
