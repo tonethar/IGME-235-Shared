@@ -18,6 +18,7 @@ Your assignment is to create a "Basic Game Page" for an existing video or tablet
     - Proper Minimal Document Structure (html/head/body)
     - Headings, paragraphs, line breaks, and a block quote.
     - Properly formatted lists (both bulleted) and (definition list)
+    - Validate your code.
 
 - CSS applied.
-    - Through an embedded style sheet. 
+    - Through an embedded or external style sheet. 
