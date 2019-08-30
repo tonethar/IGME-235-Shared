@@ -55,7 +55,7 @@
 - the **user id** of the account where you want to post files (your RIT ***`abc1234`*** id)
 - the **password** of the account (your ***password***)
 - the **port** you wish to connect to (this is ***22*** which is SFTP - "Secure FTP")
-- Make it so!
+- Make it so by clicking the **Quickconnect** button!!
 
 
 ![screenshot](_images/FTP-1.jpg)
