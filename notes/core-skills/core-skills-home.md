@@ -4,6 +4,6 @@ Once you know the basics of authoring an HTML page, you are ready to review thes
 
 1. [FTP & posting files to `banjo.rit.edu`](ftp-upload-walkthrough.md)
 
-2. Configuring .htaccess files (coming soon)
+2. Configuring `.htaccess` files (coming soon)
 
 3. Basic Unix commands for file management (coming soon)
