@@ -2,9 +2,21 @@
 
  I. [Create a Simple Web Page](#partI)
  
- II. [FTP Overview](#partII))
+ II. [FTP Overview](#partII)
  
- III. [Connect to the banjo.rit.edu server](#partIII))
+ III. [Connect to the banjo.rit.edu server](#partIII)
+ 
+ IV. [Create a 230 folder](#partIV)
+ 
+ V. [Set the Unix file permissions for your 230 folder](#partV)
+ 
+VI. [Verify that your 230 folder is visible on the web](#partVI)
+
+VII. [Post hello.html to the web](#partVII)
+
+VIII. [Verify that your hello.html file is visible on the web](#partVIII)
+
+IX. [Reference](#partIX)
 
 
 *Note: If you are in a section of IGME-110, IGME-235 or IGME-330, you can substitute all references to the number `230` below with the appropriate number for your course :-)*
@@ -78,6 +90,8 @@
 
 <hr>
 
+<a id="partIV"/>
+
 ## IV. Create a 230 folder
 
 - Now that you are connected, you can see your computer's files on the left side of the screen, and the banjo.rit.edu files on the right
@@ -97,6 +111,8 @@
 
 <hr>
 
+<a id="partV"/>
+
 ## V. Set the Unix file permissions for your 230 folder
 
 - Now we need to give the web server permission to open this folder and access a listing of the files in it - this is called setting the Unix *file permissions* of the folder. This is something that the FTP client will be able to do for us.
@@ -107,6 +123,8 @@
 
 <hr>
 
+<a id="partVI"/>
+
 ## VI. Verify that your 230 folder is visible on the web
 
 - Point a web browser at `http://people.rit.edu/~abc1234/230` (where `abc1234` is your id) - you should see an empty folder like this below. If it doesn't look right, go ahead and ask for help from a neighbor, or the TA or Prof:
@@ -114,6 +132,8 @@
 ![screenshot](_images/FTP-4.jpg)
  
 <hr>
+
+<a id="partVII"/>
 
 ## VII. Post hello.html to the web
 
@@ -124,6 +144,8 @@
 
 <hr>
 
+<a id="partVIII"/>
+
 ## VIII. Verify that your hello.html file is visible on the web
 
 - Point a web browser at `http://people.rit.edu/~abc1234/230/hello.html` (where `abc1234` is your id) - you should see the web page!
@@ -131,5 +153,11 @@
 ![screenshot](_images/hello-page.jpg)
 
 <hr>
+
+<a id="partIX"/>
+
+## IX. Reference
+
+<hr><hr>
 
 
