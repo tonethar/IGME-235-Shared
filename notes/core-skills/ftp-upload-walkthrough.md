@@ -160,6 +160,10 @@ IX. [Reference](#partIX)
 
 ## IX. Reference
 
+- https://en.wikipedia.org/wiki/File_Transfer_Protocol
+- https://en.wikipedia.org/wiki/Web_server
+- https://mason.gmu.edu/~montecin/UNIXpermiss.htm
+
 <hr><hr>
 
 
