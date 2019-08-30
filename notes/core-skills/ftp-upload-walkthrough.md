@@ -1,10 +1,10 @@
 # Core Skills: FTP File Upload Walkthough
 
- I. [Create a Simple Web Page](./#partI)
+ I. [Create a Simple Web Page](#partI)
  
- II. FTP Overview
+ II. [FTP Overview]((#partII))
  
- III. Connect to the banjo.rit.edu server
+ III. [Connect to the banjo.rit.edu server]((#partIII))
 
 
 *Note: If you are in a section of IGME-110, IGME-235 or IGME-330, you can substitute all references to the number `230` below with the appropriate number for your course :-)*
@@ -49,6 +49,8 @@
 
 <hr>
 
+<a id="partII"/>
+
 ## II. FTP Overview
 
 - Now that we've created and previewed our simple web page, let's put it out on the web for the whole world to see! To do that we are going to have to upload the file to a *web server*
@@ -58,6 +60,8 @@
 - *Filezilla* is an *FTP client* application that makes it easy to upload and download files to and from a web server
 
 <hr>
+
+<a id="partIII"/>
 
 ## III. Connect to the banjo.rit.edu server
 
