@@ -166,4 +166,4 @@ IX. [Reference](#partIX)
 
 <hr><hr>
 
-
+|  **[Core Skills Home](core-skills-home.md)** |
