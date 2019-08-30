@@ -20,6 +20,7 @@ VIII. [Verify that your hello.html file is visible on the web](#partVIII)
 
 IX. [Reference](#partIX)
 
+<hr><hr>
 
 *Note: If you are in a section of IGME-110, IGME-235 or IGME-330, you can substitute all references to the number `230` below with the appropriate number for your course :-)*
 
