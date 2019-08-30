@@ -1,6 +1,6 @@
 # Core Skills: FTP File Upload Walkthough
 
-*Now that we've created and previewed our simple web page, let's put it out on the web for the whole world to see! *
+*Now that we've created and previewed our simple web page, let's put it out on the web for the whole world to see!*
 
  I. [Create a Simple Web Page](#partI)
  
