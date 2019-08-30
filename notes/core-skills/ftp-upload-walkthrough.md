@@ -1,5 +1,7 @@
 # Core Skills: FTP File Upload Walkthough
 
+*Now that we've created and previewed our simple web page, let's put it out on the web for the whole world to see! *
+
  I. [Create a Simple Web Page](#partI)
  
  II. [FTP Overview](#partII)
@@ -65,7 +67,7 @@ IX. [Reference](#partIX)
 
 ## II. FTP Overview
 
-- Now that we've created and previewed our simple web page, let's put it out on the web for the whole world to see! To do that we are going to have to upload the file to a *web server*
+- In order to share our web page with the world, we are going to have to upload the file to a *web server*
 - What is a web server? It's a computer that is connected to the Internet, that runs specialized software (ex. [Apache HTTP Server](https://en.wikipedia.org/wiki/Apache_HTTP_Server)) that stores and serves up the various files (HTML, CSS, images,JavaScript ...) that make up a web page.
 - `banjo.rit.edu` is the address of the web server that hosts files for people.rit.edu, which is where your personal RIT account is located 
 - **FTP** stands for **File Transfer Protocol** - which is a way of transferring files between computers that are connected on the Internet
