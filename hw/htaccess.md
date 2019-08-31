@@ -30,7 +30,7 @@ Now let’s go back to the starter files you downloaded for this exercise.
  
 1. Connect to Banjo using FileZilla or another FTP client 
  
-1. In your **235** folder, create a new folder called **error**.  
+1. In your **235** folder on Banjo, create a new folder called **error**.  (your FTP client will have a command to do this, probably involving a right-click)
  
 1. Add the starter files from the **error_start** folder to the new **error** folder you created. Your **error** folder should only contain 3 files. 
  
