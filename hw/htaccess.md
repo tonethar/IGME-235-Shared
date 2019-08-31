@@ -35,6 +35,7 @@ Now let’s go back to the starter files you downloaded for this exercise.
 1. Add the starter files from the **error_start** folder to the new **error** folder you created. Your **error** folder should only contain 3 files. 
  
 1. Make sure you can reach the **error.html** page and the **noterror.html** pages from a browser. Correct any permissions issues if you need to. (Numeric Value: 644 -- same for the **hypnotoad.gif**)
+    - Note:  The URL to the files that you just uploaded to banjo will be in this pattern:  `http://people.rit.edu/youruserid/235/error/filename.html` 
  
 1. Now create a new file called **.htaccess** . The dot at the beginning of the file name is critical. The dot at the beginning tells unix machines that this is a hidden file.
     - That said, to work with a file that has a dot at the beginning on your local computer may be problematic.  You can get around these particular issues by leaving the dot off while the file is local and then renaming it through the FTP interface after you upload it.
