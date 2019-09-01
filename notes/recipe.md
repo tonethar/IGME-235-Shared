@@ -1,4 +1,6 @@
-# ICE: Basic HTML, CSS, and Validation 
+# Legacy Exercise: Basic HTML, CSS, and Validation 
+
+***This exercise was created for a previous iteration of this course when it's number was 230.  You're welcome to try this exercise for practice, but it does not need to be submitted as an assignment.  It is not worth extra bonus points if you complete it.***
 
 ## I. Overview & Goals
 
@@ -188,10 +190,10 @@ Now, while this page probably won't win any design awards, the "look" and access
 2. Also validate the CSS! The CSS validator is extremely helpful in debugging wonky CSS:
 http://jigsaw.w3.org/css-validator/
 
-## X. Homework Submission
-Complete all steps above and when you're done:
-1. Zip your **recipe** folder for submission to the dropbox.
-2. Upload your finished files so that they appear on banjo at the URL mentioned in Section IV. Step 2.  Do not hide your index view, we want to be able to view your .css file easily by clicking to it (adjust your other .htaccess file or add a new one in this directory if necessary to correct).
-3. If you've already finished [the other Homework](../week-2/230-home-page.md), link to the remote **recipe.html** page from your 230 Homepage.
-3. Check the dropbox for other details.
+## ~~X. Homework Submission~~
+~~Complete all steps above and when you're done:~~
+1. ~~Zip your **recipe** folder for submission to the dropbox.~~
+2. ~~Upload your finished files so that they appear on banjo at the URL mentioned in Section IV. Step 2.  Do not hide your index view, we want to be able to view your .css file easily by clicking to it (adjust your other .htaccess file or add a new one in this directory if necessary to correct).~~
+3. ~~If you've already finished [the other Homework](../week-2/230-home-page.md), link to the remote **recipe.html** page from your 230 Homepage.~~
+3. ~~Check the dropbox for other details.~~
 
