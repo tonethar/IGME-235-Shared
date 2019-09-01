@@ -19,7 +19,6 @@ Your assignment is to create a "Basic Game Page" for an existing video or tablet
     - Proper Minimal Document Structure (`!DOCTYPE, <html>, <head>, <body>`)
     - Different levels of headings, paragraphs, line breaks as appropriate, and a block quote.
     - Insert your images where appropriate (just keep them from being HUGE at this point)
-        - They should be stored in a subfolder and linked with relative URLs.
     - Properly formatted lists (both bulleted) and (definition list)
     - Appropriate semantic structural tags, such as: `<main>, <header>, <footer>`
     - Links to the sources of your game information and the source of the review quote.
