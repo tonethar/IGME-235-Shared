@@ -43,7 +43,7 @@ Where in the above code does the page content belong?  Re-arrange your file cont
 4. Take the first line (beginning with 'Armenian' and ending with 'Student') and move it into your `<title>` tags. Replace *Ima Student* with your own full name.
 
 5. Now, go ahead and preview the file in your browser.  You should see something like this:  
-![Unformatted Text](images/recipe-1.jpg)
+![Unformatted Text](_images/recipe-1.jpg)
 Pretty ugly, huh?  Let’s continue.
 
 6. Add an `<h1>` heading to the name of the dish at the top of the page, and `<h2>` headings for the **Ingredients** and **Directions** subsections.
@@ -57,7 +57,7 @@ Pretty ugly, huh?  Let’s continue.
 Don't worry about adding links yet; we'll be doing that later. 
 
 10. When you're done, preview your document in browser, again. It should now look something like this: 
-![Structured Content](images/recipe-2.jpg)
+![Structured Content](_images/recipe-2.jpg)
 
 ## IV. Publishing Your Files
  
@@ -85,7 +85,7 @@ Note:  replace the "..." with the rest of the URL.
 
 3. Add an additional link at the bottom of the page (after the source link and within the footer) that goes to your ([future?](../week-2/230-home-page.md)) home page for this class (http://people.rit.edu/abc1234/230).  Wrap each of these links in `<p>` tags.
 4. Preview the page.  It should look like the image below.
-![Structured Content](images/recipe-2.jpg)
+![Structured Content](_images/recipe-2.jpg)
 5. Test this page with the validator.  Do not continue until the page passes validation.
 
 ***At this point in the exercise, we're shifting from material discussed in the first half of the week to material discussed in the 2nd half of the week.  Consult the lecture notes if it's still early in the week and you want to work ahead.***
@@ -138,7 +138,7 @@ Test it!  There should be more room now.  Notice how the **margin** declarations
 9. Add the declarations necessary to center the `<h1>` tags text using the **text-align** property.
 
 10. Preview your page.  It should look like the image below.
-![Code with Presentation](images/recipe-2.jpg)
+![Code with Presentation](_images/recipe-2.jpg)
  
 11. Now, try validating the CSS you have used in your page.  You can find the CSS validator at:
 http://jigsaw.w3.org/css-validator
@@ -174,7 +174,7 @@ Let's go back into the recipe.html to make one last change.  So you can see how 
 	```<p style="float: right; font-weight: bold">Yield: 24 servings</p>```
 
 11. Your page should now look something like the image below.
-![Better Presentation](images/recipe-4.jpg)
+![Better Presentation](_images/recipe-4.jpg)
 
 Now, while this page probably won't win any design awards, the "look" and accessibility of the content has radically improved!
 
