@@ -22,3 +22,5 @@ Your assignment is to create a "Basic Game Page" for an existing video or tablet
 
 - CSS applied.
     - Through an embedded or external style sheet. 
+        - You can link to an external style sheet (such as Marx or Bootstrap Reboot) by adding the following code to your document's `head` section:  
+        `<link rel="stylesheet" type="text/css" href="stylesheetfilename.css">`
