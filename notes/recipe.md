@@ -138,7 +138,7 @@ Test it!  There should be more room now.  Notice how the **margin** declarations
 9. Add the declarations necessary to center the `<h1>` tags text using the **text-align** property.
 
 10. Preview your page.  It should look like the image below.
-![Code with Presentation](_images/recipe-2.jpg)
+![Code with Presentation](_images/recipe-3.jpg)
  
 11. Now, try validating the CSS you have used in your page.  You can find the CSS validator at:
 http://jigsaw.w3.org/css-validator
