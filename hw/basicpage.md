@@ -13,14 +13,16 @@ Your assignment is to create a "Basic Game Page" for an existing video or tablet
     - A short list of terms/categories and their values.  Such as "Genre: action, Players: 2-4"
     - A quote from a review.
     - A couple of images of the game (ie: screenshots or pictures of game components)
+    - A link to the web source & and link to the quoted review.
 
 - Proper HTML structure.
     - Proper Minimal Document Structure (html/head/body)
     - Headings, paragraphs, line breaks, and a block quote.
     - Properly formatted lists (both bulleted) and (definition list)
+    - Links to the sources of your game information and the source of the review quote.
     - Validate your code.
 
-- CSS applied.
+- Simple CSS applied.
     - Through an embedded or external style sheet. 
-        - You can link to an external style sheet (such as Marx or Bootstrap Reboot) by adding the following code to your document's `head` section:  
+        - You can link to an external style sheet (such as Marx or Bootstrap Reboot) by adding something like the following code to your document's `head` section:  
         `<link rel="stylesheet" type="text/css" href="stylesheetfilename.css">`
