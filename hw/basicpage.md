@@ -7,11 +7,11 @@ The overall goal of this exercise is to give you the chance to practice your bas
 Your assignment is to create a "Basic Game Page" for an existing video or tabletop game of your choice.  It will have all or most of the same features as you create with your partner for the "Dig Dug" ICE.
 
 ## Here's a list of what you need:
-- Content from a web source (either Moby Games or Board Game Geek)
+- Content from a web source (either [Moby Games](https://www.mobygames.com/) or [BoardGameGeek](https://boardgamegeek.com/))
     - A Short Description.
     - Publishing info in the form of a bulleted list.
+    - A short list of terms/categories and their values.  Such as "Genre: action, Players: 2-4"
     - A quote from a review.
-    - A list of terms and their values.  Such as "Genre: action"
     - A couple of images of the game (ie: screenshots or pictures of game components)
 
 - Proper HTML structure.
