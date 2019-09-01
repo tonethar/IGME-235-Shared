@@ -31,4 +31,5 @@ Your assignment is to create a "Basic Game Page" for an existing video or tablet
         
 ## Submission
 
-- Upload your page into your 235 directory on Banjo.
+- Upload your page (and images) into your 235 directory on Banjo.  Make sure that it works.
+- Submit the URL of your page to this Homework's 'dropbox' in the Assignment section of myCourses.
