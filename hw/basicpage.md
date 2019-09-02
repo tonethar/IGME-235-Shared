@@ -4,7 +4,7 @@
 
 The overall goal of this exercise is to give you the chance to practice your basic structural HTML 
 
-Your assignment is to create a "Basic Game Page" for an existing video or tabletop game of your choice.  It will have all or most of the same features as you create with your partner for the "Dig Dug" ICE.
+Your assignment is to create a "Basic Game Page" for an existing video or tabletop game of your choice.  It will have all or most of the same features as you create with your partner for the "Dig Dug" ICE (up to and including links).
 
 ## Here's a list of what you need:
 - Content from a web source (either [Moby Games](https://www.mobygames.com/) or [BoardGameGeek](https://boardgamegeek.com/))
