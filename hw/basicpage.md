@@ -1,7 +1,5 @@
 # Homework: Basic Game Page
 
-***We are currently assembling this exercise... Do not attempt to get started on it yet... at least not until this message is removed.***
-
 The overall goal of this exercise is to give you the chance to practice your basic structural HTML 
 
 Your assignment is to create a "Basic Game Page" for an existing video or tabletop game of your choice.  It will have all or most of the same features as you create with your partner for the "Dig Dug" ICE (up to and including links).
