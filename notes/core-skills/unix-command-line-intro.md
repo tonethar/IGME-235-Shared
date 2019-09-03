@@ -13,4 +13,4 @@
 
 ## III. Homework
 
-This is a homework assignment - see the dropbox for submission instructions:  [Unix-web-page-homework.pdf](_files/Unix-web-page-homework.pdf)
+- This is a homework assignment - see the dropbox in myCourses for submission instructions:  [Unix-web-page-homework.pdf](_files/Unix-web-page-homework.pdf)
