@@ -40,7 +40,9 @@ This is just text - you'll need to add ALL of the HTML elements yourself
 
 ## IV. Screenshots of today's version
 
-***Here's an example - without any CSS or presentational markup it's NOT at all attractive, but it is readable! (That is, it's readable when it's not a scaled-down image)***
+***Here's an example - without any CSS or presentational markup it's NOT at all attractive, but it is readable!***
+
+***That is, it's readable when it's not a scaled-down image)***
 
 ![screenshot](_images/HW-holmes-1.jpg)
 
