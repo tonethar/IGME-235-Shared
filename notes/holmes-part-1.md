@@ -13,7 +13,7 @@ Your mission (in 3 parts):
 
 ## II. Start Files
 
-- here are the image files [holmes-images.zip](_files/holmes-images.zip)
+- here are the image files -->  [holmes-images.zip](_files/holmes-images.zip)
 - here is the text content:
 
 **holmes-start.txt**
