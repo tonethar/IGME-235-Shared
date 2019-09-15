@@ -29,7 +29,7 @@ This is just text - you'll need to add ALL of the HTML elements yourself
 1) Rename the file to **holmes.html**
 2) Add all of the "boilerplate" you need to make this a minimal HTML document (i.e. `<html>`, `<head>`, `<title>`, `<body>` etc.. there is example boilerplate in our GitHub notes, as well as in previous exercises
 3) Head to https://validator.w3.org and be sure that your page is valid HTML
-4) Now add some *structure* to the page - consider all of these tags listed in the following MDN article, but you don't have to use them all:
+4) Now add some *structure* to the page - i.e. `<header>`, `<footer>`, `<main>` etc... consider all of these tags listed in the following MDN article, but you don't have to use them all:
   - https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure#HTML_for_structuring_content
 5) Add more structure and semantics to the page by marking up text elements - examples `<p>`, `<h1>`, `<h2>`, `<address>`, `<em>` and so on 
 6) Add the **holmes.jpg** and **john-watson-medium.jpg** images to the page
