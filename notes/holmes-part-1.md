@@ -64,13 +64,14 @@ Characters from the film - Sherlock Holmes (2009)
 3) Head to https://validator.w3.org and be sure that your marked up page is valid HTML
 4) Now add some *structure* to the page - i.e. `<header>`, `<footer>`, `<main>` etc... consider all of these tags listed in the following MDN article, but you don't have to use them all:
   - https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure#HTML_for_structuring_content
-5) Add more structure and semantics to the page by marking up text elements - examples `<p>`, `<h1>`, `<h2>`, `<address>`, `<em>` and so on 
-6) Add the **holmes.jpg** and **john-watson-medium.jpg** images to the page
-7) Add your name to the bottom of the page - something like this "*Ace Coder's* markup & CSS copyright 20XX"
-8) Turn the text "Sherlock Holmes (2009)" into a clickable hypertext link to `https://www.imdb.com/title/tt0988045`
-9) Validate the HTML again - and FIX any errors
-10) You are done for now - see myCourses for submission instructions
-11) Move on to the next part
+5) Add more structure and semantics to the page by marking up text elements - examples `<p>`, `<h1>`, `<h2>`, `<address>`, `<em>` and so on. 
+6) Put the character names in `<h3></h3>` tags, and the actor names in `<p></p>` tags
+7) Add the **holmes.jpg** and **john-watson-medium.jpg** images to the page
+8) Add your name to the bottom of the page - something like this "*Ace Coder's* markup & CSS copyright 20XX"
+9) Turn the text "Sherlock Holmes (2009)" into a clickable hypertext link to `https://www.imdb.com/title/tt0988045`
+10) Validate the HTML again - and FIX any errors
+11) You are done for now - see myCourses for submission instructions
+12) Move on to the next part
 
 
 ## IV. Screenshot of today's version
