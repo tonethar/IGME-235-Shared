@@ -42,10 +42,9 @@ This is just text - you'll need to add ALL of the HTML elements yourself
 
 ![screenshot](_images/HW-holmes-1.jpg)
 
+<hr><hr>
 
-| <-- Previous Unit | Home | Next Unit -->
-| --- | --- | --- 
-| [**week-02-notes.md**](week-02-notes.md)     |  [**IGME-230 Schedule**](../schedule.md) | [**week-03B-notes.md**](week-03B-notes.md)
+**[Next Chapter -> Holmes (part 2)](holmes-part-2.md)**
 
 
 
