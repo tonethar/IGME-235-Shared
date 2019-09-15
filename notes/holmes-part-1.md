@@ -35,7 +35,8 @@ This is just text - you'll need to add ALL of the HTML elements yourself
 6) Add the **holmes.jpg** and **john-watson-medium.jpg** images to the page
 7) Add your name to the bottom of the page - something like this "*Ace Coder's* markup & CSS copyright 20XX"
 8) Validate the HTML again
-9) See myCourses for submission instructions
+9) You are done for now - see myCourses for submission instructions
+10) Move on to the next part
 
 
 ## IV. Screenshot of today's version
