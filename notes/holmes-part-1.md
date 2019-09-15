@@ -67,9 +67,10 @@ Characters from the film - Sherlock Holmes (2009)
 5) Add more structure and semantics to the page by marking up text elements - examples `<p>`, `<h1>`, `<h2>`, `<address>`, `<em>` and so on 
 6) Add the **holmes.jpg** and **john-watson-medium.jpg** images to the page
 7) Add your name to the bottom of the page - something like this "*Ace Coder's* markup & CSS copyright 20XX"
-8) Validate the HTML again - and FIX any errors
-9) You are done for now - see myCourses for submission instructions
-10) Move on to the next part
+8) Turn the text "Sherlock Holmes (2009)" into a clickable hypertext link to `https://www.imdb.com/title/tt0988045`
+9) Validate the HTML again - and FIX any errors
+10) You are done for now - see myCourses for submission instructions
+11) Move on to the next part
 
 
 ## IV. Screenshot of today's version
