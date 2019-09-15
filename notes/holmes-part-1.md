@@ -3,7 +3,7 @@
 ## I. Overview
 
 Your mission (in 3 parts):
-  1) take some existing content web content (text & 2 images), and mark up with appropriate *structural* and *semantic* HTML5 elements in order to make the content more accessible:
+  1) take some existing content web content (text & 2 images), and mark it up with appropriate *structural* and *semantic* HTML5 elements in order to make the content more accessible:
     - to *search engines* AND
     - *users* - both users surfing the web with a typical web browser, and those using screen readers
   1) style the content for a typical desktop web browser so that:
@@ -43,7 +43,9 @@ This is just text - you'll need to add ALL of the HTML elements yourself
 ![screenshot](_images/HW-holmes-1.jpg)
 
 
-
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [**week-02-notes.md**](week-02-notes.md)     |  [**IGME-230 Schedule**](../schedule.md) | [**week-03B-notes.md**](week-03B-notes.md)
 
 
 
