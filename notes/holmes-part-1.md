@@ -50,11 +50,11 @@ His ignorance was as remarkable as his knowledge. Of contemporary literature, ph
 
 Characters from the film - Sherlock Holmes (2009)
 - Sherlock Holmes
-- Played by Robert Downey Jr.</p>
+- Played by Robert Downey Jr.
 - Dr. John Watson
 - Played by Jude Law
 - Irene Adler
-- Played by Rachel McAdams</p>
+- Played by Rachel McAdams
 ```
 
 ## III. Instructions
