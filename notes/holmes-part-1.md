@@ -38,7 +38,7 @@ This is just text - you'll need to add ALL of the HTML elements yourself
 9) See myCourses for submission instructions
 
 
-## IV. Screenshots of today's version
+## IV. Screenshot of today's version
 
 ***Here's an example - without any CSS or presentational markup it's NOT at all attractive, but it is readable!***
 
