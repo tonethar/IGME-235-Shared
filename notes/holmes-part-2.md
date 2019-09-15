@@ -21,7 +21,7 @@
 
 ***Here's an example - much better looking than last time, but your's could/should look a little different***
 
-***There are many possible chnages & improvements you could make***
+***There are many possible changes & improvements you could make***
 
 ![screenshot](_images/HW-holmes-2.jpg)
 
