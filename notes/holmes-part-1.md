@@ -42,7 +42,7 @@ This is just text - you'll need to add ALL of the HTML elements yourself
 
 ***Here's an example - without any CSS or presentational markup it's NOT at all attractive, but it is readable!***
 
-***That is, it's readable when it's not a scaled-down image)***
+***That is, it's readable when it's not seen as a scaled-down image like we have below***
 
 ![screenshot](_images/HW-holmes-1.jpg)
 
