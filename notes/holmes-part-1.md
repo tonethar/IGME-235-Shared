@@ -60,14 +60,14 @@ Characters from the film - Sherlock Holmes (2009)
 ## III. Instructions
 
 1) Rename the file to **holmes.html**
-2) Add all of the "boilerplate" you need to make this a minimal HTML document (i.e. `<html>`, `<head>`, `<title>`, `<body>` etc.. there is example boilerplate in our GitHub notes, as well as in previous exercises
-3) Head to https://validator.w3.org and be sure that your page is valid HTML
+2) Add all of the "boilerplate" you need to make this a minimal HTML document (i.e. `<html>`, `<head>`, `<title>`, `<body>` etc..) - there is example boilerplate in our GitHub notes, as well as in previous exercises
+3) Head to https://validator.w3.org and be sure that your marked up page is valid HTML
 4) Now add some *structure* to the page - i.e. `<header>`, `<footer>`, `<main>` etc... consider all of these tags listed in the following MDN article, but you don't have to use them all:
   - https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure#HTML_for_structuring_content
 5) Add more structure and semantics to the page by marking up text elements - examples `<p>`, `<h1>`, `<h2>`, `<address>`, `<em>` and so on 
 6) Add the **holmes.jpg** and **john-watson-medium.jpg** images to the page
 7) Add your name to the bottom of the page - something like this "*Ace Coder's* markup & CSS copyright 20XX"
-8) Validate the HTML again
+8) Validate the HTML again - and FIX any errors
 9) You are done for now - see myCourses for submission instructions
 10) Move on to the next part
 
