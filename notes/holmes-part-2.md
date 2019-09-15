@@ -4,6 +4,9 @@
 
 ## II. Instructions
 
+
+1) You are done for now - see myCourses for submission instructions
+
 ## III. Screenshot of today's version
 
 ***Here's an example - much better looking than last time, your could/should look a little different***
