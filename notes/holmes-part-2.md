@@ -9,7 +9,9 @@
 
 ## III. Screenshot of today's version
 
-***Here's an example - much better looking than last time, your could/should look a little different***
+***Here's an example - much better looking than last time, but your's could/should look a little different***
+
+***There are many possible chnages & improvements you could make***
 
 ![screenshot](_images/HW-holmes-2.jpg)
 
