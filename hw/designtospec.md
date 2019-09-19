@@ -27,7 +27,9 @@ If you run into trouble and wish to seek help with a specific question that requ
 
 ## III. NON Requirements
 - You do not need to guess at page colors.  They are all (except for white and black) specified in included color palette.  
-- It is not necessary to crop the images in exactly the same way as the original images, however, we are providing the original images so that they can match more easily.
+- You do not need to perfectly match the font, however, the headings and menus are in "Arial Rounded MT Bold" and the rest of the text is fine as just "Arial".
+- You may use any video game controller icon in the top left corner of the page.  There are many free downloadable SVGs of videogame controllers on the web for you to pick from.
+- It is not necessary to crop the images in exactly the same way as the original images, however, we are providing the original images so that they can match more easily.  Don't use the uncropped/high-resolution full-size images.
 - There are no specific pixel dimensions for items on the page.  You're probably best off specifying most elements to be flexible in size and/or based off of the rem unit.
 - You should use the same heading texts and menu names that we provided, however you do not need to use the same placeholder code.  Use VS Code or another tool to generate "Lorem Ipsum" text for you to hold the spaces open.  Tip:  In VS Code, just type `loremNN` where NN is a number of words that you want followed by Enter, and it will generate a block of text for you.
 
