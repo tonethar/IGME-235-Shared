@@ -17,7 +17,7 @@ The only requirements about the way that your design is implemented is that it m
 
 You must also use valid, semantic, HTML & valid CSS stored in an external css file.
 
-The Graphic artist has NOT specified a certain design for mobile, but they would definitely *like* to see you provide a Responsive Design solution that works well.  Responsiveness will be worth (at most) 10% of your score, so focus mostly on the 'wider' version of the page.
+The Graphic artist has NOT specified a certain design for mobile, but they would definitely *like* to see you provide a Responsive Design solution that works well.  Responsiveness will be worth (at most) 20% of your score, so focus mostly on the 'wider' version of the page.
 
 The Graphic artist has also NOT specified certain behaviors on the page such as link colors or rollover states for menu links.  You're free to make your own determinations, but don't go far outside of the provided color palette. 
 
