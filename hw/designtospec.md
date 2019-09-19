@@ -11,6 +11,8 @@ This is decidedly NOT a Homework for you to exercise your creativity.
 
 You will be graded on how close you are able to get your page to the appearance of this image.
 
+Source image files and a palette to work with are available here: [Spec Design HW Files](specdesignhw.zip)
+
 This is an individual project, and since everyone is doing the EXACT SAME design, you should guard your code carefully so that it is not made available to others.  We will run a file similarity checker on all submissions for this exercise across all sections to look for instances of academic dishonesty.  There is enough ambiguity in the design and the ways that it gets implemented that everyone's project can certainly be unique.
 
 The only requirements about the way that your design is implemented is that it must use either Flexbox, CSS Grid, or (most likely) both of them to do page layout.
