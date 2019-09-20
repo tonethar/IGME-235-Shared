@@ -19,7 +19,7 @@ Your page's design is up to you, but it needs to contain the following elements:
   - We expect you to use the CSS Box Model and positioning to apply basic layout to your page, however, if you read ahead, you may also use Flexbox and/or CSS Grid techniques to improve your layout.
 * You should use an *external CSS* file for all of your styles.
   - Your CSS should include at least 2 ID selectors and 2 class selectors
-* You must also change all the anchors on your page to match your color scheme (changing all four states)
+* You must also change all the anchors (links) on your page to match your color scheme (changing all five states)
 * Your page needs to pass validation on [Validator.nu](https://html5.validator.nu/) and the W3C [CSS Validator](http://jigsaw.w3.org/css-validator/)
 
 ## III. Submission
