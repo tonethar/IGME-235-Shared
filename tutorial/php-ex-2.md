@@ -1,4 +1,4 @@
-# Exercise: 
+# Exercise: PHP ICE 1
 
 Starting from the **php-types-6-php** file included in [Unit 2 - PHP Scalars & Data Types, Section VII](php-2.md#section7)
 
