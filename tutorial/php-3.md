@@ -14,8 +14,6 @@ V. [Associative arrays](#section5)
 
 VI. [The `$_SERVER` "super global"](#section6)
 
-VII. [Review Exercise](#section7)
-
 <hr><hr>
 
 ## I. <a id="section1">Overview
@@ -233,32 +231,6 @@ Which looks like this:
 
 ![Screenshot](_images/php-arrays-3.jpg)
 
-
-
- 
- ## VII. <a id="section7">Review Exercise
-
-### VII-A. Associative Array Practice
-Create a page named **php-3A-HW.php** that does the following:
-1. Loops through this array - `$colors = ["red","green","blue"];` - and creates an HTML *ordered list* (the &lt;ol> and &lt;li> tags) that displays the contents of the array.
-2. Loops through the `$links` associative array in *php-arrays-6.php* - and uses the key and value to create an HTML *unordered list* of clickable hypertext links.
-3. It is suggested (but not required) that you write your code in such a way that only one `echo` statement is required.
-
-The HTML page will look something like this when you are done:
-
-![Screenshot](_images/php-arrays-1.jpg)
-
-### VII-B. `$_SERVER` Practice
-Duplicate *php-arrays-8.php*,  rename it to **php-3B-HW.php** and:
-- add 3 more echo statements that include information on the server's IP address, the server software, and the server "request time".        
-- format the server time to be human readable by using PHP's date function:  http://php.net/manual/en/function.date.php
-
-When you are done, it will look something like this:
-
-![Screenshot](_images/php-arrays-4.jpg)
-
-
-**Can you see of how this information about our page vistors is useful? Soon we will learn how to log this data (IP address and user agent) to a file.**
 
 **If you have not yet completed the [PHP: "Fact Of The Day" HW](HW-php-fact-of-the-day.md) - you should do so now. Check the mycourses dropbox for the due date.**
 
