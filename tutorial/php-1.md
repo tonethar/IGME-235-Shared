@@ -18,11 +18,8 @@ VII. [Creating a valid HTML page with PHP](#section7)
 
 VIII. [`phpinfo()` - Getting information about a web server's PHP install](#section8)
 
-XI. [Review Questions](#section9)
+IX. [Resources](#section9)
 
-X. [Review Exercises](#section10)
-
-XI. [Resources](#section11)
 
 <hr><hr>
 
@@ -193,7 +190,7 @@ When you are done it should look like this:
 <hr>
 
 ### ** *Try This!* **
-- In *hello-4.php* write code that:
+- For your own practice, in *hello-4.php* write code that:
     - adds a &lt;style> tag to the page - it should make the default font on the entire page `sans-serif`. Just use HTML and CSS to do this, not PHP.
     - wraps the "page accessed on" text into a &lt;footer> tag. Change the "date string" to something different and more readable - see the documentation here: http://php.net/manual/en/function.date.php
 
@@ -221,20 +218,7 @@ If you keep scrolling, you will see that the information you are given runs on f
 ### Confirm you are running PHP 7
 If the PHP version number at the top is 7.1 or greater, you don't need to do anything. If it is an earlier version, you will need to upgrade to version 7 (see the homework assignment below).
 
-## IX. <a id="section9">Review Questions
-1. Look up the original creator of PHP on Wikipedia. Where doe he work now?
-1. What is the special "tag" that contains PHP code?
-1. If everything is working properly, will a web browser ever "see" this tag?
-1. What usually happens if use a web browser to open up a PHP file on your computer's desktop?
-1. Which PHP statement is used to print strings?
-1. Which PHP function will tell the developer which version and which modules of of PHP are installed?
-	
-## X. <a id="section10">Review Exercises
-1. Upgrade your banjo account to at least PHP 7+ - to do so involves editing a file named `php` that already exists on your banjo web account at `abc1234/php_data/php` - you can find instructions here: https://www.rit.edu/webdev/php-7 - the instructions tell you to modify this file via the command line, but you can also "download it/modify it/upload it back to banjo" if you wish.
-1. Post the *info.php* to your web account. Also verify that it shows you are running PHP 7.
-1. Do the section VII. "Try This", rename the file to **php-1-HW.php,** and post it to the web with your changes.
-
-## XI. <a id="section11">Resources
+## IX. <a id="section9">Resources
 Here are some links you might find helpful:
 - http://php.net/manual/en/ - best source for PHP API documentation.
 - http://php.net/manual/en/tutorial.php
