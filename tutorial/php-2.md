@@ -74,7 +74,7 @@ Run the following code and observe the results:
 ```
   
 ## IV. <a id="section4">Booleans
-PHP has several values that are automatically coerced to `FALSE` in a boolen content, all other values are coerced to `TRUE`.  Run the following code and observe the results:
+PHP has several values that are automatically coerced to `FALSE` in a boolean context, all other values are coerced to `TRUE`.  Run the following code and observe the results:
 
 **php-types-2.php**
 ```php
