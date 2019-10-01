@@ -20,9 +20,6 @@ VIII. [Operators](#section8)
 
 IX. [Web Server Caching](#section9)
 
-X. [Review Questions](#section10)
-
-XI. [Review Exercise](#section11)
 
 <hr><hr>
 
@@ -228,14 +225,6 @@ Here is the documentation for these directives:
 
 **The above directives are turning off ALL caching, both the client (web browser) and the server.**
 
- ## X. <a id="section10">Review Questions
-1. Give 2 ways to *concatenate* strings in PHP.
-1. List the 4 PHP *scalar* types.
-1. True or False. PHP variables are not typed.
-
-
- ## XI. <a id="section11">Review Exercise
-1. Make a copy of *php-types-6.php*, name the copy **php-2-HW.php**, and modify it so that it also calculates the circumference of the circle, and echos that value out in another paragraph.
 
 <hr><hr>
 
