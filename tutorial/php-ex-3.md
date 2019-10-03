@@ -4,7 +4,7 @@
 
 ### Do this now:
 
-- Duplicate *[php-arrays-8.php](php-3.md#section6)*, rename it to **php-ex-3.php** and:
+Duplicate *[php-arrays-8.php](php-3.md#section6)*, rename it to **php-ex-3.php** and:
   1. add 3 more echo statements that include information on the server's IP address, the server software, and the server "request time".
   1. format the server time to be human readable by using PHP's date function:  http://php.net/manual/en/function.date.php
 
