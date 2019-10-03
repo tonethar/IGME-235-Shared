@@ -31,7 +31,7 @@ This series of tutorials/lecture notes will get you started exploring the capabi
     - Styling your form
 
 ## IV. Exercises
-There will be three exercises that you will be expected to complete during class time.  They will build off of the material in the Tutorial Series, so come to class prepared.  You'll find links to them when appropriate.
+There will be three exercises that you will be expected to complete during class time.  They will build off of the material in the Tutorial Series, so come to class prepared.  You'll find links to them in the Session Plans.
 
 ## V. Assignments
 There will be three "Assignment Submissions"
