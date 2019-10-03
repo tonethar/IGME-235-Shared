@@ -133,7 +133,7 @@ And this when you view source:
 <hr>
 
 ### ** *Try This!* **
-- In *hello-3.php* write PHP code that:
+- For your own practice, in *hello-3.php* write PHP code that:
     - add a `title` attribute to the &lt;h1> with a value of `"Hello! Hello!"`
     - create a clickable link to `http://www.amazon.com`, wrap it inside of a &lt;p> tag.
     
