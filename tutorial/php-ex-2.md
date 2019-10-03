@@ -4,10 +4,13 @@
 
 ### Do this now:
 
-Create a page named **php-ice-2.php** that does the following:  
+Create a new page named **php-ice-2.php** 
 
-1. Loops through this array - `$colors = ["red","green","blue"];` - and creates an HTML *ordered list* (the &lt;ol> and &lt;li> tags) that displays the contents of the array.  
-1. Loops through the `$links` associative array in *[php-arrays-6.php](php-3.md#section5)* - and uses the key and value to create an HTML *unordered list* of clickable hypertext links.
+1. You will want to start with a basic HTML shell and then write your php code in the body between php tags.
+ 
+
+1. It should loos through this array - `$colors = ["red","green","blue"];` - and create an HTML *ordered list* (the &lt;ol> and &lt;li> tags) that displays the contents of the array.  
+1. It should then Loop through the `$links` associative array in *[php-arrays-6.php](php-3.md#section5)* (copy it from there) - and use the key and value to create an HTML *unordered list* of clickable hypertext links.
 
     The HTML page will look something like this when you are done:
     ![Screenshot](_images/php-arrays-1.jpg)
