@@ -37,7 +37,7 @@ There will be three exercises that you will be expected to complete during class
 There will be three "Assignment Submissions"
 - [Configuring php.ini](HW-php-ini.md)
 - [PHP: "Fact Of The Day" page](HW-php-fact-of-the-day.md)
-- [PHP: Main Form addition](HW-php-form.md) (An enhanced Mail Form from the [PHP Mail & Forms](./php-4.md) tutorial page).
+- [PHP: Mail Form addition](HW-php-form.md) (An enhanced Mail Form from the [PHP Mail & Forms](./php-4.md) tutorial page).
 
 ## VI. Demos
 - [PHP File (Directory) Lister](HW-php-file-lister.md)
