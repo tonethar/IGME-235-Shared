@@ -1,7 +1,7 @@
 # Homework - PHP: Mail Form addition
 
 ## To Do:
-1. duplicate the contents of *php-mail-3.php* and name it **php-4-HW.php**
+1. duplicate the contents of *php-mail-3.php* and name it **php-mail-HW.php**
 2. add another field to the form:
     - it could be another text field for last name, ZIP code, or other information for example
     - or you could use another type of form element like a check box or radio button or a password field, that is up to you:
