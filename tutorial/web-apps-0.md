@@ -78,6 +78,8 @@ This series of tutorials & notes will get you started in creating web applicatio
     1. Utilizing `XMLHttpRequest` (XHR)
 
 ## V. Assignments <a id="section5"></a>
+This list of assignments has not yet been updated to the new course model.  Some of these will be in-class exercises.  Some will be homework assignments.  Some may not be required.  Be sure to consult the Session Plans for information about what you should be doing when.
+
 Refer to the mycourses dropboxes for due dates:
 - [Random Phrases 1](./HW-random-phrases-1.md)
 - [Random Phrases 2](./HW-random-phrases-2.md)
