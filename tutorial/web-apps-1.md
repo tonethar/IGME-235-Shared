@@ -28,12 +28,12 @@ Most of these apps will run entirely in the *client* (i.e. the web browser). Oth
 
 If we are going to build applications that run in web browsers, we need to understand the major components of the browser that can be scripted by us.
 
-1. The **Web Layout Engine** - each browser has a layout engine that renders (draws) marked up content by utilizing formatting information. We have already been doing this with **HTML** (a markup language that adds structure and meaning to the content on our web pages) and **CSS** (a presentational language that adds colors, fonts, spacing, etc).
-Each major web browser has its own layout engine: Chrome and Opera have *Blink*, Safari has *WebKit*, FireFox has *Gecko*, and Edge has *EdgeHTML*. There are subtle differences between these engines, and they adopt new and experimental features at different times, but the distinctions between them have been lessening over time. (You can read more about layout engines here: https://en.wikipedia.org/wiki/Web_browser_engine)
+1. The **Web Browser Engine** - each browser has a browser engine that renders (draws) marked up content by utilizing formatting information. We have already been doing this with **HTML** (a markup language that adds structure and meaning to the content on our web pages) and **CSS** (a presentational language that adds colors, fonts, spacing, etc).
+Each major web browser has its own browser engine: Chrome and Opera have *Blink*, Safari has *WebKit*, FireFox has *Gecko*, and Edge had *EdgeHTML*, but now uses *Blink*. There are subtle differences between these engines, and they adopt new and experimental features at different times, but the distinctions between them have been lessening over time. (You can read more about browser engines here: https://en.wikipedia.org/wiki/Web_browser_engine)
 
 1. The **JavaScript Engine** - this is a program that executes JavaScript code in the web browser. Each browser vendor has their own distinct engine: Chrome has V8, Safari has Nitro (JavaScriptCore), and FireFox has SpiderMonkey. These engines have performance differences and differing support for newer JavaScript language features. You can read more about JavaScript engines here: (https://en.wikipedia.org/wiki/JavaScript_engine)
 
-1. **Web Browser APIs** - API stands for "Application Programming Interface" and reflects what a web browser can *do*. JavaScript would not be very useful thing in a web browser if not for the various APIs that are available in today's web browsers. These APIs include the ability to select and modify HTML elements on the page (which effects the *Web Layout Engine above*), to play audio and video, to do procedural drawing, to store application data locally (in the web browser), to send and receive files from remote servers, and more. A mostly complete list of browser APIs can be found here: https://developer.mozilla.org/en-US/docs/Web/API
+1. **Web Browser APIs** - API stands for "Application Programming Interface" and reflects what a web browser can *do*. JavaScript would not be very useful thing in a web browser if not for the various APIs that are available in today's web browsers. These APIs include the ability to select and modify HTML elements on the page (which effects the *Web Browser Engine above*), to play audio and video, to do procedural drawing, to store application data locally (in the web browser), to send and receive files from remote servers, and more. A mostly complete list of browser APIs can be found here: https://developer.mozilla.org/en-US/docs/Web/API
 
 ## III. <a id="section3"></a>Web APIs used in the IGM Web Courses
 Here are some of the Web APIs that you will be using in this course and/or the following web course (IGME-330):
@@ -86,7 +86,7 @@ The best web site for tracking the adoption of new browser capabilities:
 ## V. <a id="section5"></a>Discussion/Review
 1. What is a *Web App*?
 1. What are the 3 major components of a web browser that can be scripted/controlled by a web developer?
-1. What languages are commonly used to "program" the **Web Layout Engine**?
+1. What languages are commonly used to "program" the **Web Browser Engine**?
 1. How are new web browser features proposed?
 1. Who is in charge of web standards - the standards bodies or the browser vendors?
 1. List 3 places a web developer can find "web app" documentation.
