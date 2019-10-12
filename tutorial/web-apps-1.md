@@ -21,7 +21,7 @@ V. [Discussion/Review](#section5)
 The wikipedia definition - https://en.wikipedia.org/wiki/Web_application - is pretty good - *A web app is a client–server computer program in which the client (including the user interface and client-side logic) runs in a web browser. Common web applications include webmail, online retail sales, online auctions, wikis, instant messaging services and many other functions.*
 
 In this course we are going to create some simple web apps that run in modern web browsers. 
-The examples we will build include a calculator, an image gallery, an app that can search/download/play song previews from a music service, and simple games.
+The examples we will build or provide as examples include a calculator, an image gallery, an app that can search/download/play song previews from a music service, and simple games.
 Most of these apps will run entirely in the *client* (i.e. the web browser). Others (the music player) will utilize data downloaded from the Internet. 
 
 ## II. <a id="section2"></a>What parts of the web browser can I program?
