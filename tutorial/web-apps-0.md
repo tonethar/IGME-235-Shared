@@ -114,6 +114,7 @@ In later courses (IGME-330 & IGME-430) you will get the opportunity to read/writ
 - http://exploringjs.com/es6/index.html
 - https://developer.mozilla.org
 - http://diveintohtml5.info
+- http://javascript.info
 
 <hr>
 
