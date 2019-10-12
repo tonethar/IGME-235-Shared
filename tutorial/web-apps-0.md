@@ -1,6 +1,6 @@
 # About this Web App Tutorial Series
 ## I. Overview <a id="section1"></a>
-This series of tutorials/lecture notes will get you started in creating web applications, which are *client-server* applications in which the client code runs in a web browser. 
+This series of tutorials & notes will get you started in creating web applications, which are *client-server* applications in which the client code runs in a web browser. 
 
 ## II. Prerequisite knowledge <a id="section2"></a>
 - The HTML/CSS which we have covered in this course and in IGME-110
@@ -9,7 +9,7 @@ This series of tutorials/lecture notes will get you started in creating web appl
 
 ## III. How to get the most out of these tutorials <a id="section3"></a>
 - Try out the code samples! Tweak and modify them! Most of the code samples are 100% complete. You just need to copy the code and paste it into a text file, and save it to your desktop. You can then make changes to the code and preview them in a web browser (we will be using Chrome)
-- Be sure to answer all of the questions at the end of each section, and to do the review exercises.
+- Be sure to complete the related Study Quiz questions for each section, and do the exercises... some will be assigned in class, others will be assigned as homework.
 
 ## IV. The Tutorials <a id="section4"></a>
 1. [Introduction to Web Applications](./web-apps-1.md):
