@@ -12,8 +12,6 @@ III. [Web APIs used in the IGM Web Courses](#section3)
 
 IV. [How do I know what browser APIs I can use in my web applications?](#section4)
 
-V. [Discussion/Review](#section5)
-
 <hr><hr>
 
 ## I. <a id="section1"></a>What is a "Web App"?
@@ -83,13 +81,6 @@ But when in doubt, you should be brave and read the actual specifications :-)
 The best web site for tracking the adoption of new browser capabilities: 
 - http://caniuse.com 
 
-## V. <a id="section5"></a>Discussion/Review
-1. What is a *Web App*?
-1. What are the 3 major components of a web browser that can be scripted/controlled by a web developer?
-1. What languages are commonly used to "program" the **Web Browser Engine**?
-1. How are new web browser features proposed?
-1. Who is in charge of web standards - the standards bodies or the browser vendors?
-1. List 3 places a web developer can find "web app" documentation.
 
 <hr><hr>
 
