@@ -1,7 +1,7 @@
 # Random Activity - Utilizing a Web Service with PHP
 
 ## I. Overview
-- Later on in the course we will learn about using JavaScript to download web services (and here are the notes - [Web Apps-10](notes/web-apps-10.md) - if you are interested)
+- Later on in the course we will learn about using JavaScript to download web services.
 - Today we'll give you a brief preview of how to download and parse a web service using PHP. The web service we will use is a simple one called the [Bored API](https://www.boredapi.com) - this API returns a random activity (in **JSON** format) every time it is called 
 - This is what we will be building:
 
