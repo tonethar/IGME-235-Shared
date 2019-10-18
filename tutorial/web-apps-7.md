@@ -1,5 +1,7 @@
 # 7 - JavaScript Object Literals
 
+***(This chapter has not yet be adapted to the new 235 course style.  The questions and exercises haven't been converted to Study Quizzes, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
+
 ##  Overview
 JavaScript is an *Object-Oriented* language, but a traditional "class" syntax has not been supported until recently (ES6). 
 
