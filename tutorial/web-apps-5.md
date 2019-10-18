@@ -1,5 +1,7 @@
 # 5 - JavaScript Functions
 
+***(This chapter has not yet be adapted to the new 235 course style.  The questions and exercises haven't been converted to Study Quizzes, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
+
 ## Overview
 In computer programming, a *function* is a named section of a program that performs a specific task; they are basically "mini programs" within a larger program. 
 
