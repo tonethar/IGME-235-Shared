@@ -29,7 +29,7 @@ XI. [JavaScript Strict Mode](#section11)
 
 XII. [Nota bene - "Note well"](#section12)
 
-XIII. [Review Questions](#section13)
+XIII. Review Questions  (removed. these are now in a Study Quiz)
 
 XIV. [Review Exercise](#section14)
 
@@ -486,34 +486,10 @@ You can read more about strict mode here:
     - repetitive constructs such as [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for), [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while), and [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 
 
-## XIII. <a id="section13"></a>Review Questions
-1. Who created the initial version of JavaScript in 1995?
-1. What is the official name of JavaScript?
-1. Which versions of JavaScript will we be covering in this course?
-1. How can you get the interactive JavaScript [REPL](https://en.wikipedia.org/wiki/Read–eval–print_loop) to appear in Chrome?
-1. Which JavaScript keyword declares *variables*?
-1. Which JavaScript keyword declares "constants" (i.e. a binding to a value that can not be changed)?
-1. What is the name of the error that occurs when you try to change the reference to a previously declared *constant* like `const a=10;`?
-1. Find the MDN page - https://developer.mozilla.org/ - for the type of error you saw in the previous question, and give the 1-line summary of that error from the top of that MDN page.
-1. What are the 5 built-in JavaScript "primitive" data types?
-1. What kinds of values can a `Number` type hold? (Google it)
-1. True or False. JavaScript *variables* DO NOT have types, but JavaScript *values* DO have types.
-1. Give an example of *boxing* in JavaScript.
-1. Give a line of code that will convert the string "3.14" to a `Number`.
-1. What does `NaN` stand for?
-1. Give an example of an operation that will produce a value of `Infinity`.
-1. Give an advantage of JavaScript's strict mode.
-1. Which of the following examples will evaluate to `true` in a boolean context (ex. inside an `if` statement)? (Try them out in the browser if you are not sure)
-    1. `undefined`, `null`, `false`, `0`, `""`, `''`
-    1. `0.0`
-    1. `"undefined"`, `"null"`
-    1. `"false"`
-    1. `"true"`
-    1. `new Date()`
-    1. `new Array()`, `[]`
-    
+## XIV. <a id="section14"></a>Review Exercise 
 
-## XIV. <a id="section14"></a>Review Exercise
+***(This will be converted into an In-Class Exercise for next session... but you can read over it now if you want)***
+
 Make a copy of **hello-4.html** and name it **web-apps-2-HW.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
 
 1. Use a method of the `Array` object to append another color to the end of the `colors` array.
