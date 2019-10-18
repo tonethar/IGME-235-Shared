@@ -1,5 +1,7 @@
 # 8 - JavaScript Arrays
 
+***(This chapter has not yet be adapted to the new 235 course style.  The questions and exercises haven't been converted to Study Quizzes, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
+
 ## Overview
 
 JavaScript arrays are "List-like" objects that are used to store information sequentially. 
