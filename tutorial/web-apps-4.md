@@ -1,5 +1,7 @@
 # 4 - More Web Browser DOM Methods
 
+***(This chapter has not yet be adapted to the new 235 course style.  The questions and exercises haven't been converted to Study Quizzes, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
+
 ## Overview
 Today we are going to look at alternatives to `.innerHTML` that can be used to **"CRUD"** (i.e. Create, Read, Update, Delete) HTML elements in the web browser.
 
