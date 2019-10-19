@@ -2,7 +2,7 @@
 
 Start with this code:  (It's from Web Apps, Chapter 2)
 
-### hello-4.html
+### hello-4.html (rename me to web-apps-ex-1.html)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -18,11 +18,7 @@ Start with this code:  (It's from Web Apps, Chapter 2)
      let age = Math.round(20.999);
      let age2 = Math.floor(20.999);
 
-     // console.log(colors[0]);		// "red"
-     // console.log(person.name);		// "fred"
-     // console.log(month);		// try this yourself
-     // console.log(age);			// 21
-     // console.log(age2);			// 20
+     // old console.logs were here.
 
      // 2) Treat "primitives" like objects
      let sum = 99.980809809;             // Number
@@ -31,10 +27,8 @@ Start with this code:  (It's from Web Apps, Chapter 2)
      let userName = undefined;
      let data = null;
 
-     // console.log(sum.toFixed(2)); 	 // 99.98
-     // console.log(name.length); 		 // 4
-     // console.log(isLoggedIn.toString()); // "false"
-
+     // old console.logs were here.
+      
 </script>
 </head>
 <body>
@@ -42,8 +36,9 @@ Start with this code:  (It's from Web Apps, Chapter 2)
 </html>
 ```
 
+Above is a copy of **hello-4.html** from Web Apps Tutorial, Chapter 2 with all of the existing `console.log()` calls removed.
 
-Make a copy of **hello-4.html** and name it **web-apps-2-HW.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
+Add JavaScript that does the following (search the web for documentation as necessary):
 
 1. Use a method of the `Array` object to append another color to the end of the `colors` array.
 1. Print out the last element in the `colors` array, without hard-coding the index value.
@@ -53,3 +48,5 @@ Make a copy of **hello-4.html** and name it **web-apps-2-HW.html**. Delete all o
 1. Print out the value of pi - use the `Math` object.
 1. Print out the absolute value of -999 - use the `Math` object.
 1. Print out an "all caps" version of the string "Hello" - use a method of the `String` object.
+
+Save the resulting file (web-apps-ex-1.html) to your group Locker for future submission.
