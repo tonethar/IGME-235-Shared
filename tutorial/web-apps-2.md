@@ -29,10 +29,6 @@ XI. [JavaScript Strict Mode](#section11)
 
 XII. [Nota bene - "Note well"](#section12)
 
-XIII. Review Questions  (removed. these are now in a Study Quiz)
-
-XIV. [Review Exercise](#section14)
-
 
 <hr><hr>
 
@@ -486,20 +482,6 @@ You can read more about strict mode here:
     - repetitive constructs such as [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for), [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while), and [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
 
 
-## XIV. <a id="section14"></a>Review Exercise 
-
-***(This will be converted into an In-Class Exercise for next session... but you can read over it now if you want)***
-
-Make a copy of **hello-4.html** and name it **web-apps-2-HW.html**. Delete all of the existing  `console.log()` calls, and add JavaScript that does the following (search the web for documentation if you don't know how to do these):
-
-1. Use a method of the `Array` object to append another color to the end of the `colors` array.
-1. Print out the last element in the `colors` array, without hard-coding the index value.
-1. Loop through the `colors` array using a `for` loop and print out each value to the console.
-1. Add a new property named `school` to the `person` object and give it a value of "RIT". Then print this value to the console.
-1. Print out the number of seconds that have passed since 1970 - use the `Date` object.
-1. Print out the value of pi - use the `Math` object.
-1. Print out the absolute value of -999 - use the `Math` object.
-1. Print out an "all caps" version of the string "Hello" - use a method of the `String` object.
 
 <hr><hr>
 
