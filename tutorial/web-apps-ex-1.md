@@ -18,16 +18,7 @@ Start with this code:  (It's from Web Apps, Chapter 2)
      let age = Math.round(20.999);
      let age2 = Math.floor(20.999);
 
-     // old console.logs were here.
-
-     // 2) Treat "primitives" like objects
-     let sum = 99.980809809;             // Number
-     let name = "Fred";                  // String
-     let isLoggedIn = false;             // Boolean
-     let userName = undefined;
-     let data = null;
-
-     // old console.logs were here.
+     // add your new code here.
       
 </script>
 </head>
@@ -36,7 +27,7 @@ Start with this code:  (It's from Web Apps, Chapter 2)
 </html>
 ```
 
-Above is a copy of **hello-4.html** from Web Apps Tutorial, Chapter 2 with all of the existing `console.log()` calls removed.
+Above is a copy of **hello-4.html** from Web Apps Tutorial, Chapter 2 with all of the existing `console.log()` calls and other irrelevant code removed.
 
 Add JavaScript that does the following (search the web for documentation as necessary):
 
