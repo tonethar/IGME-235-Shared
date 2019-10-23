@@ -55,7 +55,7 @@ Add JavaScript that does the following (search the web for documentation if you 
     - the `text-shadow` is "3px 2px #A44"
 7. Change the `.innerHTML` of the 2nd paragraph to an empty string - `""`
 8. Change the `.innerHTML` of the 3rd paragraph to instead show an image of a UFO that is out on the web (use an &lt;img> tag)
-9. Change the `.innerHTML` of the &lt;footer> copyright notice to show the current year and your name
+9. Change the `.innerHTML` of the &lt;footer> copyright notice to show the current year and your name(s).
 
 **Here is a completed example:**
 
