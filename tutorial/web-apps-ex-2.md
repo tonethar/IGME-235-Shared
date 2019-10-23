@@ -1,5 +1,41 @@
-## XI. <a id="section11"></a>Review Exercise
-Make a copy of **dom-4.html** and name it **web-apps-3-HW.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these). Make sure that you DO NOT modify the HTML source of the page in ANY way (by adding `class` or `id` attributes to the paragraphs, for example.
+# Web Apps ICE 2
+
+Start with this code: (It's from Web Apps Tutorial Series, Chapter 3)
+
+## dom-4.html (rename me to web-apps-ex-2.html)
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>DOM-3</title>
+	<style>
+		body{border:1px solid gray;}
+		p b{transform: rotate(20deg)}
+	</style>
+</head>
+<body>
+<h1>My Page</h1>
+<h2>Info</h2>
+<h2>Pictures</h2>
+<h2>More Info</h2>
+<p>Blah <b>Blah</b> Blah</p>
+<p>Blah <b>Blah</b> Blah</p>
+<p id="lastParagraph">Blah <b>Blah</b> Blah</p>
+<footer>Copyright &copy; <b>20XX</b></footer>
+<script>
+	"use strict"; 
+  
+  // add your own code here.
+	
+	</script>
+</body>
+</html>
+```
+
+Above is a copy of **dom-4.html** from Web Apps Tutorial, Chapter 3 with all of the existing JavaScript code removed.
+
+Add JavaScript that does the following (search the web for documentation if you don't know how to do these). Make sure that you DO NOT modify the HTML source of the page in ANY way (by adding `class` or `id` attributes to the paragraphs, for example.
 
 1. Change the `.innerHTML` of the first &lt;h1> to "My UFO Page"
 1. Change the `.innerHTML` of the first &lt;h2> to "My UFO Info"
@@ -24,3 +60,5 @@ Make a copy of **dom-4.html** and name it **web-apps-3-HW.html**. Delete all of 
 **Here is a completed example:**
 
 ![Web Page](_images/dom-9.jpg)
+
+Save the resulting file (web-apps-ex-2.html) to your group Locker for future submission.
