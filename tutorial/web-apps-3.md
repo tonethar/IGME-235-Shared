@@ -29,10 +29,6 @@ VIII. [Dealing with `null`](#section8)
 
 IX. [Nota bene](#section9)
 
-X. [Review Questions](#section10)
-
-XI. [Review Exercise](#section11)
-
 
 <hr><hr>
 
@@ -408,49 +404,6 @@ if (element){ // element will be considered true if it is not one of the falsy v
 4. What happens when we try to loop though an empty array with a `for` or `for...of` loop? Answer: Nothing. The looping never happens if the array is empty.
 5. When `document.querySelector()` finds no matching elements on the page, what does it *return*? Answer: `null`.
 
-## X. <a id="section10"></a>Review Questions
-1. What does "DOM" stand for?
-1. What does the DOM API "give" us?
-1. What does "CRUD" stand for?
-1. What happens when we try to use JavaScript DOM methods to access the contents of a page *before* it has loaded?
-1. What is the name of the DOM method that will return the first element that matches the given selector?
-1. What is the name of the DOM method that will return **all** of the elements that match the given selector?
-1. Which property is used to get and set the text and HTML contents of an HTML element?
-1. Which property is used to get and set the CSS *styles* of an HTML element?
-1. Write a line of JavaScript that sets the `background-position` style property of an element to the value of `"top"`.
-1. Give 2 ways to loop through an array.
-1. Compare and contrast "View Source" versus the capabilities of the Web Inspector. Which method gives the developer a "live" view of the current HTML and CSS of a page?
-1. What happens if we try to access a method or property (ex. `.innerHTML`) on a variable that has a `null` or `undefined` value?
-1. How can we add breakpoints to our code in the debugger, and inspect the values of variables?
-1. What does the `debugger;` statement do? (We did not talk about this one at all, so google it!)
-1. List the 8 "falsy" values listed at the end of [2 - Introduction to JavaScript](web-apps-2.md). Recall that in a boolean context like this `if(expression){ doSomethingIfTrue() }`, if an expression does not evaluate to `false`, it's `true`!
-
-## XI. <a id="section11"></a>Review Exercise
-Make a copy of **dom-4.html** and name it **web-apps-3-HW.html**. Delete all of the existing JavaScript code, and add JavaScript that does the following (search the web for documentation if you don't know how to do these). Make sure that you DO NOT modify the HTML source of the page in ANY way (by adding `class` or `id` attributes to the paragraphs, for example.
-
-1. Change the `.innerHTML` of the first &lt;h1> to "My UFO Page"
-1. Change the `.innerHTML` of the first &lt;h2> to "My UFO Info"
-1. Change the `.innerHTML` of the 2nd &lt;h2> to "My UFO Pictures"
-1. Change the `.innerHTML` of the 3rd &lt;h2> to an empty string - `""`
-1. Select the &lt;body> element and make 2 style changes:
-  - The `font-family` shall be "sans-serif"
-  - The font `color` shall be "reddish" (specify a red shade in hexadecimal) - 
-  **Power tip:** `document.body` is a handy shortcut property for getting a reference to the &lt;body> element.
-6. Select the first paragraph and make some changes:
-  - The inner HTML will contain the text "Report your UFO sightings here:" and have a working link to http://www.nuforc.org  - **Power tip:** In JavaScript strings, single-quotes `'` can be nested inside of double-quotes `"`
-  - There will be `.style` changes:
-    - the font `color` is "green"
-    - the `font-weight` is "bold"
-    - the `font-size` is "2em"
-    - the `text-transform` is "uppercase"
-    - the `text-shadow` is "3px 2px #A44"
-7. Change the `.innerHTML` of the 2nd paragraph to an empty string - `""`
-8. Change the `.innerHTML` of the 3rd paragraph to instead show an image of a UFO that is out on the web (use an &lt;img> tag)
-9. Change the `.innerHTML` of the &lt;footer> copyright notice to show the current year and your name
-
-**Here is a completed example:**
-
-![Web Page](_images/dom-9.jpg)
 
 <hr><hr>
     
