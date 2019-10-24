@@ -11,7 +11,7 @@ To do this assignment, you should have completed at least the 3rd web app tutori
 
 ![Web Page](_images/random-phrases-1-done.jpg)
 
-## Instructions & Rubric
+## Instructions & Requirements
 1. Create a valid HTML5 page named **random-phrases-1.html** that has the following content:
     1. A header that serves as the title of the page
     1. A background image
@@ -19,7 +19,7 @@ To do this assignment, you should have completed at least the 3rd web app tutori
     1. An area of the page that will hold dynamically created content
     1. The page will use an embedded font
     1. The page content must be legible and nicely styled, with good choices made for colors, margins and fonts
-    1. Mobile friendly would be nice, but is not required
+    1. The page doesn't have to be fully-responsive, but should look acceptable and be legible on both desktop and phone.
     1. The look and theme of the page is worth 50% of the assignment
 1. When the page loads (or reloads) a random phrase related to your theme will appear on the page:
     1. You will have at least 5 phrases stored in a JavaScript array
