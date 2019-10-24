@@ -16,19 +16,19 @@ Here is your starter code:
 </head>
 <body>
 <h1>My Favorites</h1>
-<h2>My Favorite Colors</h1>
+<h2>My Favorite Colors</h2>
 
 <ol id="colorsList">
 	
 </ol>
 
-<h2>My Favorite Foods</h1>
+<h2>My Favorite Foods</h2>
 
 <ol id="foodsList">
 	
 </ol>
 
-<h2>My Favorite Links</h1>
+<h2>My Favorite Links</h2>
 
 <ol id="linksList">
 	
