@@ -19,10 +19,6 @@ VI. [Removing Existing DOM Elements](#section6)
 
 VII. [Nota bene](#section7)
 
-VIII. [Review Questions](#section8)
-
-IX. [Review Exercise](#section9)
-
 
 <hr><hr>
 
