@@ -1,6 +1,6 @@
 # 10 - Web Services
 
-***(This chapter has not yet be adapted to the new 235 course style.  The questions and exercises haven't been converted to Study Quizzes, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
+***(This chapter has not yet been adapted to the new 235 course style.  The questions and exercises haven't been converted to Study Quizzes, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
 
 ## I. Overview
 Reading and writing data to and from the Internet, whether to/from your own server, or by working with a cloud service like Firebase, is a BIG topic.
