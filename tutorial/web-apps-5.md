@@ -1,6 +1,6 @@
 # 5 - JavaScript Functions
 
-***(This chapter has not yet be adapted to the new 235 course style.  The questions and exercises haven't been converted to Study Quizzes, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
+***(This chapter has not yet be adapted to the new 235 course style.  The exercises haven't been converted, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
 
 ## Overview
 In computer programming, a *function* is a named section of a program that performs a specific task; they are basically "mini programs" within a larger program. 
@@ -36,9 +36,7 @@ X. [ES6 Arrow Functions](#section10)
 
 XI. [Nota bene](#section11)
 
-XII. [Review Questions](#section12)
-
-XIII. [Review Exercise](#section13)
+XII. [Review Exercise](#section12)
 
 
 <hr><hr>
@@ -548,36 +546,8 @@ http://2ality.com/2012/08/ids-are-global.html
 
 This "auto creation" of global properties is a feature you probably don't want to use in your code, but you need to be aware of it because it can cause quirky behavior in your programs depending on how you "id" your elements.
 
-## XII. <a id="section12"></a>Review Questions
-1. What "super power" does a function have that a regular JavaScript object does not?
-1. What is the default return value of a function that does not have a `return` keyword?
-1. What is a *block*?
-1. Define *scope*
-1. Declaring a variable with `let` or `const` at the top level of the &lt;script> tag (outside of any other blocks or functions) gives it what kind of *scope*?
-1. Declaring a variable with `let` or `const` inside of a function gives it what kind of *scope*?
-1. Declaring a variable with `let` or `const` inside of a `for` loop gives it what kind of *scope*?
-1. Declaring a variable with `let` or `const` inside of a `if(){...}` statement gives it what kind of *scope*?
-1. Declaring a variable with `var` inside of an `if(){...}` statement inside of a function gives it what kind of *scope*?
-1. Declaring a variable with `var` at the top level of the &lt;script> tag (outside of any other blocks or functions) gives it what kind of *scope*?
-1. What does D.R.Y. stand for and *mean*? (see next section below)
-1. Write an ES6 *arrow function* named `addThem()` that takes 2 arguments, and returns their sum. The default value of these arguments (if no value is passed in) will be `0`.
-1. See the code below. What will be logged for the values of `x` , `y` and `z`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.) If any errors occur, please assume that the JavaScript interpreter will move on to the next line of code and continue to run.
-```javascript
-  let x = 1;
-  let y;
-  if(x==1){
-      x++;
-      let y = 1;
-      y++;
-      let z = 1;
-   }
-   console.log(x);
-   console.log(y);
-   console.log(z);
-```
 
-
-## XIII. <a id="section13"></a>Review Exercise
+## XII. <a id="section12"></a>Review Exercise
 
 Duplicate your **web-apps-4-HW.html** file and name the copy **web-apps-5-HW.html**
 Notice how the `colors` and `foods` (or whatever categories you chose) list generating code is almost the same - this violates a software development best practice known as D.R.Y. - "**D**on't **R**epeat **Y**ourself".
