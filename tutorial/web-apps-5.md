@@ -49,7 +49,7 @@ In JavaScript, functions are first-class objects, because they can have properti
 
 ```javascript
 // functions are "callable" objects
-let greet = function(){console.log("Hello");} // function expression
+let greet = function(){console.log("Hello");}; // function expression
 greet(); // call it with () - which is the invocation operator - logs "Hello" to console
 
 
