@@ -547,27 +547,6 @@ http://2ality.com/2012/08/ids-are-global.html
 This "auto creation" of global properties is a feature you probably don't want to use in your code, but you need to be aware of it because it can cause quirky behavior in your programs depending on how you "id" your elements.
 
 
-## XII. <a id="section12"></a>Review Exercise
-
-Duplicate your **web-apps-4-HW.html** file and name the copy **web-apps-5-HW.html**
-Notice how the `colors` and `foods` (or whatever categories you chose) list generating code is almost the same - this violates a software development best practice known as D.R.Y. - "**D**on't **R**epeat **Y**ourself".
-What you need to do is to factor out that duplicated code and put it into a function.
-
-1. Hint: The function declaration looks something like this:
-
-```javascript
-function createList(listElement,array){
-  // you write the rest
-}
-```
-
-2. Now call this function twice, passing in a reference to the &lt;ol> element you want to populate, and the applicable array.
-3. Now add a default value to the `array` parameter - an array with the values "puppydogs", "butterflies", and "lollipops". We recommend doing this the ES6 way. (These default values would only be used if no value was passed in for the array parameter)
-4. Delete all the old duplicated code - now don't you feel better about yourself?
-5. *Optional: now re-write `createList()` and convert it to an arrow function*
-
-The HTML produced should be identical to what was produced in the previous version.
-
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
