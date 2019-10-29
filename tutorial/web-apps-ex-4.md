@@ -1,8 +1,10 @@
-## XII. <a id="section12"></a>Review Exercise
+# Web Apps ICE 4
 
-Duplicate your **web-apps-4-HW.html** file and name the copy **web-apps-5-HW.html**
+Duplicate your **web-apps-ex-3.html** file and name the copy **web-apps-ex-4.html**
 Notice how the `colors` and `foods` (or whatever categories you chose) list generating code is almost the same - this violates a software development best practice known as D.R.Y. - "**D**on't **R**epeat **Y**ourself".
 What you need to do is to factor out that duplicated code and put it into a function.
+
+## Instructions
 
 1. Hint: The function declaration looks something like this:
 
@@ -18,3 +20,7 @@ function createList(listElement,array){
 5. *Optional: now re-write `createList()` and convert it to an arrow function*
 
 The HTML produced should be identical to what was produced in the previous version.
+
+## Done?
+
+Save your final version in your Group Locker for future submission.
