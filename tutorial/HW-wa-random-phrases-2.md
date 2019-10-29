@@ -3,7 +3,7 @@
 ## Overview
 Simple. Just add a functional button to [Random Phrases-1](HW-wa-random-phrases-1.md)
 
-To do this assignment, you should have completed at least the 6th web app tutorial page - "JavaScript Events".
+To do this assignment, you should have completed at least the 6th Chapter of the Web App Tutorial Series - "JavaScript Events".
 
 ![Web Page](_images/random-phrases-2-done.jpg)
 
@@ -16,7 +16,8 @@ To do this assignment, you should have completed at least the 6th web app tutori
 1. When the page is first loaded, a random quote should still be displayed.
 
 ## Submission
-- Post to your web site and link it from your home page before the due date. Also make sure to post to the dropbox.
+- Post to your web site and (optionally) link it from your 235 Home Page.
+- See Assignment in myCourses for submission details and due date.
 - Hint: The coding of this should only take a minute, but the button styling will likely take more time.
 
 <hr><hr>
