@@ -1,4 +1,4 @@
-# Homework: Pixel Artist
+# Optional Homework: Pixel Artist (Extra Credit)
 
 ## Overview
 - In this assignment you will create a simple pixel art application. The user will be able to click or drag in a grid, which will then fill with whatever color they have chosen in the HTML &lt;select> on the right.
