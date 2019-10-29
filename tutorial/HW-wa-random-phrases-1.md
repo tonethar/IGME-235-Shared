@@ -27,7 +27,8 @@ To do this assignment, you should have completed at least the 3rd web app tutori
     1. The functionality of the page is worth 50% of the assignment
 
 ## Submission
-- Post to your web site and link it from your home page before the due date.
+- Post to your web site and (optionally) link it from your 235 Home Page.
+- See Assignment in myCourses for submission details and due date.
 - Hint: The coding of this shouldn't take too long, but the page layout and styling will.
 
 <hr><hr>
