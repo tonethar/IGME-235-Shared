@@ -1,4 +1,4 @@
-# Homework: Magnetic Poetry
+# Optional Homework: Magnetic Poetry (Extra Credit)
 
 ## Overview
 - In this assignment you will create a "magnetic poetry" application that allows the user to reposition words on the screen to create their own poems.
