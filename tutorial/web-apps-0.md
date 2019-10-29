@@ -79,16 +79,19 @@ This series of tutorials & notes will get you started in creating web applicatio
 
 ## V. Assignments <a id="section5"></a>
 
+Be sure to consult the Session Plans for information about what you should be doing when.
+
 Required Homeworks will be added to this list:
 - [Random Phrases 1](./HW-wa-random-phrases-1.md)
+- [Random Phrases 2](./HW-wa-random-phrases-2.md)
+- [Image Gallery](./HW-wa-image-gallery.md)
 
-This rest of the assignments below have not yet been updated to the new course model.  Some will not be required.  Be sure to consult the Session Plans for information about what you should be doing when.
-
-Refer to the mycourses dropboxes for due dates:
-- [Random Phrases 2](./HW-random-phrases-2.md)
-- [Image Gallery](./HW-image-gallery.md)
+Optional Homeworks for extra credit are in this list:
 - [Magnetic Poetry\*](./HW-magnetic-poetry.md) 
 - [Pixel Artist\*](./HW-pixel-artist.md)
+- [Conway's Game of Life](./HW-life.md) - animation by utilizing `window.requestAnimationFrame()` and a game loop.
+
+The assignments below have not yet been updated to the new course model:  
 - ["GIF Finder" Web Service App](./HW-gif-finder.md)
 
 \* the starred assignments are "walkthroughs", you just have to type the code in. Take your time and be sure you understand everything, if you don't, then be sure to ask in class!
