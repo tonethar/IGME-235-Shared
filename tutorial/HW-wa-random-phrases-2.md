@@ -1,7 +1,7 @@
-# Homework: Random Phrases-2
+# Homework: Random Phrases - 2
 
 ## Overview
-Simple. Just add a functional button to [Random Phrases-1](HW-random-phrases-1.md)
+Simple. Just add a functional button to [Random Phrases-1](HW-wa-random-phrases-1.md)
 
 To do this assignment, you should have completed at least the 6th web app tutorial page - "JavaScript Events".
 
