@@ -1,7 +1,5 @@
 # 5 - JavaScript Functions
 
-***(This chapter has not yet been fully adapted to the new 235 course style.  The exercises haven't been converted, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
-
 ## Overview
 In computer programming, a *function* is a named section of a program that performs a specific task; they are basically "mini programs" within a larger program. 
 
@@ -35,8 +33,6 @@ IX. [The "Temporal Dead Zone" and Hoisting](#section9)
 X. [ES6 Arrow Functions](#section10)
 
 XI. [Nota bene](#section11)
-
-XII. [Review Exercise](#section12)
 
 
 <hr><hr>
