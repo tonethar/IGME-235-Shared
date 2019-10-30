@@ -5,7 +5,7 @@
 
 ### 1) The starting code looks like this:
 
-Create the following file, and name it **web-apps-6-HW.html**
+Create the following file, and name it **web-apps-ex-5.html**
 
 ```html
 <!DOCTYPE html>
@@ -73,7 +73,7 @@ You should see another message about the color you selected, and the &lt;legend>
 
 ![Web Page](_images/events-12.jpg)
 
-## B) Hints
+## B) Use these hints as you work together (or solo) to build the color chooser. 
 1. You can use event handlers OR event listeners, it's your choice
 1. You can use standard functions OR arrow functions, it's your choice
 1. The **Submit button** code should be triggered by the `click` event
@@ -84,10 +84,10 @@ You should see another message about the color you selected, and the &lt;legend>
 1. The `value` of these radio buttons happens to be a CSS color keyword, so it will be pretty easy to assign the value to the color property of the &lt;legend> element (and CSS color values are not case sensitive, so don't worry about the capitalization).
 
 ## C) Submission
-Be sure to submit this to the applicable dropbox, and do not post it to your web site.
+Save a copy of what you get done into your Group Locker. Do not post it to your web site.  
 
-## D) Extra Credit (worth 1 full HW)
-Can you do a version of this web app, but with HTML checkboxes? Name the file **web-apps-6-HW-with-checkboxes.html**
+## D) INDIVIDUAL Optional Extra Credit (worth 1 full HW)
+Can you do a version of this web app, but with HTML checkboxes? Name the file **web-apps-5-with-checkboxes.html**
 
 Hint: Checkboxes have a `.checked` property.
 
@@ -103,6 +103,7 @@ Checkboxes allow the user to make multiple selections. Yours should work like th
 
 ![Web Page](_images/events-14.jpg)
 
-**Submission: Post to extra credit dropbox**
+**Extra Credit Submission: Post to "Web Apps ICE 5 Extra Credit" dropbox**  
+This is an individual submission, but you can work together with your partner to come up with a solution. If you don't want to work together, that's okay, too... Just start on your own from where you left off today and then still submit independently.
 
 <hr>
