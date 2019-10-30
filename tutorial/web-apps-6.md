@@ -29,8 +29,6 @@ VII. [Adding properties to elements with `element.dataset`](#section7)
 
 VIII. [Nota bene](#section8)
 
-X. [Review Exercise](#section10)
-
 
 <hr><hr>
 
@@ -417,8 +415,6 @@ If we use the `window.onload` event handler, we can move our code back up to the
 ```
 
 **Be sure you can answer the "WHY" questions above!**
-
-## X. <a id="section10"></a>Review Assignment
 
 
 - **Important:** If you have not yet done the [Random Phrases-2](HW-wa-random-phrases-2.md) homework, go check it out. See the mycourses dropbox for the actual due date.
