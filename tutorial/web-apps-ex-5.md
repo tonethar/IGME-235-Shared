@@ -1,7 +1,9 @@
-### A) Overview of *Color Chooser*
+# Web Apps ICE 5
+
+## A) Overview of *Color Chooser*
 
 
-#### 1) The starting code looks like this:
+### 1) The starting code looks like this:
 
 Create the following file, and name it **web-apps-6-HW.html**
 
@@ -52,26 +54,26 @@ Create the following file, and name it **web-apps-6-HW.html**
 </html>
 ```
 
-#### 2) Which looks like this in the browser:
+### 2) Which looks like this in the browser:
 
 Note that because we `name` all of the radio buttons the same, they are considered a "group" by the browser, and we can only select one radio button at a time. Try it. The submit button currently does nothing.
 
 ![Web Page](_images/events-10.jpg)
 
-#### 3) After you have written all of your JavaScript code, and clicked a radio button ...
+### 3) After you have written all of your JavaScript code, and clicked a radio button ...
 
 You should see a message indicating what color you have selected.
 
 ![Web Page](_images/events-11.jpg)
 
 
-#### 4) Once you click the Submit button ...
+### 4) Once you click the Submit button ...
 
 You should see another message about the color you selected, and the &lt;legend> element should also change to that color.
 
 ![Web Page](_images/events-12.jpg)
 
-### B) Hints
+## B) Hints
 1. You can use event handlers OR event listeners, it's your choice
 1. You can use standard functions OR arrow functions, it's your choice
 1. The **Submit button** code should be triggered by the `click` event
@@ -81,10 +83,10 @@ You should see another message about the color you selected, and the &lt;legend>
 1. In the submit button code, you can check to see which radio button is selected by checking its `.checked` property
 1. The `value` of these radio buttons happens to be a CSS color keyword, so it will be pretty easy to assign the value to the color property of the &lt;legend> element (and CSS color values are not case sensitive, so don't worry about the capitalization).
 
-### C) Submission
+## C) Submission
 Be sure to submit this to the applicable dropbox, and do not post it to your web site.
 
-### D) Extra Credit (worth 1 full HW)
+## D) Extra Credit (worth 1 full HW)
 Can you do a version of this web app, but with HTML checkboxes? Name the file **web-apps-6-HW-with-checkboxes.html**
 
 Hint: Checkboxes have a `.checked` property.
