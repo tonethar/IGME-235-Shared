@@ -48,7 +48,7 @@ Create the following file, and name it **web-apps-ex-5.html**
 </div>
 
 <script>
-/* Write you code here! */
+/* Write your code here! */
 </script>
 </body>
 </html>
