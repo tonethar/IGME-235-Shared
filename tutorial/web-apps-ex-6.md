@@ -1,6 +1,6 @@
 # Web Apps ICE 6
 
-Easy - just head back to your Web Apps ICE 3 file (**web-apps-ex-3.html**), make a copy of the file and name it **web-apps-ex-6.html**, and do the (no longer) optional part:
+Easy - just head back to your [Web Apps ICE 3](web-apps-ex-3.md) file (**web-apps-ex-3.html**), make a copy of the file and name it **web-apps-ex-6.html**, and do the (no longer) optional part:
 
 Note: Need a refresher on creating HTML elements from JavaScript: It's in [this part of the WATS](web-apps-4.md).
 
