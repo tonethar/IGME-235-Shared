@@ -6,10 +6,16 @@ Note: Need a refresher on creating HTML elements from JavaScript: It's in [this 
 
 ```javascript
  // Can you figure out how to pull the key and value from the "links" object literal?
- // and put them in list with clickable links?
+ // and put them in the list with clickable links?
 let links = {
 		"RIT": "http://www.rit.edu",
 		"RWAG" : "https://www.facebook.com/RWAGclub",
 		"New Media Club" : "http://newmediaclub.cias.rit.edu"
 	}
 ```
+
+It should display like this when done:
+
+1. [RIT](http://www.rit.edu)
+1. [RWAG](https://www.facebook.com/RWAGclub)
+1. [New Media Club](http://newmediaclub.cias.rit.edu)
