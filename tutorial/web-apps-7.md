@@ -1,7 +1,5 @@
 # 7 - JavaScript Object Literals
 
-***(This chapter has not yet been fully adapted to the new 235 course style.  The exercises haven't been converted to In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
-
 ##  Overview
 JavaScript is an *Object-Oriented* language, but a traditional "class" syntax has not been supported until recently (ES6). 
 
@@ -32,8 +30,6 @@ VII. [Value Types & Reference Types](#section7)
 VIII. [Another look at `const`](#section8)
 
 IX. [Nota bene](#section9)
-
-X. [Review Exercise](#section10)
 
 <hr><hr>
 
@@ -457,20 +453,6 @@ console.log(colors);			// ["red","green","blue"]
 
 ## IX. <a id="section9">Nota bene
 For more information on object literals, head here: http://exploringjs.com/es6/ch_oop-besides-classes.html
-
-
-## X. <a id="section10">Review Exercise
-Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) - make a copy of the file and name it **web-apps-7-HW.html**, and do the challenge:
-
-```javascript
- // Can you figure out how to pull the key and value from the "links" object literal?
- // and put them in list with clickable links?
-let links = {
-		"RIT": "http://www.rit.edu",
-		"RWAG" : "https://www.facebook.com/RWAGclub",
-		"New Media Club" : "http://newmediaclub.cias.rit.edu"
-	}
-```
 
 <hr>
 
