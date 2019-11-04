@@ -19,3 +19,5 @@ It should display like this when done:
 1. [RIT](http://www.rit.edu)
 1. [RWAG](https://www.facebook.com/RWAGclub)
 1. [New Media Club](http://newmediaclub.cias.rit.edu)
+
+When you're finished, save your work in your Group Locker for later submission.
