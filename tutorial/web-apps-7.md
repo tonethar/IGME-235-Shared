@@ -1,6 +1,6 @@
 # 7 - JavaScript Object Literals
 
-***(This chapter has not yet been adapted to the new 235 course style.  The questions and exercises haven't been converted to Study Quizzes, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
+***(This chapter has not yet been fully adapted to the new 235 course style.  The exercises haven't been converted to In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
 
 ##  Overview
 JavaScript is an *Object-Oriented* language, but a traditional "class" syntax has not been supported until recently (ES6). 
@@ -31,11 +31,9 @@ VII. [Value Types & Reference Types](#section7)
 
 VIII. [Another look at `const`](#section8)
 
-VIII. [Nota bene](#section9)
+IX. [Nota bene](#section9)
 
-IX. [Review Questions](#section10)
-
-X. [Review Exercise](#section11)
+X. [Review Exercise](#section10)
 
 <hr><hr>
 
@@ -460,57 +458,8 @@ console.log(colors);			// ["red","green","blue"]
 ## IX. <a id="section9">Nota bene
 For more information on object literals, head here: http://exploringjs.com/es6/ch_oop-besides-classes.html
 
-## X. <a id="section10">Review Questions
-1. In programming, what is a *literal* value?
-1. How do you iterate over the keys and values of an object?
-1. What is the difference between `for...in` and `for...of`? (You don't want to get these 2 mixed up!)
-1. List 3 JavaScript *value* types.
-1. List 3 JavaScript *reference* types.
-1. What does `Object.seal()` do?
-1. What does `Object.freeze()` do?
-1. What is wrong with the following code?
-```javascript
-var ship={
-  x: 0,
-  y: 0,
-  speed: 10,
-    move: function(){
-      x += speed;
-      y += speed;
-    }
-}
-```
-9. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.)
-```javascript
-  let x = "1";
-  let y = x;
-  x = "2";
-  console.log(x);
-  console.log(y);
-```
-10. See the code below. What will be logged for the values of `x` and `y`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.)
-```javascript
-  let x = [1,2,3];
-  let y = x;
-  x.push(4);
-  y.push(5);
-  console.log(x);
-  console.log(y);
-```
-11. See the code below. What will be logged for the values of `x`, `y` and `z`? (Please try to figure this out on your own first, before running it in the browser to verify your answer.) If any errors occur, please assume that the JavaScript interpreter will move on to the next line of code and continue to run.
-```javascript
-  const x = {};
-  const y = 1;
-  const z = {};
-  x.name = "fred";
-  y++;
-  z = {"name":"mary"};
-  console.log(x);
-  console.log(y);
-  console.log(z);
-```
 
-## XI. <a id="section11">Review Exercise
+## X. <a id="section10">Review Exercise
 Easy - just head back to the exercise for [4 - More Web Browser DOM Methods](web-apps-4.md) - make a copy of the file and name it **web-apps-7-HW.html**, and do the challenge:
 
 ```javascript
