@@ -369,13 +369,13 @@ getData(url);
 - There are a lot of new concepts in this exercise - please review the [10 - Web Services](web-apps-10.md) chapter, this page and all of the GIF Finder code to be sure you understand everything. If you don't understand something, please be prepared to ask questions about it in class!
 
 ## X. <a id="section10">In-Class Portion
-- We will discuss and implement the following tasks in our next class session.  You may go ahead and try to do them in advance if you wish... If you do, you can spend part of next class working on the more advanced/optional challenges.
+***We will discuss and implement the following tasks in our next class session.  You may go ahead and try to do them in advance if you wish... If you do, you can spend part of next class working on the more advanced/optional challenges.***
 1. Write JS that utilizes the `rating` property of each result by displaying it for each GIF. You can use `.toUpperCase()` to capitalize each rating (see example screenshot below).
 1. This HTML page is now a kluge of quite a bit of HTML, CSS, and JavaScript. We need to clean it up by moving the JS code and CSS into different files - "separation of concern" is the term for this. 
-    - Move all of your CSS to a **styles/main.css** file and link to it. Note: You will need to slightly change the `url` of the &lt;header> background image rule to keep things working.
-    - Move all of your JavaScript to a **js/main.js** file and link to it.
-    - Your HTML file should now consist of only HTML - see the screenshot below.
- - Verify that everything still works.
+	- Move all of your CSS to a **styles/main.css** file and link to it. Note: You will need to slightly change the `url` of the &lt;header> background image rule to keep things working.
+	- Move all of your JavaScript to a **js/main.js** file and link to it.
+	- Your HTML file should now consist of only HTML - see the screenshot below.
+ 	- Verify that everything still works.
 1. Improve the CSS styling of this page (which shouldn't be too hard). See the screenshot below as an example of what you could do.
 1. (**optional**) Did you notice **spinner.gif** in the start images? Go ahead and show it when the user starts a search, and hide it when a search has completed. Maybe put it in the `#status` &lt;div>
 
