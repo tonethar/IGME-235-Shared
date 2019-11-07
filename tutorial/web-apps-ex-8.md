@@ -1,6 +1,6 @@
-## VI. <a id="section6">Review Exercise
+# Web Apps ICE 8
 
-See the HTML comments in the starter code below for what you have to do - name this **web-apps-8-HW.html**
+See the HTML comments in the starter code below for what you have to do - name this **web-apps-ex-8.html**
 
 ### web-apps-8-HW.html
 
@@ -9,7 +9,7 @@ See the HTML comments in the starter code below for what you have to do - name t
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>web-apps-8-HW</title>
+	<title>web-apps-ex-8</title>
 </head>
 <body>
 <script>
@@ -23,7 +23,7 @@ let cars = [
 	{make:"Chevy",	year:1957},
 ];
 
-// For this HW you will use Array.filter(), Array.sort(), and Array.map() on
+// For this exercise you will use Array.filter(), Array.sort(), and Array.map() on
 // the cars array above.
 
 /*
