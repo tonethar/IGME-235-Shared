@@ -1,6 +1,6 @@
 # 8 - JavaScript Arrays
 
-***(This chapter has not yet been adapted to the new 235 course style.  The questions and exercises haven't been converted to Study Quizzes, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
+***(This chapter has not yet been fully adapted to the new 235 course style.  The exercises haven't been converted to In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
 
 ## Overview
 
@@ -21,9 +21,7 @@ IV. [Method Chaining & Fluent Interfaces](#section4)
 
 V. [Nota bene](#section5)
 
-VI. [Review Questions](#section6)
-
-VII. [Review Exercise](#section7)
+VI. [Review Exercise](#section6)
 
 <hr><hr>
 
@@ -526,89 +524,6 @@ let array3 = Array.from(allNodes);
 let array4 = [...allNodes]; 		
 ```
 
-## VI. <a id="section6">Review Questions
-1. True or False. JavaScript Arrays may hold only a single *type* of value.
-1. Which array operation adds an item to the *end* of an array?
-1. Which array method can be used to *remove* items from an array?
-1. Which array method can be used to *copy* items to a new array?
-1. Describe 3 ways to loop through a JavaScript Array.
-1. Does `Array.filter()` modify the old array (the one it is called on), or create a new array?
-1. What is the type of the object that is returned by `document.querySelectorAll()`?
-1. Using *method chaining* (at least 2 methods) and [Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) and [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) methods, write code that produces a random number between 0 and 1 that has only 2 digits past the decimal point (examples: .76, .92, etc). Be sure to test this in the browser - the JavaScript console is an easy place to do so.
-1. Define *Fluent Interface*.
-
-## VII. <a id="section7">Review Exercise
-
-See the HTML comments in the starter code below for what you have to do - name this **web-apps-8-HW.html**
-
-### web-apps-8-HW.html
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8" />
-	<title>web-apps-8-HW</title>
-</head>
-<body>
-<script>
-let cars = [
-	{make:"Toyota",	year:2015},
-	{make:"Jeep",	year:1946},
-	{make:"Ford",	year:2017},
-	{make:"Tesla",	year:2018},
-	{make:"Fiat",	year:1982},
-	{make:"Dodge",	year:1970},
-	{make:"Chevy",	year:1957},
-];
-
-// For this HW you will use Array.filter(), Array.sort(), and Array.map() on
-// the cars array above.
-
-/*
- 1 - Create a new array named 'classicCars' that contains only those cars with a
- .year of 1970 or earlier. Use Array.filter() on the cars array:
- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
-*/
-
-
-/*
- 2 - Create a new array named 'sortedByYear' that contains the contents of the
- car array, sorted by .year, ascending (oldest to most recent)
- Use Array.sort() on the cars array - and read about writing a comparison function here:
- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
- 
-*/
-
-
-/*
- 3 - Create a new array named 'newerYearsOnly' that contains only the .year property 
- (not the entire car object) of those cars that are .year 2010 or newer. 
- Use Array.map() on the cars array:
- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
- 
- This will give you a few undefined values. Use Array.filter() to get rid of these 
- undefined values so that newerYearsOnly contains only years (Numbers)
- 
- Hint: you could use Number.isInteger() or the typeof operator:
- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger
- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
- 
- You could do this additional filter on a separate filter on the different lines,
- or as a "one-liner" by chaining the method calls.
-*/
-
-debugger;
-</script>
-</body>
-</html>
-```
-
-**Which looks like this in the debugger:**
-
-![Web Page](_images/arrays-1.jpg)
-
-<hr>
 
 - **Important:** If you have not yet done the [Pixel Artist](HW-pixel-artist.md) homework, go check it out. See the mycourses dropbox for the actual due date.
 - Also be sure to check out the [Life](HW-life.md) and [Adventure!](HW-adventure.md) demos.
