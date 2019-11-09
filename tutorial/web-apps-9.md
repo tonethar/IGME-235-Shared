@@ -1,7 +1,5 @@
 # 9 - WebStorage API
 
-***(This chapter has not yet be adapted to the new 235 course style.  The questions and exercises haven't been converted to Study Quizzes, In-Class Exercises, and Homeworks, but you may feel free to look it over and see what may be coming.)***
-
 ## I. Overview
 The HTML5 WebStorage API allows us to store **key:value** data in the user's browser, and that information can be retrieved at a later date by your JavaScript (when the user returns to your page).
 
@@ -14,10 +12,6 @@ II. [An Example](#section2)
 III. [Storing Objects with WebStorage](#section3)
 
 IV. [Nota Bene](#section4)
-
-V. [Review Questions](#section5)
-
-VI. [Review Exercise](#section6)
 
 <hr><hr>
 
@@ -151,24 +145,8 @@ items = JSON.parse(items);  			// now it's an Array again
 - You can read more about the blocking issue here: https://nolanlawson.com/2015/09/29/indexeddb-websql-localstorage-what-blocks-the-dom/
 
 
-## V. <a id="section5">Review Questions
-1. What is a limitation of using localStorage on a shared domain like people.rit.edu? What is a workaround that will mitigate this issue?
-1. What is the difference between *local storage* and *session storage*? (Read the documentation or google it)
-1. If the user opens up the demo page in a second web browser, but still on the same machine, will their chosen preferences be visible in the new browser? Why or why not? (If you do not know the answer, do an experiment)
-1. Define *serialization*
-1. What does `JSON.stringify()` do?
-1. What does `JSON.parse()` do?
-1. One big issue with the applications we have written this semester is that reloading the page will wipe out all of the user's work (for example the poem they created in *Magnetic Poetry*, or their pixel art creation in *Pixel Artist*). Think about the various HW assignments that we have worked on for this Web Apps unit - pick two of them - and describe how they could be improved by utilizing web storage.
-
-## VI. <a id="section6">Review Exercise
-- Make a copy of **web-storage-1.html** and name it **web-apps-9-HW.html**. 
-- Modify the code so that the user's color choice will also be reflected in the background color of the entire page. Conveniently, all of the color names in the &lt;select> are also CSS color keywords.
-- This effect will happen both when user makes a choice in the &lt;select>, and when the user later returns to the page.
-- Hint: This will only require two lines of code to get working.
-
-**Which should look something like this:**
-
-![Web Page](_images/web-storage-2.jpg)
+**Something to consider:**
+One big issue with the applications we have written this semester is that reloading the page will wipe out all of the user's work (for example the poem they created in *Magnetic Poetry*, or their pixel art creation in *Pixel Artist*). Think about the various HW assignments that we have worked on for this Web Apps unit - how they could be improved by utilizing web storage?
 
 <hr><hr>
 
