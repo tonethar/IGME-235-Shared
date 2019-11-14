@@ -344,4 +344,4 @@ Nothing for now.
 
  **[Previous Chapter <- Intro to PixiJS (chapter 1)](pixi-js-1.md)**
  
- **[Homework -> Circle Blast!](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-circle-blast-1.md)**
+ **[Homework -> Circle Blast!](HW-circle-blast-1.md)**
