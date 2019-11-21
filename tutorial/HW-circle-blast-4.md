@@ -1,6 +1,6 @@
 # HW - Circle Blast! - Part 4
 
-The following is optional. We won't collect it, but you will likely find it of use if you end up doing a game for project 4.
+The following is optional. We won't collect it, but you will likely find it of use if you end up doing a PixiJS game for project 3.
 
 ## Contents
 <!--- Local Navigation --->
