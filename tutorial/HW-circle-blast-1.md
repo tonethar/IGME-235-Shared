@@ -87,7 +87,7 @@ Load the **game.html** page into a browser. To verify that you imported these li
 
 - **Make main.js look like this - below is the code you can copy & paste:**
 
-```html
+```javascript
 // We will use `strict mode`, which helps us by having the browser catch many common JS mistakes
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 "use strict";
