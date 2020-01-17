@@ -8,7 +8,7 @@ Your assignment is to create a "Basic Game Page" for an existing video or tablet
 - Content from a web source (either [Moby Games](https://www.mobygames.com/) or [BoardGameGeek](https://boardgamegeek.com/))
     - A Short Description.
     - Publishing info in the form of a bulleted list.
-    - A short list of terms/categories and their values.  Such as "Genre: action, Players: 2-4"
+    - An additional bulleted list of terms/categories and their values.  Such as "Genre: action, Players: 2-4"
     - A quote from a review.
     - A couple of images of the game (ie: screenshots or pictures of game components)
     - A link to the web source & and link to the quoted review.
