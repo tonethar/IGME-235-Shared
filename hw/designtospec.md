@@ -38,5 +38,5 @@ If you run into trouble and wish to seek help with a specific question that requ
 ## IV: Submissions
 - You should post your Homework in a subdirectory of your 235 page.  Use a unique folder name (there should be no way to get to it easily from your 235 Home Page).  Zip your files together and upload them to the assignment on myCourses (when it is created), and include a URL to the live version of your page in the comments field.
 
-The Due Date for the assignment is currently Friday, September 27th at 11:59pm (extended from being due at the start of regular class time due to Career Fair)  Note that Prof Schuh's section may be due later the following week... Please check your myCourses Assignments area for the specific Due Date soon.
+The Due Date for the assignment is TBD... Please check your myCourses Assignments area for the specific Due Date soon.
 
