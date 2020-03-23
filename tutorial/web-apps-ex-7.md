@@ -1,7 +1,5 @@
 # Web Apps ICE 7
 
-Here's a brand new Exercise.  Thanks for trying it out for the first time today:
-
 ## Begin with the following code (Save it as web-apps-ex-7.html)
 ```
 <!DOCTYPE html>
