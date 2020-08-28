@@ -2,10 +2,10 @@
 
 The overall goal of this exercise is to give you the chance to practice your basic structural HTML 
 
-Your assignment is to create a "Basic Game Page" for an existing video or tabletop game of your choice.  It will have all or most of the same features as you created with your partner for the "Dig Dug" ICE (up to and including links).
+Your assignment is to create a "Basic Game Page" for an existing video or tabletop game of your choice.  It will have all or most of the same features as you created for the "Dig Dug" exercise (up to and including links).
 
 ## Here's a list of what you need:
-- Content from a web source (either [Moby Games](https://www.mobygames.com/) or [BoardGameGeek](https://boardgamegeek.com/))
+- Content from a web source (either [Moby Games](https://www.mobygames.com/), [BoardGameGeek](https://boardgamegeek.com/), or another similar game database site)
     - A Short Description.
     - Publishing info in the form of a bulleted list.
     - An additional bulleted list of terms/categories and their values.  Such as "Genre: action, Players: 2-4"
@@ -29,5 +29,5 @@ Your assignment is to create a "Basic Game Page" for an existing video or tablet
         
 ## Submission
 
-- Upload your page (and images) into your 235 directory on Banjo.  Make sure that it works.
-- Submit the URL of your page to this Homework's 'dropbox' in the Assignment section of myCourses.
+- Upload your page (and images) into your 235 directory on Banjo (you decide was to call the sub-folder).  Make sure that it works.
+- Submit the full URL of your page to this Homework's 'dropbox' in the Assignment section of myCourses.
