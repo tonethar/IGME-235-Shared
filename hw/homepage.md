@@ -9,8 +9,8 @@ For this assignment you will create a personal 235 "home page" where you will be
 
 Your page's design is up to you, but it needs to contain the following elements:
 * A level-1 heading that reads "YOUR NAME's 235 Page" (replacing "YOUR NAME" with your own name, obviously)
-* A **recognizable** photo of yourself (not the back of your head, not a drawing, not you wearing a mask)
-* A brief bio about yourself (a paragaph will do), telling us about your interests and your goals; what do you hope to get out of the class, your major, your time at RIT, and where do you want to be when you graduate?
+* A **recognizable** photo of yourself (not the back of your head, not a drawing, not you wearing a mask) -- funny we wrote that long before COVID, but we'd still like to see the real "maskless" you.
+* A brief bio about yourself (a paragraph will do), telling us about your interests and your goals; what do you hope to get out of the class, your major, your time at RIT, and where do you want to be when you graduate?
 * Placeholder links to each of the 3 class projects.
   - You do not need to create links to your past homework exercises, but you are welcome to do so if you wish.
 * A link to your GitHub repo for this class
