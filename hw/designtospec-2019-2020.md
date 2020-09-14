@@ -1,4 +1,4 @@
-# Homework: Design to Spec
+# Homework: Design to Spec - 2019-2020
 
 ## I. Overview
 Web developers commonly work in a team with others such as Content Strategists, User Experience designers, and Graphic Artists.  For this homework, you are being asked to recreate this design that a Graphic Artist built in Photoshop.  Your Goal is to use HTML & CSS (but no frameworks such as Bootstrap or Materialize) to realize this site as a functional web page.
