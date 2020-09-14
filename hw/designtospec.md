@@ -11,7 +11,7 @@ This is decidedly NOT a Homework for you to exercise your creativity.
 
 You will be graded on how close you are able to get your page to the appearance of this image.
 
-Source image files and a palette to work with are available here: [Spec Design HW Files](specdesignhw2020.zip)
+Source image files and a palette to work with are available here: Spec Design HW Files (Link coming)
 
 This is an individual project, and since everyone is doing the EXACT SAME design, you should guard your code carefully so that it is not made available to others.  We will run a file similarity checker on all submissions for this exercise across all sections to look for instances of academic dishonesty.  There is enough ambiguity in the design and the ways that it gets implemented that everyone's project can certainly be unique.
 
@@ -26,6 +26,8 @@ The Graphic artist has also NOT specified certain behaviors on the page such as 
 QUESTIONS?  It is not uncommon to need to ask questions of the Graphic Designer so that you get the clearest understanding of the spec.  For the purposes of this assignment, the Graphic Designer will be your course Instructor and spec clarification questions should be asked in YOUR SECTION'S Slack channel.  You can still ask general HTML & CSS questions in the shared #questions-html-css channel on Slack, but always be careful not to share your (complete or mostly complete) code to the rest of the class.
 
 If you run into trouble and wish to seek help with a specific question that requires the sharing of your code, do so through a DM to your Instructor.
+
+# Sections below this heading have not yet been updated.
 
 ## III. NON Requirements
 - You do not need to guess at page colors.  They are all (except for white and black) specified in included color palette.  
