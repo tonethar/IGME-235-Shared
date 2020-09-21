@@ -27,8 +27,6 @@ QUESTIONS?  It is not uncommon to need to ask questions of the Graphic Designer 
 
 If you run into trouble and wish to seek help with a specific question that requires the sharing of your code, do so through a DM to your Instructor.
 
-# Sections below this heading have not yet been updated.
-
 ## III. NON Requirements
 - You do not need to guess at page colors.  They are all (except for white and black) specified in included color palette.  
 - You should attempt to match the fonts by using the included Font files... Both of which are free to use as web fonts.  You do, however, need to go through the process of converting them to web fonts.  Try using an online convertor such as [Font Squirrel](http://fontsquirrel.com) to do so... Examples of using them will be in the zip that you download as a result.
