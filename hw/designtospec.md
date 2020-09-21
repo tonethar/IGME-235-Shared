@@ -11,7 +11,7 @@ This is decidedly NOT a Homework for you to exercise your creativity.
 
 You will be graded on how close you are able to get your page to the appearance of this image.
 
-Source image files and a palette to work with are available here: Spec Design HW Files (Link coming)
+Source image files, fonts, and a palette to work with are available here: [DesignToSpecAssets.zip](DesignToSpecAssets.zip)
 
 This is an individual project, and since everyone is doing the EXACT SAME design, you should guard your code carefully so that it is not made available to others.  We will run a file similarity checker on all submissions for this exercise across all sections to look for instances of academic dishonesty.  There is enough ambiguity in the design and the ways that it gets implemented that everyone's project can certainly be unique.
 
@@ -31,13 +31,11 @@ If you run into trouble and wish to seek help with a specific question that requ
 
 ## III. NON Requirements
 - You do not need to guess at page colors.  They are all (except for white and black) specified in included color palette.  
-- You do not need to perfectly match the font, however, the headings and menus are in "Arial Rounded MT Bold" and the rest of the text is fine as just "Arial".
-- You may use any video game controller icon in the top left corner of the page.  There are many free downloadable SVGs of videogame controllers on the web for you to pick from.
-- It is not necessary to crop the images in exactly the same way as the original images, however, we are providing the original images so that they can match more easily.  Don't use the uncropped/high-resolution full-size images.
+- You should attempt to match the fonts by using the included Font files... Both of which are free to use as web fonts.  You do, however, need to go through the process of converting them to web fonts.  Try using an online convertor such as [Font Squirrel](http://fontsquirrel.com) to do so... Examples of using them will be in the zip that you download as a result.
+- You may use any SVG axe icon in the top header of the page.  There are many free downloadable SVGs on the web for you to pick from.  See note in the zip file for a possible source.
+- It is not necessary to crop the images in exactly the same way as the original images, however, we are providing the original images so that they can match more easily.  Don't use the uncropped/high-resolution full-size images.  A 2.1 MB jpg for your footer is TOO BIG.
 - There are no specific pixel dimensions for items on the page.  You're probably best off specifying most elements to be flexible in size and/or based off of the rem unit.
-- You should use the same heading texts and menu names that we provided, however you do not need to use the same placeholder code.  Use VS Code or another tool to generate "Lorem Ipsum" text for you to hold the spaces open.  Tip:  In VS Code, just type `loremNN` where NN is a number of words that you want followed by Enter, and it will generate a block of text for you.
+- You should use the same heading texts that we provided, however you do not need to use the same placeholder text.  Use VS Code or another tool to generate "Lorem Ipsum" text for you to hold the spaces open.  Tip:  In VS Code, just type `loremNN` where NN is a number of words that you want followed by Enter, and it will generate a block of text for you.
 
 ## IV: Submissions
 - You should post your Homework in a subdirectory of your 235 page.  Use a unique folder name (there should be no way to get to it easily from your 235 Home Page).  Zip your files together and upload them to the assignment on myCourses (when it is created), and include a URL to the live version of your page in the comments field.
-
-The Due Date for the assignment is Tuesday, February 18th at the beginning of class... Please check your myCourses Assignments area for submission details.
