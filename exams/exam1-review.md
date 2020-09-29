@@ -1,4 +1,4 @@
-# Stuff to know for the Midterm:
+# Stuff to know for Exam 1 (Midterm):
 - The common web professionals and what they do.
 -	The organization that oversees the web and who founded it.
 -	The systems and technologies that get us connected to web servers.
