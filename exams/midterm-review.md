@@ -35,7 +35,6 @@
 -	Know a rule of thumb for each of the Basic (CRAP) Design principles (and what are they, of course)
 -	The purpose of an .htaccess file and how and when it’s directives are followed.
 -	The order in which the Site Design process steps are followed.
--	The basic questions that all good navigation systems should address.
 
 # Stuff to be able to do:
 -	Spot correct and incorrect markup examples.
