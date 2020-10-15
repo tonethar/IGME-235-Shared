@@ -84,7 +84,9 @@ You should see another message about the color you selected, and the &lt;legend>
 1. The `value` of these radio buttons happens to be a CSS color keyword, so it will be pretty easy to assign the value to the color property of the &lt;legend> element (and CSS color values are not case sensitive, so don't worry about the capitalization).
 
 ## C) Submission
-Save a copy of what you get done into your Group Locker. Do not post it to your web site.  
+Save a copy of what you get done for future submission as usual.
+
+Check the "After Lab Checklist" for submission instructions.
 
 ## D) Optional Extra Credit (worth 1 full HW)
 Can you do a version of this web app, but with HTML checkboxes? Name the file **web-apps-5-with-checkboxes.html**
@@ -103,6 +105,6 @@ Checkboxes allow the user to make multiple selections. Yours should work like th
 
 ![Web Page](_images/events-14.jpg)
 
-**Extra Credit Submission: Post to "Web Apps Lab 5 Extra Credit" dropbox**  
+**Extra Credit Submission: Post to "Web Apps Lab 5 Extra Credit" dropbox**
 
 <hr>
