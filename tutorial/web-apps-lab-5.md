@@ -1,11 +1,11 @@
-# Web Apps ICE 5
+# Web Apps Lab 5
 
 ## A) Overview of *Color Chooser*
 
 
 ### 1) The starting code looks like this:
 
-Create the following file, and name it **web-apps-ex-5.html**
+Create the following file, and name it **web-apps-lab-5.html**
 
 ```html
 <!DOCTYPE html>
@@ -86,7 +86,7 @@ You should see another message about the color you selected, and the &lt;legend>
 ## C) Submission
 Save a copy of what you get done into your Group Locker. Do not post it to your web site.  
 
-## D) INDIVIDUAL Optional Extra Credit (worth 1 full HW)
+## D) Optional Extra Credit (worth 1 full HW)
 Can you do a version of this web app, but with HTML checkboxes? Name the file **web-apps-5-with-checkboxes.html**
 
 Hint: Checkboxes have a `.checked` property.
@@ -103,7 +103,6 @@ Checkboxes allow the user to make multiple selections. Yours should work like th
 
 ![Web Page](_images/events-14.jpg)
 
-**Extra Credit Submission: Post to "Web Apps ICE 5 Extra Credit" dropbox**  
-This is an individual submission, but you can work together with your partner to come up with a solution. If you don't want to work together, that's okay, too... Just start on your own from where you left off today and then still submit independently.
+**Extra Credit Submission: Post to "Web Apps Lab 5 Extra Credit" dropbox**  
 
 <hr>
