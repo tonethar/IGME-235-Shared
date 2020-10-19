@@ -1,4 +1,4 @@
-# Homework: Random Phrases - 1
+# Homework: Random Phrases
 
 ## Overview
 In this assignment you will create a "random phrases" web application. 
