@@ -73,7 +73,7 @@ You should see another message about the color you selected, and the &lt;legend>
 
 ![Web Page](_images/events-12.jpg)
 
-## B) Use these hints as you work together (or solo) to build the color chooser. 
+## B) Use these hints as you build the color chooser. 
 1. You can use event handlers OR event listeners, it's your choice
 1. You can use standard functions OR arrow functions, it's your choice
 1. The **Submit button** code should be triggered by the `click` event
