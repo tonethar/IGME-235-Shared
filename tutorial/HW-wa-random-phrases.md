@@ -30,6 +30,6 @@ To complete this assignment, you should have completed up through the 6th web ap
     1. The functionality of the page is worth 50% of the assignment
 
 ## Submission
-- Post to your web site and (we recommend) link to it from your 235 Home Page.
-- See Assignment in myCourses for submission details and due date.
-- Hint: The coding of this shouldn't take too long, but the page layout and styling will.
+- Post to your web site and (we recommend) link to it from your 235 Home Page.  (Lots of your own creative work here)
+- Also Zip and upload to the Assignment Dropbox in myCourses.
+- Tip: The coding of this shouldn't take too long, but the page layout and styling probably will.
