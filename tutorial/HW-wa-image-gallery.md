@@ -19,10 +19,12 @@ You will need to write some JavaScript to get this working:
     1. Adding "you are here" cues indicating which picture was selected would be nice. Adding a visible caption for each picture (to be displayed in a paragraph for example) would also be a good feature. 
     1. A more scalable solution that could display many more images would load data from arrays, and dynamically create thumbnails
     1. You could also completely redesign the layout to be responsive using Flexbox and CSS Grid.
-1. When you're done, zip and upload your files to the Assignment in myCourses.
 
-Additional note: This is not a tutorial on how to make an image gallery, per se.  There are many different, efficient, attractive, etc. ways to do so besides this.  This HW is specifically to have you work with custom data attributes.
+Additional note: This is not a tutorial on how to make an image gallery, per se.  There are many different, efficient, attractive, etc. ways to do so besides this. (Including using some of the JavaScript Frameworks you've recently learned about). This HW is specifically to have you work with custom data attributes.
 
-<hr><hr>
+## Submission
+- Post to a unique directory in the 235 subdirectory of your banjo account and share the link with us in the comment section of the Assignment Dropbox on myCourses.
+- Don't link this one to your 235 Home Page... There's not enough unique creative work in it... This one is more about the code, so don't tempt others to copy.
+- Zip and upload the finished version to the Dropbox as well.
 
-**[Table of Contents <- About this Web App Tutorial Series](web-apps-0.md)**
+- If you do make a really "juiced up" version, wait until after the assignment is due and then you can link to it if you wish.
