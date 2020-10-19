@@ -414,13 +414,6 @@ If we use the `window.onload` event handler, we can move our code back up to the
 
 **Be sure you can answer the "WHY" questions above!**
 
-
-- **Important:** If you have not yet done the [Random Phrases-2](HW-wa-random-phrases-2.md) homework, go check it out. See the mycourses dropbox for the actual due date.
-
-- **Important:** If you have not yet done the [Image Gallery](HW-wa-image-gallery.md) homework, go check it out. See the mycourses dropbox for the actual due date.
-
-- You should also check out [Chibi Card Matching](HW-chibi-matching.md) game demo.  (not currently available)
-
 <hr><hr>
 
 | <-- Previous Unit | Home | Next Unit -->
