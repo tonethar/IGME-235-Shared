@@ -136,7 +136,7 @@
 			
 2. Open the page in the browser, pop open the console & check out the contents of the `monsters` array.  If you just type `monsters` and press enter, it will return the whole array.  Use the little disclosure triangle to see the full contents of the array.  Notice the properties including the fact that there is a method called status in each object.
 		
-	-Predict together what `monsters[1]["hp"]` would return.  Then test it in the console.
+	-Predict what `monsters[1]["hp"]` would return.  Then test it in the console.
 
 	-Enter `monsters[2].status()` -- Do you understand where this came from?
 			
