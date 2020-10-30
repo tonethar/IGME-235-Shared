@@ -79,7 +79,7 @@ This series of tutorials & notes will get you started in creating web applicatio
 
 ## V. Assignments <a id="section5"></a>
 
-Be sure to consult the Session Plans for information about what you should be doing when.
+Be sure to consult the checklists for information about what you should be doing when.
 
 Required Homeworks will be added to this list:
 - [Random Phrases 1](./HW-wa-random-phrases-1.md)
@@ -91,8 +91,8 @@ Optional Homeworks for extra credit are in this list:
 - [Pixel Artist\*](./HW-pixel-artist.md)
 - [Conway's Game of Life](./HW-life.md) - animation by utilizing `window.requestAnimationFrame()` and a game loop.
 
-The assignments below have not yet been updated to the new course model:  
-- ["GIF Finder" Web Service App](./HW-gif-finder.md)
+Assignment at end of Chapter 10:  
+- ["GIF Finder" Web Service App -- for Fall 2020](./HW-gif-finder-lab.md)
 
 \* the starred assignments are "walkthroughs", you just have to type the code in. Take your time and be sure you understand everything, if you don't, then be sure to ask in class!
 
