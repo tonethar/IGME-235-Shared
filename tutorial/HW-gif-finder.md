@@ -1,5 +1,22 @@
 # Homework: GIF Finder
 
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+
+**IMPORTANT:  Please use the [GIF Finder Exercise for Fall of 2020](HW-gif-finder-lab.md).  There are many old links that may point you to this version instead.  When the pandemic is over we'll probably go back to this version, so we're leaving it at this URL for now.**
+.  
+.  
+.  
+.  
+.  
+.  
+.  
+
 <!--- Local Navigation --->
 I. [Overview](#section1)
 
