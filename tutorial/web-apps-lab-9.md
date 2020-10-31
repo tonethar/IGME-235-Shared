@@ -73,4 +73,6 @@ colorSelect.onchange = e=>{ localStorage.setItem(colorKey, e.target.value); };
 
 ![Web Page](_images/web-storage-2.jpg)
 
-Submit in the usual manner.  There is an assignment dropbox for only this exercise. The next exercise will be submitted as a Homework after the lab is completed.
+Submit in the usual manner.  There is an assignment dropbox for only this exercise. 
+
+(The next exercise -- after this one -- will be submitted as a Homework after the lab is completed)
