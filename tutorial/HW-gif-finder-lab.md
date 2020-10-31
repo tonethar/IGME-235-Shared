@@ -1,4 +1,4 @@
-# Homework: GIF Finder
+# Homework: GIF Finder (Fall 2020)
 
 <!--- Local Navigation --->
 I. [Overview](#section1)
@@ -19,7 +19,7 @@ VIII. [Formatting the results for the user](#section8)
 
 IX. [Wrap up](#section9)
 
-X. [In-Class Portion](#section10)
+X. [In-Lab Portion](#section10)
 
 XI. [Totally Optional](#section11)
 
