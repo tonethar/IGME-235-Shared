@@ -23,9 +23,9 @@
 
 Here is your starting file with the HTML and CSS all done for you. You can name the file **pixel-artist.html**
 
-#### pixel-artist.html
+#### pixel-artist.html 
 
-```
+``` javascript
 <!DOCTYPE html>
 <html lang="en">
 <head>
