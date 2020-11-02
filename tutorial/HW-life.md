@@ -66,11 +66,11 @@ To test that you typed everything in right, open the console and type the follow
 
 ## V. Creating the game loop
 
-Before we head back to **pixel-life.html** to set up the game loop, let's first add this line of code to `lifeworld.step()`:
+Before we head back to **pixel-life.html** to set up the game loop, let's first turn our attention to this line of code in `lifeworld.step()`:
 
 `this.randomSetup();`
 
-What this will do is give us random pixels every frame, rather than the deterministic patterns of a properly written Life algorithm, but it will be good enough for testing purposes.
+What this does is give us random pixels every frame, rather than the deterministic patterns of a properly written Life algorithm, but it will be good enough for testing purposes.
 If you test `lifeworld.step()` in the console, your should see the `lifeworld.world` array change every time that `lifeworld.step()` is called.
 
 ![Web Page](_images/life-6.jpg)
