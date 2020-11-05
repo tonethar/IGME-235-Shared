@@ -207,12 +207,17 @@ We are also going to need a main HTML file to test our new class - go ahead and 
 <head>
 	<meta charset="utf-8" />
 	<title>Pixi Animation 3</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
+	<script src="js/classes.js"></script>
 </head>
 <body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.0/pixi.min.js"></script>
-<script src="js/classes.js"></script>
 <script>
-const app = new PIXI.Application(600,400);
+const app = new PIXI.Application(
+    {
+	width: 600,
+	height: 400
+    }
+);
 document.body.appendChild(app.view); 
 
 let c1 = new Circle()
@@ -236,10 +241,10 @@ app.stage.addChild(c2);
 
 **Because Circle extends PIXI.Graphics, it has all of the properties and methods inherited from these super classes:**
 
-- [PIXI.Graphics](http://pixijs.download/dev/docs/PIXI.Graphics.html)
-- [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html)
-- [PIXI.DisplayObject](http://pixijs.download/dev/docs/PIXI.DisplayObject.html)
-- [PIXI.EventEmitter](https://github.com/primus/eventemitter3)
+- [PIXI.Graphics](https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html)
+- [PIXI.Container](https://pixijs.download/v5.3.3/docs/PIXI.Container.html)
+- [PIXI.DisplayObject](https://pixijs.download/v5.3.3/docs/PIXI.DisplayObject.html)
+- [PIXI.utils.EventEmitter](https://github.com/primus/eventemitter3)
 
 ### V. <a id="section5">Animation 
 Now we need to add  more of these `Circle` objects to the screen and animate them. The code below will get us started:
@@ -253,15 +258,20 @@ Now we need to add  more of these `Circle` objects to the screen and animate the
 <head>
 	<meta charset="utf-8" />
 	<title>Pixi Animation 4</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
+    	<script src="js/classes.js"></script>
 </head>
 <body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.0/pixi.min.js"></script>
-<script src="js/classes.js"></script>
 <script>
 
 // #1 - Script scoped variables
-const app = new PIXI.Application(600,400);
-document.body.appendChild(app.view); 
+ const app = new PIXI.Application(
+    {
+	width: 600,
+	height: 400
+    }
+);
+document.body.appendChild(app.view);
 
 const screenWidth = app.view.width;
 const screenHeight = app.view.height;
@@ -331,11 +341,11 @@ app.ticker.add(()=>
 **Now your circles should be moving and bouncing off of the walls!**
 
 #### Notes:
-- [`app.ticker`](http://pixijs.download/dev/docs/PIXI.ticker.Ticker.html) is a wrapper for [`window.requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) which you may have already seen in the optional [Life HW](./HW-life.md) - it is usually called at 60 FPS.
+- [`app.ticker`](https://pixijs.download/v5.3.3/docs/PIXI.Ticker_.html) is a wrapper for [`window.requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) which you may have already seen in the optional [Life HW](./HW-life.md) - it is usually called at 60 FPS.
 
 ### VI. <a id="section6">Nota Bene
-- The class hierarchy for **PIXI.Graphics** is [PIXI.Graphics](http://pixijs.download/dev/docs/PIXI.Graphics.html) > [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html) > [PIXI.DisplayObject](http://pixijs.download/dev/docs/PIXI.DisplayObject.html) >[PIXI.EventEmitter](https://github.com/primus/eventemitter3)
-- The class hierarchy for **PIXI.Sprite** is [PIXI.Sprite](http://pixijs.download/dev/docs/PIXI.Sprite.html) > [PIXI.Container](http://pixijs.download/dev/docs/PIXI.Container.html) > [PIXI.DisplayObject](http://pixijs.download/dev/docs/PIXI.DisplayObject.html) > [PIXI.EventEmitter](https://github.com/primus/eventemitter3)
+- The class hierarchy for **PIXI.Graphics** is [PIXI.Graphics](https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html) > [PIXI.Container](https://pixijs.download/v5.3.3/docs/PIXI.Container.html) > [PIXI.DisplayObject](https://pixijs.download/v5.3.3/docs/PIXI.DisplayObject.html) >[PIXI.EventEmitter](https://github.com/primus/eventemitter3)
+- The class hierarchy for **PIXI.Sprite** is [PIXI.Sprite](https://pixijs.download/v5.3.3/docs/PIXI.Sprite.html) > [PIXI.Container](https://pixijs.download/v5.3.3/docs/PIXI.Container.html) > [PIXI.DisplayObject](https://pixijs.download/v5.3.3/docs/PIXI.DisplayObject.html) > [PIXI.EventEmitter](https://github.com/primus/eventemitter3)
 
 ### VII. <a id="section7">Review Questions
 Nothing for now.
@@ -343,5 +353,5 @@ Nothing for now.
 <hr>
 
  **[Previous Chapter <- Intro to PixiJS (chapter 1)](pixi-js-1.md)**
- 
+
  **[Homework -> Circle Blast!](HW-circle-blast-1.md)**
