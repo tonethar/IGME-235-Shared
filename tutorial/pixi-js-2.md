@@ -344,8 +344,8 @@ app.ticker.add(()=>
 - [`app.ticker`](https://pixijs.download/v5.3.3/docs/PIXI.Ticker_.html) is a wrapper for [`window.requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) which you may have already seen in the optional [Life HW](./HW-life.md) - it is usually called at 60 FPS.
 
 ### VI. <a id="section6">Nota Bene
-- The class hierarchy for **PIXI.Graphics** is [PIXI.Graphics](https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html) > [PIXI.Container](https://pixijs.download/v5.3.3/docs/PIXI.Container.html) > [PIXI.DisplayObject](https://pixijs.download/v5.3.3/docs/PIXI.DisplayObject.html) >[PIXI.EventEmitter](https://github.com/primus/eventemitter3)
-- The class hierarchy for **PIXI.Sprite** is [PIXI.Sprite](https://pixijs.download/v5.3.3/docs/PIXI.Sprite.html) > [PIXI.Container](https://pixijs.download/v5.3.3/docs/PIXI.Container.html) > [PIXI.DisplayObject](https://pixijs.download/v5.3.3/docs/PIXI.DisplayObject.html) > [PIXI.EventEmitter](https://github.com/primus/eventemitter3)
+- The class hierarchy for **PIXI.Graphics** is [PIXI.Graphics](https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html) > [PIXI.Container](https://pixijs.download/v5.3.3/docs/PIXI.Container.html) > [PIXI.DisplayObject](https://pixijs.download/v5.3.3/docs/PIXI.DisplayObject.html) >[PIXI.utils.EventEmitter](https://github.com/primus/eventemitter3)
+- The class hierarchy for **PIXI.Sprite** is [PIXI.Sprite](https://pixijs.download/v5.3.3/docs/PIXI.Sprite.html) > [PIXI.Container](https://pixijs.download/v5.3.3/docs/PIXI.Container.html) > [PIXI.DisplayObject](https://pixijs.download/v5.3.3/docs/PIXI.DisplayObject.html) > [PIXI.utils.EventEmitter](https://github.com/primus/eventemitter3)
 
 ### VII. <a id="section7">Review Questions
 Nothing for now.
