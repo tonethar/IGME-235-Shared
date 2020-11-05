@@ -43,6 +43,7 @@ PixiJS has fantastic example code and an active community of developers. Here ar
 
 - http://www.pixijs.com/gallery
 - http://www.pixijs.com
+- https://pixijs.download/v5.3.3/docs/index.html
 - http://pixijs.github.io/examples/#/basics/basic.js
 - http://pixijs.download/release/docs/index.html
 - http://www.pixijs.com/tutorials
@@ -74,15 +75,19 @@ Here is your first PixiJS program. Note that we are importing the PixiJS library
 <head>
 	<meta charset="utf-8" />
 	<title>PixiJS-1</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
 </head>
 <body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.0/pixi.min.js"></script>
 <script>
 
 // #1 - Create a new Pixi application
-// http://pixijs.download/dev/docs/PIXI.Application.html
-const app = new PIXI.Application(600,400);
+// https://pixijs.download/v5.3.3/docs/PIXI.Application.html
+const app = new PIXI.Application(
+    {
+	width: 600,
+	height: 400
+    }
+);
 
 // #2 - Append its "view" (a <canvas> tag that it created for us) to the DOM
 document.body.appendChild(app.view); 
@@ -108,7 +113,7 @@ document.body.appendChild(app.view);
 
 ## III. <a id="section3">Drawing Shapes
 We can use PixiJS to create geometric shapes using PIXI.Graphics - http://pixijs.download/dev/docs/PIXI.Graphics.html
- 
+
 ### pixi-intro-2.html
 
 
@@ -118,16 +123,20 @@ We can use PixiJS to create geometric shapes using PIXI.Graphics - http://pixijs
 <head>
 	<meta charset="utf-8" />
 	<title>PixiJS-2</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
 </head>
 <body>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.0/pixi.min.js"></script>
 <script>
-const app = new PIXI.Application(600,400);
+const app = new PIXI.Application(
+    {
+	width: 600,
+	height: 400
+    }
+);
 document.body.appendChild(app.view); 
 
 // #1 - make a square
-// http://pixijs.download/dev/docs/PIXI.Graphics.html
+// https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html
 const square = new PIXI.Graphics();
 square.beginFill(0xFF0000); 	// red in hexadecimal
 square.lineStyle(3,0xFFFF00,1); // lineWidth,color in hex, alpha
@@ -215,6 +224,7 @@ We can add DOM buttons to our web page, add event handlers to them, and then cal
 	<style>
 	button{font-size:1.5em;margin:0.25em;}
 	</style>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
 </head>
 <body>
 <div>
@@ -222,13 +232,17 @@ We can add DOM buttons to our web page, add event handlers to them, and then cal
 	<button id="rotate">Rotate</button>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.0/pixi.min.js"></script>
 <script>
-const app = new PIXI.Application(600,400);
+const app = new PIXI.Application(
+    {
+	width: 600,
+	height: 400
+    }
+);
 document.body.appendChild(app.view); 
 
 // #1 - make a square
-// http://pixijs.download/dev/docs/PIXI.Graphics.html
+// https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html
 const square = new PIXI.Graphics();
 square.beginFill(0xFF0000); // red
 square.lineStyle(3,0xFFFF00,1); // lineWidth,color in hex, alpha
@@ -328,12 +342,17 @@ Origin 'null' is therefore not allowed access.
 <head>
 	<meta charset="utf-8" />
 	<title>PixiJS-4</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
 </head>
 <body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.0/pixi.min.js"></script>
 <script>
-const app = new PIXI.Application(600,400);
+const app = new PIXI.Application(
+    {
+	width: 600,
+	height: 400
+    }
+);
 document.body.appendChild(app.view); 
 
 // #1 - make some squares
@@ -349,7 +368,7 @@ app.stage.addChild(s1);
 app.stage.addChild(s2);
 
 // #2 - make some PixiJS buttons
-// http://pixijs.download/release/docs/PIXI.Sprite.html
+// https://pixijs.download/v5.3.3/docs/PIXI.Sprite.html
 const b1 = PIXI.Sprite.fromImage('images/button-130.png');
 b1.buttonMode = true;
 b1.anchor.set(0.5);
@@ -381,7 +400,7 @@ b1.on('pointerupoutside',e=>{e.target.tint=0xFFFFFF});
 
 
 function makeRectangle(width=50,height=50,color=0xFF0000){
-	// http://pixijs.download/dev/docs/PIXI.Graphics.html
+	// https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html
 	let rect = new PIXI.Graphics();
 	rect.beginFill(color);
 	rect.lineStyle(4, 0xFFFF00, 1);
@@ -434,5 +453,5 @@ Make a copy of the  **pixi-intro-4.html** page and name it **pixi-js-1-HW.html**
 <hr><hr>
 
 **[Table of Contents <- About this PixiJS Tutorial Series](pixi-js-0.md)**
-  
+
 **[Next Chapter -> ES6 Classes & PixiJS Animation (chapter 2)](pixi-js-2.md)**
