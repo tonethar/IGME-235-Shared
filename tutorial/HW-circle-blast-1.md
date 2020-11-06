@@ -161,7 +161,7 @@ function setup() {
 
 - **Load the game in a browser to verify that PIXI is loaded (you should see a 600x600 black screen):**
 
-![Screenshot](_images/circle-blast-6.jpg)
+![Screenshot](_images/circle-blast-6-pixi5.jpg)
 
 - **You can verify the images loaded by looking under the *Network* tab:**
 
@@ -258,7 +258,7 @@ Now we need to create a spaceship that the player can control. We will first cre
 
 - Add the following to **classes.js**:
 
-![Screenshot](_images/circle-blast-14.jpg)
+![Screenshot](_images/circle-blast-14-pixi5.jpg)
 
 ### Create the ship instance
 
