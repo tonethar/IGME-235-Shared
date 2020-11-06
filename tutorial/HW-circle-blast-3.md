@@ -123,21 +123,21 @@ We are only interested in the images in the 2nd row of this sprite sheet:
 
 - **Add the `loadSpriteSheet()` function to main.js:**
 
-![Screenshot](_images/circle-blast-27.jpg)
+![Screenshot](_images/circle-blast-27-pixi5.jpg)
 
 - **Reload the page to be sure that there are no errors.** 
 
 ### V-B. Load the sprite sheet
- 
+
  Now we need to load these newly created 64x64 pixel textures into our `explosionTextures` array.
- 
+
  - **Add this code to `setup()`:**
- 
+
  ```javascript
 // #7 - Load sprite sheet
 explosionTextures = loadSpriteSheet();
  ```
- 
+
 - **Reload the page to be sure that there are no errors.** 
 
 
@@ -148,11 +148,11 @@ Shooting a circle should cause an explosion!
 
 ### VI-A. Creating an animated explosion
 
-To create the explosion effect by "playing" the frame of the animation, we will use the [PIXI.extras.AnimatedSprite](http://pixijs.download/dev/docs/PIXI.extras.AnimatedSprite.html) class - you just pass it an array of textures, and it pretty much handles everything for us.
+To create the explosion effect by "playing" the frame of the animation, we will use the [PIXI.AnimatedSprite](http://pixijs.download/release/docs/PIXI.AnimatedSprite.html) class - you just pass it an array of textures, and it pretty much handles everything for us.
 
 - **Add the `createExplosion()` function to main.js:**
 
-![Screenshot](_images/circle-blast-28.jpg)
+![Screenshot](_images/circle-blast-28-pixi5.jpg)
 
 Note that with a little bit of tweaking, this function could work with any array of textures, of any size.
 
