@@ -91,7 +91,10 @@ Load the **game.html** page into a browser. To verify that you imported these li
 // We will use `strict mode`, which helps us by having the browser catch many common JS mistakes
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
 "use strict";
-const app = new PIXI.Application(600,600);
+const app = new PIXI.Application({
+    width: 600,
+    height: 600
+});
 document.body.appendChild(app.view);
 
 // constants
@@ -99,10 +102,14 @@ const sceneWidth = app.view.width;
 const sceneHeight = app.view.height;	
 
 // pre-load the images
-PIXI.loader.
-add(["images/Spaceship.png","images/explosions.png"]).
-on("progress",e=>{console.log(`progress=${e.progress}`)}).
-load(setup);
+app.loader.
+    add([
+        "images/Spaceship.png",
+        "images/explosions.png"
+    ]);
+app.loader.onProgress.add(e => { console.log(`progress=${e.progress}`) });
+app.loader.onComplete.add(setup);
+app.loader.load();
 
 // aliases
 let stage;
