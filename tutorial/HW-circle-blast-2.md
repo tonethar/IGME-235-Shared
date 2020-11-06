@@ -5,7 +5,7 @@
 I. [Overview](#section1)
 
 II. [Implement our main "game loop"](#section2)
-   
+
    - calculate `dt` "delta time"
    - get the ship following the mouse
 
@@ -163,7 +163,7 @@ function loadLevel(){
 - **and be sure to *uncomment* this line of code that is at the top `gameLoop()`:**
 
  `if (paused) return;`
- 
+
 - **Reload the page - the 5 circles are now moving and bouncing off of the sides of the scene**
 
 ## V. <a id="section5">Ship->Circle Collisions
@@ -220,5 +220,5 @@ The `end()` function transitions to the new screen, and empties out all of the a
 
 
  **[Previous Chapter <- Circle Blast! (part 1)](HW-circle-blast-1.md)**
- 
+
  **[Next Chapter -> Circle Blast! (part 3)](HW-circle-blast-3.md)**
