@@ -37,13 +37,17 @@ https://fonts.google.com/specimen/Press+Start+2P
 
 - Then add this to the &lt;head> section of **game.html**:
 
-`<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">`
+```
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+```
 
-- Now head to `createLabelsAndButtons()` in **main.js** and change the `fontFamily` of `startLabel1` from `"Futura"` to `"Press Start 2P"`
+
+
+- Now head to `createLabelsAndButtons()` in **main.js** and change the `fontFamily` of `startLabel1` from `"Futura"` to `"Press Start 2P"` and change the `fontSize` to `40` .
 
 - Reload the HTML page. You should see the font change for the "Circle Blast!" label, but unfortunately it changed to *Times New Roman* (the default browser font), NOT *Press Start 2P*
 
-![Screenshot](_images/circle-blast-29.jpg)
+![Screenshot](_images/circle-blast-29-pixi5.jpg)
 
 Why did we not get our custom font to display immediately? 
 - Because at the time PixiJS started to draw the text for the Start Screen, the custom web font had not yet loaded.
@@ -51,7 +55,7 @@ Why did we not get our custom font to display immediately?
 - The solution for PixiJS programmers? Don't run any PixiJS code until AFTER the web fonts have loaded.
 - Note: You will run into the same problem when you use the &lt;canvas> API in IGME-330, so remember this solution!
 
- 
+
 ## III. <a id="section3">Using a library to load a web font
 - There is not currently a cross-platform way to load web fonts - the [CSS Font Loading API](https://developer.mozilla.org/en-US/docs/Web/API/CSS_Font_Loading_API) is currently in draft form.
 - We will instead use the *Web Font Loader* project located here: https://github.com/typekit/webfontloader
@@ -63,13 +67,21 @@ Why did we not get our custom font to display immediately?
 
 - **Import the Web Font Loader library by adding this &lt;script> tag to *game.html*:**
 
-`<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>`
+```
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+```
+
+
 
 - **Create a new JS file (an empty text file) named *loader.js* and put it in the *js* folder**
 
 - **Import *loader.js* into *game.html* file - put this line *after* the other 3 "My JS Files" imports:**
 
-`<script src="js/loader.js"></script>`
+```
+<script src="js/loader.js"></script>
+```
+
+
 
 
 ### III-B. Downloading a web font with Web Font Loader
@@ -77,29 +89,37 @@ Why did we not get our custom font to display immediately?
 - **Add the following code to loader.js:**
 
 ```javascript
- WebFont.load({
+WebFont.load({
     google: {
-      families: ['Press Start 2P']
+        families: ['Press Start 2P']
     },
-    active:e=>{
-    	console.log("font loaded!");
-    	// pre-load the images
-		PIXI.loader.
-		add(["images/Spaceship.png","images/explosions.png"]).
-		on("progress",e=>{console.log(`progress=${e.progress}`)}).
-		load(setup);
+    active: e => {
+        console.log("font loaded!");
+        // pre-load the images
+        app.loader.
+            add([
+                "images/Spaceship.png",
+                "images/explosions.png"
+            ]);
+        app.loader.onProgress.add(e => { console.log(`progress=${e.progress}`) });
+        app.loader.onComplete.add(setup);
+        app.loader.load();
     }
-  });
+});
 ```
 
 - **And comment out this block of code near the top of main.js:**
 
 ```javascript
 // pre-load the images
-PIXI.loader.
-add(["images/Spaceship.png","images/explosions.png"]).
-on("progress",e=>{console.log(`progress=${e.progress}`)}).
-load(setup);
+app.loader.
+    add([
+        "images/Spaceship.png",
+        "images/explosions.png"
+    ]);
+app.loader.onProgress.add(e => { console.log(`progress=${e.progress}`) });
+app.loader.onComplete.add(setup);
+app.loader.load();
 ```
 
 #### Explanation
@@ -207,7 +227,7 @@ class Circle extends PIXI.Graphics{
 ```
 
 We have made a few changes:
-- there is a new method named `activate()` with no implementation. The intention is that `activate()` will be called by some of Circle's subclasses. In OOP, methods that are implemented but have no implemention are called *abstract methods*.
+- there is a new method named `activate()` with no implementation. The intention is that `activate()` will be called by some of Circle's subclasses. In OOP, methods that are implemented but have no implementation are called *abstract methods*.
 - the `reflectX` and `reflectY` methods now that a `sceneWidth` and `sceneHeight` argument respectively.
 - the new `_wrapX(sceneHeight)` and `_wrapY(sceneHeight)` methods have underscores because we are considering them *protected methods* - meaning that they are going to be called from `Circle` subclasses, but not from the "outside" i.e. not from **main.js**.
 
