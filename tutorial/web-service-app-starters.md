@@ -187,6 +187,10 @@ IV. [Amiibo API](#amiibo)
 
 		// 8 - open connection and send the request
 		xhr.open("GET",url);
+	
+		// 8.5 - If you need to set extra headers for the API, set them here
+		xhr.setRequestHeader('origin', 'x-requested-with');
+
 		xhr.send();
 		
 	}
