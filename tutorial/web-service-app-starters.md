@@ -76,6 +76,7 @@ IV. [Amiibo API](#amiibo)
 		$.ajax({
 		  dataType: "json",
 		  url: url,
+		  //headers: { 'x-my-custom-header': 'some value' },
 		  data: null,
 		  success: jsonLoaded
 		});
@@ -189,7 +190,7 @@ IV. [Amiibo API](#amiibo)
 		xhr.open("GET",url);
 	
 		// 8.5 - If you need to set extra headers for the API, set them here
-		xhr.setRequestHeader('origin', 'x-requested-with');
+		//xhr.setRequestHeader('origin', 'x-requested-with');
 
 		xhr.send();
 		
