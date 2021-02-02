@@ -6,6 +6,7 @@ For this assignment you will create a personal 235 "home page" where you will be
 ## II. Requirements
 * The page will be named index.html
 * The page will be located at `http://people.rit.edu/yourid/235/`
+  - This is critical. Please get the location correct. The directory name should just be the three digits, no "igme" with it.  We will make links to everyone's Home Page and they must follow this pattern.
 
 Your page's design is up to you, but it needs to contain the following elements:
 * A level-1 heading that reads "YOUR NAME's 235 Page" (replacing "YOUR NAME" with your own name, obviously)
