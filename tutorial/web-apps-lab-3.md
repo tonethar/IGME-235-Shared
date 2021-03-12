@@ -70,4 +70,4 @@ let links = {
 
 Save the resulting file (web-apps-lab-3.html) for future submission.
 
-NOTE: See the "After Lab Checklist" for Submission details... The first 3 labs are due together to a folder on banjo and to the first Web App Assignment Dropbox.
+
