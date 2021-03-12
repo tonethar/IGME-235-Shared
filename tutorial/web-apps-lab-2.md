@@ -62,3 +62,5 @@ Add JavaScript that does the following (search the web for documentation if you 
 ![Web Page](_images/dom-9.jpg)
 
 Save the resulting file (web-apps-lab-2.html) for future submission.
+
+NOTE: See the "After Lab Checklist" for Submission details... The first 2 labs are due together to a folder on banjo and to the first Web App Assignment Dropbox.
