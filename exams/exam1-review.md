@@ -35,6 +35,10 @@
 -	Know a rule of thumb for each of the Basic (CRAP) Design principles (and what are they, of course)
 -	The purpose of an .htaccess file and how and when it’s directives are followed.
 -	The order in which the Site Design process steps are followed.
+-	Know the three types of navigation (Global vs. Local vs. Embedded)
+-	What two questions should be answered "above the fold" when you first arrive at a website?
+-	What is "the fold," anyway?
+-	Know some tips from the portfolio lecture so that you'll be able to separate fact from fiction in a question about what was covered.
 
 # Stuff to be able to do:
 -	Spot correct and incorrect markup examples.
