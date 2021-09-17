@@ -7,13 +7,13 @@ Web developers commonly work in a team with others such as Content Strategists, 
 You are to recreate this design:
 ![Website Mockup](_images/designtospec2020.png)
 
-This is decidedly NOT a Homework for you to exercise your creativity.
+This is decidedly NOT a Homework for you to exercise your *design* creativity. (maybe your coding creativity, however)
 
 You will be graded on how close you are able to get your page to the appearance of this image.
 
 Source image files, fonts, and a palette to work with are available here: [DesignToSpecAssets.zip](DesignToSpecAssets.zip)
 
-This is an individual project, and since everyone is doing the EXACT SAME design, you should guard your code carefully so that it is not made available to others.  We will run a file similarity checker on all submissions for this exercise across all sections to look for instances of academic dishonesty.  There is enough ambiguity in the design and the ways that it gets implemented that everyone's project can certainly be unique.
+This is an individual project, and since everyone is doing the EXACT SAME design, you should guard your code carefully so that it is not made available to others.  There is enough ambiguity in the design and the ways that it gets implemented that everyone's project can certainly be unique.
 
 The only requirements about the way that your design is implemented is that it must use either Flexbox, CSS Grid, or (most likely) both of them to do page layout.
 
@@ -30,7 +30,7 @@ If you run into trouble and wish to seek help with a specific question that requ
 ## III. NON Requirements
 - You do not need to guess at page colors.  They are all (except for white and black) specified in included color palette.  
 - You should attempt to match the fonts by using the included Font files... Both of which are free to use as web fonts.  You do, however, need to go through the process of converting them to web fonts.  Try using an online convertor such as [Font Squirrel](http://fontsquirrel.com) to do so... Examples of using them will be in the zip that you download as a result.
-- You may use any SVG axe icon in the top header of the page.  There are many free downloadable SVGs on the web for you to pick from.  See note in the zip file for a possible source.
+- You may use any SVG axe icon in the top header of the page.  There are many free downloadable SVGs on the web for you to pick from.  See note in the zip file for a possible source.  You should still make it white, however (try to do so in the SVG code).
 - It is not necessary to crop the images in exactly the same way as the original images, however, we are providing the original images so that they can match more easily.  Don't use the uncropped/high-resolution full-size images.  A 2.1 MB jpg for your footer is TOO BIG.
 - There are no specific pixel dimensions for items on the page.  You're probably best off specifying most elements to be flexible in size and/or based off of the rem unit.
 - You should use the same heading texts that we provided, however you do not need to use the same placeholder text.  Use VS Code or another tool to generate "Lorem Ipsum" text for you to hold the spaces open.  Tip:  In VS Code, just type `loremNN` where NN is a number of words that you want followed by Enter, and it will generate a block of text for you.
