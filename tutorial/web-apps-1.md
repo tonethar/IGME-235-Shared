@@ -64,7 +64,7 @@ For example, Firefox might adopt a new feature (browser capability), then Chrome
 ### b. Where can I learn about new features the browser vendors are working on?
 Checking out the browser vendor web sites is a good way to see what kinds of capabilities are being considered.
 - https://www.chromium.org/blink
-- https://developer.mozilla.org/en-US/docs/Mozilla/Gecko
+- https://developer.mozilla.org/en-US/docs/Glossary/Gecko
 - https://webkit.org
 - https://developer.microsoft.com/en-us/microsoft-edge/
 
