@@ -16,7 +16,7 @@ IV. [How do I know what browser APIs I can use in my web applications?](#section
 
 ## I. <a id="section1"></a>What is a "Web App"?
 
-The wikipedia definition - https://en.wikipedia.org/wiki/Web_application - is pretty good - *A web app is a client–server computer program in which the client (including the user interface and client-side logic) runs in a web browser. Common web applications include webmail, online retail sales, online auctions, wikis, instant messaging services and many other functions.*
+The wikipedia definition - https://en.wikipedia.org/wiki/Web_application - is pretty good - *A web app is a client-server computer program in which the client (including the user interface and client-side logic) runs in a web browser. Common web applications include webmail, online retail sales, online auctions, wikis, instant messaging services and many other functions.*
 
 In this course we are going to create some simple web apps that run in modern web browsers. 
 The examples we will build or provide as examples include a calculator, an image gallery, an app that can search/download/play song previews from a music service, and simple games.
