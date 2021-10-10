@@ -207,7 +207,7 @@ We are also going to need a main HTML file to test our new class - go ahead and 
 <head>
 	<meta charset="utf-8" />
 	<title>Pixi Animation 3</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
+	<script src="https://pixijs.download/release/pixi.min.js"></script>
 	<script src="js/classes.js"></script>
 </head>
 <body>
@@ -241,9 +241,9 @@ app.stage.addChild(c2);
 
 **Because Circle extends PIXI.Graphics, it has all of the properties and methods inherited from these super classes:**
 
-- [PIXI.Graphics](https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html)
-- [PIXI.Container](https://pixijs.download/v5.3.3/docs/PIXI.Container.html)
-- [PIXI.DisplayObject](https://pixijs.download/v5.3.3/docs/PIXI.DisplayObject.html)
+- [PIXI.Graphics](https://pixijs.download/release/docs/PIXI.Graphics.html)
+- [PIXI.Container](https://pixijs.download/release/docs/PIXI.Container.html)
+- [PIXI.DisplayObject](https://pixijs.download/release/docs/PIXI.DisplayObject.html)
 - [PIXI.utils.EventEmitter](https://github.com/primus/eventemitter3)
 
 ### V. <a id="section5">Animation 
@@ -258,7 +258,7 @@ Now we need to add  more of these `Circle` objects to the screen and animate the
 <head>
 	<meta charset="utf-8" />
 	<title>Pixi Animation 4</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
+	<script src="https://pixijs.download/release/pixi.min.js"></script>
     	<script src="js/classes.js"></script>
 </head>
 <body>
@@ -341,7 +341,7 @@ app.ticker.add(()=>
 **Now your circles should be moving and bouncing off of the walls!**
 
 #### Notes:
-- [`app.ticker`](https://pixijs.download/v5.3.3/docs/PIXI.Ticker_.html) is a wrapper for [`window.requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) which you may have already seen in the optional [Life HW](./HW-life.md) - it is usually called at 60 FPS.
+- [`app.ticker`](https://pixijs.download/release/docs/PIXI.Ticker_.html) is a wrapper for [`window.requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) which you may have already seen in the optional [Life HW](./HW-life.md) - it is usually called at 60 FPS.
 
 ### VI. <a id="section6">Nota Bene
 - The class hierarchy for **PIXI.Graphics** is [PIXI.Graphics](https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html) > [PIXI.Container](https://pixijs.download/v5.3.3/docs/PIXI.Container.html) > [PIXI.DisplayObject](https://pixijs.download/v5.3.3/docs/PIXI.DisplayObject.html) >[PIXI.utils.EventEmitter](https://github.com/primus/eventemitter3)
