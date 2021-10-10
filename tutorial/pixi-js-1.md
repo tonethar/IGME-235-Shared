@@ -43,7 +43,7 @@ PixiJS has fantastic example code and an active community of developers. Here ar
 
 - http://www.pixijs.com/gallery
 - http://www.pixijs.com
-- https://pixijs.download/v5.3.3/docs/index.html
+- https://pixijs.download/v6.1.3/docs/index.html
 - http://pixijs.github.io/examples/#/basics/basic.js
 - http://pixijs.download/release/docs/index.html
 - http://www.pixijs.com/tutorials
@@ -56,8 +56,8 @@ and
 PixiJS pretty much just gives you *sprites*, but there are many plugins available that give additional functionality: 
 
 - https://github.com/pixijs
-- https://github.com/kittykatattack/bump
-- https://github.com/kittykatattack/smoothie
+- https://github.com/kittykatattack/bump (Old)
+- https://github.com/kittykatattack/smoothie (Old)
 - https://github.com/Nazariglez/pixi-keyboard
 - https://github.com/pixijs/pixi-sound
 - https://github.com/pixijs/pixi-particles
@@ -75,7 +75,7 @@ Here is your first PixiJS program. Note that we are importing the PixiJS library
 <head>
 	<meta charset="utf-8" />
 	<title>PixiJS-1</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
+	<script src="https://pixijs.download/release/pixi.min.js"></script>
 </head>
 <body>
 <script>
@@ -123,7 +123,7 @@ We can use PixiJS to create geometric shapes using PIXI.Graphics - http://pixijs
 <head>
 	<meta charset="utf-8" />
 	<title>PixiJS-2</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
+	<script src="https://pixijs.download/release/pixi.min.js"></script>
 </head>
 <body>
 <script>
@@ -224,7 +224,7 @@ We can add DOM buttons to our web page, add event handlers to them, and then cal
 	<style>
 	button{font-size:1.5em;margin:0.25em;}
 	</style>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
+	<script src="https://pixijs.download/release/pixi.min.js"></script>
 </head>
 <body>
 <div>
@@ -342,7 +342,7 @@ Origin 'null' is therefore not allowed access.
 <head>
 	<meta charset="utf-8" />
 	<title>PixiJS-4</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.3/pixi.min.js"></script>
+	<script src="https://pixijs.download/release/pixi.min.js"></script>
 </head>
 <body>
 
