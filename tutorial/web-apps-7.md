@@ -456,7 +456,7 @@ For more information on object literals, head here: http://exploringjs.com/es6/c
 
 <hr>
 
-- **Important:** If you have not yet done the [Magnetic Poetry](HW-magnetic-poetry.md) homework, go check it out. See the mycourses dropbox for the actual due date.
+- **Important:** If you have not yet done the extra credit [Magnetic Poetry](HW-magnetic-poetry.md) homework, go check it out. See the mycourses dropboxes for the actual due dates for any extra credit homeworks.
 
 <hr><hr>
 
