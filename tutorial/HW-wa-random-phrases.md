@@ -12,12 +12,12 @@ To complete this assignment, you should have completed up through the 6th web ap
 ![Web Page](_images/random-phrases-2-done.jpg)
 
 ## Instructions & Requirements
-1. Create a valid HTML5 page named **random-phrases.html** that has the following content:
-    1. A header that serves as the title of the page
-    1. A background image
+1. Create a valid HTML5 page named **random-phrases.html** that has at least the following content:
+    1. A header that contains as a visible title of the page
+    1. A background image (it should appear *behind* something else)
     1. Your name must be somewhere on the page
-    1. An area of the page that will hold dynamically created content
-    1. The page will use an embedded font
+    1. An area of the page that will hold dynamically created content (ie: the random phrases, and maybe more... images?)
+    1. The page will use an embedded font (something from Google fonts would suffice)
     1. The page content must be legible and nicely styled, with good choices made for colors, margins and fonts
     1. The page doesn't have to be fully-responsive, but should look acceptable and be legible on both desktop and phone.
     1. The look and theme of the page is worth 50% of the assignment
@@ -30,6 +30,6 @@ To complete this assignment, you should have completed up through the 6th web ap
     1. The functionality of the page is worth 50% of the assignment
 
 ## Submission
-- Post to your web site and (we recommend) link to it from your 235 Home Page.  (Lots of your own creative work here)
+- Post to your web site and (if desired) link to it from your 235 Home Page.  (There's lots of your own creative work here)
 - Also Zip and upload to the Assignment Dropbox in myCourses.
 - Tip: The coding of this shouldn't take too long, but the page layout and styling probably will.
