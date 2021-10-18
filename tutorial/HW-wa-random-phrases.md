@@ -9,7 +9,7 @@ Ideally your theme is appropriate for all ages and audiences.
 
 To complete this assignment, you should have completed up through the 6th web app tutorial page: [6 - JavaScipt Events](web-apps-6.md).
 
-![Web Page](_images/random-phrases-1-done.jpg)
+![Web Page](_images/random-phrases-2-done.jpg)
 
 ## Instructions & Requirements
 1. Create a valid HTML5 page named **random-phrases.html** that has the following content:
