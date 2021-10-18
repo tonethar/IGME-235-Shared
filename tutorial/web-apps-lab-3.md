@@ -54,7 +54,7 @@ let links = {
 
 ### Instructions
 1. Create the **web-apps-lab-3.html** file
-1. Add you favorite colors and foods to the arrays. If you would rather change the theme of the page to movies, music, books or similar, feel free.
+1. Add your favorite colors and foods to the arrays. If you would rather change the theme of the page to movies, music, books or similar, feel free.
 1. Write code that loops through the `colors` array, generates list items, and appends them to the appropriate list element. For this array use a classic `for` loop.
 1. Write code that loops through the `foods` array, generates list items, and appends them to the appropriate list element. For this array use an ES6 `for...of` loop.
 1. Be sure that your code uses `document.createElement()` to create each element.
