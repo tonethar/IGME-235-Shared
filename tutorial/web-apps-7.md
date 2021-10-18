@@ -278,7 +278,7 @@ console.log(car3);
 // 5 - add the cars to an array
 console.log("----- now loop through cars -----");
 let cars = [car1,car2,car3];
-for (car of cars){
+for (let car of cars){
    car.speedUp(10);
    console.log(car);	
 }
