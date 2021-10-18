@@ -87,7 +87,7 @@ You should see another message about the color you selected, and the &lt;legend>
 ## C) Submission
 Save a copy of what you get done for future submission as usual.
 
-Check the "After Lab Checklist" for submission instructions.
+See the Weekly Checklist for submission instructions.
 
 ## D) Optional Extra Credit (worth 1 full HW)
 Can you do a version of this web app, but with HTML checkboxes? Name the file **web-apps-5-with-checkboxes.html**
