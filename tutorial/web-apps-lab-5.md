@@ -12,7 +12,7 @@ Create the following file, and name it **web-apps-lab-5.html**
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Web Apps-6</title>
+	<title>Web Apps-5</title>
 	<style>
 		body{
 			font-family:sans-serif;
