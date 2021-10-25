@@ -1,4 +1,4 @@
-# Homework: GIF Finder (Fall 2020)
+# Homework: GIF Finder
 
 <!--- Local Navigation --->
 I. [Overview](#section1)
