@@ -71,7 +71,7 @@ Take a look at what you have:
 
 - First let's get the **game.html** file completed - it needs to look like this:
 
-![Screenshot](_images/circle-blast-4-pixi5.jpg)
+![Screenshot](_images/circle-blast-4-pixi6.jpg)
 
 - If you don't want to type in the URLs for the 2 libraries, then google "CDN Pixi" and "CDN Howler" to find and copy/paste the URLs yourself.
 
@@ -104,7 +104,7 @@ const sceneHeight = app.view.height;
 // pre-load the images
 app.loader.
     add([
-        "images/Spaceship.png",
+        "images/spaceship.png",
         "images/explosions.png"
     ]);
 app.loader.onProgress.add(e => { console.log(`progress=${e.progress}`) });
@@ -161,7 +161,7 @@ function setup() {
 
 - **Load the game in a browser to verify that PIXI is loaded (you should see a 600x600 black screen):**
 
-![Screenshot](_images/circle-blast-6-pixi5.jpg)
+![Screenshot](_images/circle-blast-6-pixi6.jpg)
 
 - **You can verify the images loaded by looking under the *Network* tab:**
 
@@ -185,7 +185,7 @@ If you try to preview the results you will get an error because we didn't write 
 ![Screenshot](_images/circle-blast-9.jpg)
 
 - There is a lot of interface creation code here - but hopefully it is fairly clear what's going on. 
-- In the game you might create for project 4, you will probably want to create most of this kind of text in an image editing/creation program like Photoshop, and then load in the images you created. It will look better and require less code than the approach we used here. 
+- In the game you might create for project 3, you will probably want to create most of this kind of text in an image editing/creation program like Photoshop, and then load in the images you created. It will look better and require less code than the approach we used here. 
 - **Open the game up in the web browser and it should look like this:**
 - *Note: your start button won't show up if an error is encountered before it's added to the scene.  Check the console.  See an error?  We haven't yet written the `startGame()` function.  You can temporarily comment out the line that refers to it to preview your button before moving on.*
 
