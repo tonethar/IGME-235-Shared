@@ -369,14 +369,14 @@ app.stage.addChild(s2);
 
 // #2 - make some PixiJS buttons
 // https://pixijs.download/v5.3.3/docs/PIXI.Sprite.html
-const b1 = PIXI.Sprite.fromImage('images/button-130.png');
+const b1 = PIXI.Sprite.from('images/button-130.png');
 b1.buttonMode = true;
 b1.anchor.set(0.5);
 b1.x = 100;
 b1.y = 200;
 app.stage.addChild(b1);
 
-const b2 = PIXI.Sprite.fromImage('images/button-130.png');
+const b2 = PIXI.Sprite.from('images/button-130.png');
 b2.buttonMode = true;
 b2.anchor.set(0.5);
 b2.x = 250;
