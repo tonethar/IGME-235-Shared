@@ -81,7 +81,7 @@ Here is your first PixiJS program. Note that we are importing the PixiJS library
 <script>
 
 // #1 - Create a new Pixi application
-// https://pixijs.download/v5.3.3/docs/PIXI.Application.html
+// https://pixijs.download/release/docs/PIXI.Application.html
 const app = new PIXI.Application(
     {
 	width: 600,
@@ -136,7 +136,7 @@ const app = new PIXI.Application(
 document.body.appendChild(app.view); 
 
 // #1 - make a square
-// https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html
+// https://pixijs.download/release/docs/PIXI.Graphics.html
 const square = new PIXI.Graphics();
 square.beginFill(0xFF0000); 	// red in hexadecimal
 square.lineStyle(3,0xFFFF00,1); // lineWidth,color in hex, alpha
@@ -242,7 +242,7 @@ const app = new PIXI.Application(
 document.body.appendChild(app.view); 
 
 // #1 - make a square
-// https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html
+// https://pixijs.download/release/docs/PIXI.Graphics.html
 const square = new PIXI.Graphics();
 square.beginFill(0xFF0000); // red
 square.lineStyle(3,0xFFFF00,1); // lineWidth,color in hex, alpha
@@ -368,7 +368,7 @@ app.stage.addChild(s1);
 app.stage.addChild(s2);
 
 // #2 - make some PixiJS buttons
-// https://pixijs.download/v5.3.3/docs/PIXI.Sprite.html
+// https://pixijs.download/release/docs/PIXI.Sprite.html
 const b1 = PIXI.Sprite.from('images/button-130.png');
 b1.buttonMode = true;
 b1.anchor.set(0.5);
@@ -400,7 +400,7 @@ b1.on('pointerupoutside',e=>{e.target.tint=0xFFFFFF});
 
 
 function makeRectangle(width=50,height=50,color=0xFF0000){
-	// https://pixijs.download/v5.3.3/docs/PIXI.Graphics.html
+	// https://pixijs.download/release/docs/PIXI.Graphics.html
 	let rect = new PIXI.Graphics();
 	rect.beginFill(color);
 	rect.lineStyle(4, 0xFFFF00, 1);
