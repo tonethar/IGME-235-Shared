@@ -159,7 +159,7 @@ Note that with a little bit of tweaking, this function could work with any array
 
 ### VI-B. Call the `createExplosion()` function
 
-- **Uncomment this line in `checkForCollisions()`:**
+- **Uncomment this line in the "Check for Collisions" loop of your `gameLoop()`:**
 
 `createExplosion(c.x,c.y,64,64);`
 
