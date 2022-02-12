@@ -54,5 +54,5 @@
 -	Write a basic CSS rule to change the properties of a page element.
 -	Write CSS selectors that target a single id on the page and/or all elements of a certain class.
 -	Write a descendant selector.
--	Create an ordered list, and unordered list, and a description list.
+-	Create an ordered list and an unordered list.
 -   Apply pseudo-class styles (there are five of them) to links (and in what order) to make them colors other than the blue and purple defaults.
