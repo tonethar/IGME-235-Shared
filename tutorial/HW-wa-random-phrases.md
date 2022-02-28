@@ -7,7 +7,7 @@ The exact theme is up to you, the example below used a *Star Trek: TNG* theme.
 
 Ideally your theme is appropriate for all ages and audiences.
 
-To complete this assignment, you should have completed up through the 6th web app tutorial page: [6 - JavaScipt Events](web-apps-6.md).
+To complete this assignment, you should have completed up through the 6th web app tutorial page: [6 - JavaScript Events](web-apps-6.md).
 
 ![Web Page](_images/random-phrases-2-done.jpg)
 
