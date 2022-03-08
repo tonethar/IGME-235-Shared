@@ -19,7 +19,7 @@ VIII. [Formatting the results for the user](#section8)
 
 IX. [Wrap up](#section9)
 
-X. [In-Lab Portion](#section10)
+X. [In-Class Portion](#section10)
 
 XI. [Totally Optional](#section11)
 
@@ -368,8 +368,8 @@ getData(url);
 - Looks like you are done with most of the coding! Congratulations on your typing! ***Bring it with you (next week) to Lab (if you have in-person Lab... see below).*** 
 - There are a lot of new concepts in this exercise - please review the [10 - Web Services](web-apps-10.md) chapter, this page and all of the GIF Finder code to be sure you understand everything. If you don't understand something, please be prepared to ask questions about it in class (or on Slack)!
 
-## X. <a id="section10">In-Lab Portion
-***We will discuss and implement the following tasks in next week's GIF Finder Follow-up Video.  If you attend lab in-person, you may go ahead and try to do everything in advance (following the video) if you wish... If you do, you can spend some of next week's lab time working on the more advanced/optional challenges, extra credit exercises, and/or researching what you'll do for Project 2.***
+## X. <a id="section10">In-Class Portion
+***We will discuss and implement the following tasks in-person next week.  You may go ahead and try to do everything in advance (following one of the optional video demos) if you wish... If you do, you can spend some of next week's class time working on the more advanced/optional challenges, extra credit exercises, and/or researching what you'll do for Project 2.***
 1. Write JS that utilizes the `rating` property of each result by displaying it for each GIF. You can use `.toUpperCase()` to capitalize each rating (see example screenshot below).
 1. This HTML page is now a kluge of quite a bit of HTML, CSS, and JavaScript. We need to clean it up by moving the JS code and CSS into different files - "separation of concern" is the term for this. 
 	- Move all of your CSS to a **styles/main.css** file and link to it. Note: You will need to slightly change the `url` of the &lt;header> background image rule to keep things working.
