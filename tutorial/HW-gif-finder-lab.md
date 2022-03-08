@@ -376,7 +376,7 @@ getData(url);
 	- Move all of your JavaScript to a **js/main.js** file and link to it.
 	- Your HTML file should now consist of only HTML - see the screenshot below.
  	- Verify that everything still works.
-1. Improve the CSS styling of this page (which shouldn't be too hard). See the screenshot below as an example of what you could do.  You'll be expected to implement a layout that uses CSS Grid which you'll see in next week's "Follow-Up" video.
+1. Improve the CSS styling of this page (which shouldn't be too hard). See the screenshot below as an example of what you could do.  You'll be expected to implement a layout that uses CSS Grid which you'll see in next week's demo.
 1. (**optional**) Did you notice **spinner.gif** in the start images? Go ahead and show it when the user starts a search, and hide it when a search has completed. Maybe put it in the `#status` &lt;div>
 
 - You will be expected to submit your finished version to the GIF Finder Assignment on myCourses by its due date (NEXT WEEK).
