@@ -182,7 +182,7 @@ app.stage.addChild(circle);
 
 ```javascript
 // #3 make a line
-var line = new PIXI.Graphics();
+const line = new PIXI.Graphics();
 line.lineStyle(4, 0xFF0000, 1);
 line.moveTo(0, 0);
 line.lineTo(590, 0);
@@ -192,7 +192,7 @@ app.stage.addChild(line);
 
 
 // #4 make a shape
-var poly = new PIXI.Graphics();
+const poly = new PIXI.Graphics();
 poly.lineStyle(3,0x00FF00,1);
 poly.beginFill(0xFF00FF);
 poly.moveTo(0,0);
@@ -264,7 +264,7 @@ circle.y = 50;
 app.stage.addChild(circle);
 
 // #3 make a line
-var line = new PIXI.Graphics();
+const line = new PIXI.Graphics();
 line.lineStyle(4, 0xFF0000, 1);
 line.moveTo(0, 0);
 line.lineTo(590, 0);
@@ -274,7 +274,7 @@ app.stage.addChild(line);
 
 
 // #4 make a shape
-var poly = new PIXI.Graphics();
+const poly = new PIXI.Graphics();
 poly.lineStyle(3,0x00FF00,1);
 poly.beginFill(0xFF00FF);
 poly.moveTo(0,0);
