@@ -28,7 +28,7 @@ IX. [Reference](#partIX)
 
 ## I. Create a Simple Web Page
 
-1) Fire up a text editor such as NotePad++, Visual Studio Code, or Brackets and create and save the following file. NOTE: *Be sure to use **type** "plain text" or "HTML"; do NOT create web pages of type "rich text"*
+1) Fire up a text editor such as NotePad++ or Visual Studio Code and create and save the following file. NOTE: *Be sure to use **type** "plain text" or "HTML"; do NOT create web pages of type "rich text"*
 
 **hello.html**
 
