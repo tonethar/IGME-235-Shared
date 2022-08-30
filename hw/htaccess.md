@@ -140,7 +140,7 @@ Now we will create a password protected directory using authentication.
  
     Since we used the `SSLRequireSSL` directive Apache won’t even serve the login option to a non-https connection. However, Banjo automatically enforces secure connections via HTTPS, so you’re not likely to see this! 
  
-    I'd the recent past, you'd get something like the window below depending on which browser you used. The image below is from Firefox. In Firefox, it displays the `AuthName` directive from **.htaccess** at the end of the login prompt (highlighted below for reference).
+    In the recent past, you'd get something like the window below depending on which browser you used. The image below is from Firefox. In Firefox, it displays the `AuthName` directive from **.htaccess** at the end of the login prompt (highlighted below for reference).
     
     ![Authorization Prompt](_images/auth_prompt.png)
     
