@@ -38,7 +38,6 @@
 -	Know the three types of navigation (Global vs. Local vs. Embedded)
 -	What two questions should be answered "above the fold" when you first arrive at a website?
 -	What is "the fold," anyway?
--	Know some tips from the portfolio lecture so that you'll be able to separate fact from fiction in a question about what was covered.
 
 # Stuff to be able to do:
 -	Spot correct and incorrect markup examples.
