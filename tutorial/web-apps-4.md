@@ -84,7 +84,7 @@ document.body.children[2].lastElementChild.innerHTML = "Last item in list!"
 document.body.children[1].nodeName
 document.body.children[1].nodeType // 1 means type "Element"
 document.body.children[1].firstChild.nodeName
-document.body.children[1].nodeType // 3 means type "Text Node"
+document.body.children[1].firstChild.nodeType // 3 means type "Text Node"
 document.body.children[1].firstChild.nodeValue = "NEW Paragraph Body! " // note how this just replaces the text, not the link
 document.body.children[1].firstElementChild.innerText = "Google"
 document.body.children[1].firstElementChild.href = "http://www.google.com" // link now goes to google
