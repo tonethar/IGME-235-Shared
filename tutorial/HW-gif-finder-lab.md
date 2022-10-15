@@ -234,7 +234,7 @@ XI. [Totally Optional](#section11)
 ## IV. <a id="section4">Capture the user intent and format a URL
 We need to write code to build a URL to the web service. This URL will contain the user's search preferences (search term and number of results).
 
-**Type this code in:**. Note: don't mistype the Public API Key:  dc6zaTOxFJmzC
+**Type this code in:**. Note: USE THIS VALUE FOR THE GIPHY_KEY IN THE CODE BELOW:  5PuWjWVnwpHUQPZK866vd7wQ2qeCeqg7
 
 ![Web Page](_images/gif-finder-3.jpg)
 
