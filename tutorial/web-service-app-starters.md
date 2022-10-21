@@ -47,7 +47,7 @@ IV. [Amiibo API](#amiibo)
 		const SERVICE_URL = "https://api.giphy.com/v1/gifs/search?";
 		
 		// Public API key from here: https://developers.giphy.com/docs/
-    		const API_KEY = "dc6zaTOxFJmzC";  // if this doesn't work, get your own key, it's free!
+    		const API_KEY = "5PuWjWVnwpHUQPZK866vd7wQ2qeCeqg7";  // if this doesn't work, get your own key, it's free!
 		
 		// 2 - build up our URL string
 		let url = SERVICE_URL;
@@ -174,7 +174,7 @@ IV. [Amiibo API](#amiibo)
 		const SERVICE_URL = "https://api.giphy.com/v1/gifs/search?";
 		
 		// Public API key from here: https://developers.giphy.com/docs/
-    		const API_KEY = "dc6zaTOxFJmzC";  // if this doesn't work, get your own key, it's free!
+    		const API_KEY = "5PuWjWVnwpHUQPZK866vd7wQ2qeCeqg7";  // if this doesn't work, get your own key, it's free!
 		
 		// 2 - build up our URL string
 		let url = SERVICE_URL;
