@@ -71,7 +71,7 @@ Take a look at what you have:
 
 - First let's get the **game.html** file completed - it needs to look like this:
 
-![Screenshot](_images/circle-blast-4-pixi6.jpg)
+![Screenshot](_images/circle-blast-4-pixi6.5.8.png)
 
 - If you don't want to type in the URLs for the 2 libraries, then google "CDN Pixi" and "CDN Howler" to find and copy/paste the URLs yourself.
 
