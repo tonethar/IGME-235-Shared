@@ -73,7 +73,7 @@ Take a look at what you have:
 
 ![Screenshot](_images/circle-blast-4-pixi6.5.8.png)
 
-- If you don't want to type in the URLs for the 2 libraries, then google "CDN Pixi" and "CDN Howler" to find and copy/paste the URLs yourself.
+- If you don't want to type in the URLs for the 2 libraries, then google "CDN Pixi" and "CDN Howler" to find and copy/paste the URLs yourself.  **For now, make sure that you stick to Pixi Version 6.  Pixi Version 7 is not compatible with our Tutorial (yet)**
 
 ### Is everything imported?
 
