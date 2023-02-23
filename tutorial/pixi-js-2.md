@@ -139,7 +139,7 @@ console.log(car1.moving); 			// true
 - above we used `extends Vehicle` when we created the `Car` class, so that all `Car` instances will also possess the properties and methods of `Vehicle`.
 - we used `super` to call the `constructor` method of the base class.
 - In our constructor, adding properties to our object can be streamlined a bit in ES6; the "this" below isn't entirely necessary:
-```html
+```js
   constructor(doors,wheels,occupants) {
     this.doors = doors
     this.wheels = wheels;
@@ -148,7 +148,7 @@ console.log(car1.moving); 			// true
   }
 ```
 We can just say:
-```html
+```js
   constructor(doors,wheels,occupants) {
     doors = doors
     wheels = wheels;
@@ -165,7 +165,7 @@ We do still need to say ```this.moving=false;``` because we aren't passing in a 
 
 #### classes.js
 
-```javascript
+```js
 class Circle extends PIXI.Graphics{
 	constructor(radius=20, color=0xFF0000, x=0, y=0){
 		super();
@@ -316,7 +316,7 @@ function createCircles(){
 
 To get the animation working, add the following to **pixi-animation-4.html**:
 
-```javascript
+```js
 // http://pixijs.download/release/docs/PIXI.ticker.Ticker.html
 // provide a function that will be called 60 FPS
 app.ticker.add(()=>
