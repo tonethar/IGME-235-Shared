@@ -115,7 +115,7 @@ In later courses (IGME-330 & IGME-430) you will get the opportunity to read/writ
 - **Package Managers** - such npm & Bower and other build tools such as Gulp & Grunt are covered in later courses.
 - **Server-side programming** - is covered primarily in IGME-430, but we did already give you a little bit of PHP --> [About this PHP Tutorial Series](./php-0.md)
 - **Web MVC or MVVM Frameworks** - these involve *data binding* and *components* examples include Vue, React and Angular, which are covered in later courses.
-- **Web Games** will be covered later in this course, and we will build several games or interactive experiences using the PixiJS rendering engine. Our course's PixiJS materials can be found here --> [future link - not yet active](./pixi-js-0.md)
+- **Web Games** will be covered later in this course, and we will build several games or interactive experiences using the PixiJS rendering engine. Our course's PixiJS materials can be found here --> [PixiJS Tutorial Series](./pixi-js-0.md)
 - **WebGL** is an implementation of OpenGL ES 2.0 that runs natively in web browsers, and is the fastest way to draw to the browser screen. WebGL shaders may be briefly looked at while we are covering PixiJS.
 
 ## VIII. Resources <a id="section8"></a>
