@@ -2,6 +2,7 @@
 
 - Below is fully functional web service "starter" code for several APIs
 - We have provide 2 examples for each API. One of the examples uses [`jQuery.ajax()`](https://api.jquery.com/jQuery.Ajax/#jQuery-ajax-url-settings), the other uses the browser native [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) (aka XHR) object
+  - New: We're included an example using the more modern Fetch API for Giphy as well (which can be adjusted/interpreted for any of the other examples).  Find it at the very end of this document.
 - These were working as of 11/1/2020
 - For some of these, you may need to apply for your own API key
 
@@ -14,6 +15,8 @@ II. [Dog API](#random-dog)
 III. [Anime Schedule Finder API](#anime-schedule-finder)
 
 IV. [Amiibo API](#amiibo)
+
+V. [GIPHY API using Fetch](#fetch)
 
 <hr><hr>
 
@@ -918,3 +921,139 @@ IV. [Amiibo API](#amiibo)
 ![screenshot](_images/web-service-starter-amiibo.jpg)
 
 <hr>
+
+<a id="Fetch"></a>
+
+## IV. GIPHY API using Fetch
+
+### Using `fetch` Instead of `XMLHttpRequest` for API Calls
+
+In this version of the GIPHY API example (see below), we’re using the `fetch` API instead of `XMLHttpRequest` (XHR) to retrieve data. `fetch` is a modern way to make web requests in JavaScript and is generally easier to read and write than XHR. It also uses Promises, a JavaScript feature that helps simplify handling asynchronous operations.
+
+#### Key Differences Between `fetch` and `XMLHttpRequest`
+
+1. **Syntax and Simplicity**:
+   - With `fetch`, we can make a GET request by calling `fetch(url)` directly, without the need to create an XHR object, open a connection, or specify request headers unless needed.
+   - The `fetch` call returns a Promise, which represents a task that will complete in the future (e.g., when the data is received from the server). Using Promises allows us to write code that flows more naturally than with XHR.
+
+2. **Handling the Response with Promises**:
+   - When we call `fetch(url)`, it returns a Promise that resolves (or completes successfully) when the server responds. We use `.then()` to specify what should happen when the response is ready.
+   - The first `.then(response => response.json())` converts the raw response data to JSON format, just like parsing `xhr.responseText` in XHR.
+   - A second `.then(dataLoaded)` specifies the function to handle the JSON data once it’s ready, similar to the `onload` event handler in XHR.
+   - Finally, we use `.catch(dataError)` to handle any errors if the request fails, similar to the `onerror` event in XHR.
+
+3. **Error Handling**:
+   - With `fetch`, we need to manually check if the response is “ok” (e.g., the status code is 200) because `fetch` only rejects on network errors (e.g., no internet connection), not for HTTP errors. We do this by adding `if (!response.ok) throw new Error("Network response was not ok")` to catch any HTTP errors.
+
+#### Why Use `fetch`?
+
+The `fetch` API is often preferred over `XMLHttpRequest` because:
+- It requires less code and is easier to read.
+- It provides more flexibility in handling errors and responses through Promises.
+- `fetch` is also more modern and likely to be supported in future updates to JavaScript and web standards.
+
+#### A Quick Look at Promises
+
+A **Promise** is a JavaScript object that represents the eventual outcome of an asynchronous operation, like an API request. It can either:
+- **Resolve** (success): The data is received, and we can use `.then()` to process it.
+- **Reject** (failure): An error occurred, and we handle it with `.catch()`.
+
+In this example:
+- `fetch(url)` starts the request and returns a Promise.
+- `.then(response => response.json())` waits for the data and converts it to JSON.
+- `.then(dataLoaded)` calls our data processing function with the JSON data.
+- `.catch(dataError)` catches any errors and displays a message to the user.
+
+#### Summary
+
+Using `fetch` makes our code cleaner, reducing the steps needed to make an API request. It also provides clearer error handling through Promises, so our request flow is more readable and easier to maintain. For projects that don’t require XHR’s extra features, `fetch` is an excellent alternative.
+
+### Take a look:
+
+**giphy-fetch.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>GIF Finder - Fetch Example</title>
+ 	<style>/* We have no style! */</style>
+  <script>
+  "use strict";
+  
+	window.onload = init;
+	
+	function init(){
+		document.querySelector("#search").onclick = getData;
+	}
+	
+	function getData(){
+		const SERVICE_URL = "https://api.giphy.com/v1/gifs/search?";
+		const API_KEY = "5PuWjWVnwpHUQPZK866vd7wQ2qeCeqg7";  // if this doesn't work, get your own key, it's free!
+		
+		let url = `${SERVICE_URL}api_key=${API_KEY}`;
+		
+		let term = document.querySelector("#searchterm").value.trim();
+		term = encodeURIComponent(term);
+
+		if(term.length < 1){
+			document.querySelector("#debug").innerHTML = "<b>Enter a search term first!</b>";
+			return;
+		}
+		url += `&q=${term}`;
+		
+		document.querySelector("#debug").innerHTML = `<b>Querying web service with:</b> <a href="${url}" target="_blank">${url}</a>`;
+
+		fetch(url)
+			.then(response => {
+				if (!response.ok) throw new Error("Network response was not ok");
+				return response.json();
+			})
+			.then(dataLoaded)
+			.catch(dataError);
+	}
+	
+	function dataError(error){
+		console.error("An error occurred:", error);
+		document.querySelector("#content").innerHTML = "<p><i>An error occurred while fetching data.</i></p>";
+	}
+	
+	function dataLoaded(obj){
+		if(!obj.data || obj.data.length == 0){
+			document.querySelector("#content").innerHTML = "<p><i>No results found!</p>";
+			return;
+		}
+
+		let results = obj.data;
+		let bigString = `<p><i>Here are <b>${results.length}</b> results!</i></p>`;
+		
+		for (let i=0; i<results.length; i++){
+			let result = results[i];
+			let url = result.url;
+			let smallURL = result.images.fixed_width_small.url || "images/no-image-found.png";
+			bigString += `<div class='result'><img src='${smallURL}' title='${result.id}' />`;
+			bigString += `<span><a target='_blank' href='${url}'>View on Giphy</a></span></div>`;
+		}
+		
+		document.querySelector("#content").innerHTML = bigString;
+	}	
+	
+  </script>
+</head>
+<body>
+  <header>
+    <h1>GIF Finder</h1>
+  </header>
+
+  <p>Search Term -&gt; <input id="searchterm" type="text" size="20" maxlength="20" autofocus value="cats" /></p>
+  <p><button type="button" id="search" class="green">Search!</button></p>
+  <p id="debug"></p>
+  <hr>
+  <h2>Results</h2>
+  <div id="content">
+    <p>No data yet!</p>
+  </div>
+</body>
+</html>
+```
